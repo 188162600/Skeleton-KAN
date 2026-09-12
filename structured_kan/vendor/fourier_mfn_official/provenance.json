@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/boschresearch/multiplicative-filter-networks",
+  "commit": "58c3c4dd5908bce9d5c3b077926cb588cc6052da",
+  "license": "AGPL-3.0",
+  "files": {
+    "mfn.py": {
+      "upstream_path": "mfn/mfn.py",
+      "sha256": "af386b627670596b4ecd36c3b65e74a9c3730b554f849e5423fefe114a88e8e0"
+    }
+  }
+}

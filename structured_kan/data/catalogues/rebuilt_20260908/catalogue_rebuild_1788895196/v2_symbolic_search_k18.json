@@ -1,0 +1,4082 @@
+{
+  "schema": "structured-kan.catalogue-group.v1",
+  "name": "v2_symbolic_search_k18",
+  "method": "v2",
+  "heldout_domain": "symbolic_search",
+  "builder_count": 18,
+  "training_equations": 225,
+  "training_sha256": "6bff91b7c95c993e2584a2cd883d2f1c6399c6f7f4b096a8fe0d7c9ca92960ca",
+  "source_only": true,
+  "source_domains": [
+    "biochemistry",
+    "mathematics",
+    "physics"
+  ],
+  "builder_encoding": "shared-reserve-constructor-records-v1",
+  "builders": [
+    {
+      "builder": "IAPB01",
+      "source_boolean_builder": "ACB01",
+      "synthetic_operator_tree": {
+        "operator": "*",
+        "raw_attachment": true,
+        "children": [],
+        "raw_arity": 2
+      },
+      "operator_pattern": "prod_φ([sum(X),sum(X)])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 2,
+              "4": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 3
+            },
+            "reserve_capacity": 1,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 105,
+              "1": 17,
+              "2": 3,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "1": 2,
+              "2": 33
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 0.5294117647058824,
+            "population": "assigned",
+            "population_equations": 35
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 35,
+            "distinct_profiles": 2,
+            "selected_frequency": 33,
+            "mean_distance": 0.11428571428571428
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 1.640625,
+          "mean_compatible_distance_medoid": 1.640625
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {}
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 128,
+        "compatible_node_observations": 128,
+        "mean_initial_active_count_absolute_error": 0.8203125
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    },
+    {
+      "builder": "IAPB02",
+      "source_boolean_builder": "ACB02",
+      "synthetic_operator_tree": {
+        "operator": "*",
+        "raw_attachment": true,
+        "children": [],
+        "raw_arity": 3
+      },
+      "operator_pattern": "prod_φ([sum(X),sum(X),sum(X)])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 3,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 3,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 3,
+              "3": 3,
+              "4": 3,
+              "5": 3,
+              "6": 3
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 3
+            },
+            "reserve_capacity": 1,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 105,
+              "1": 17,
+              "2": 3,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "3": 40
+            },
+            "initial_active_lanes": 3,
+            "unary_route_probability_given_active": 0.4583333333333333,
+            "population": "assigned",
+            "population_equations": 40
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 40,
+            "distinct_profiles": 1,
+            "selected_frequency": 40,
+            "mean_distance": 0.0
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 1.421875,
+          "mean_compatible_distance_medoid": 1.421875
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {}
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 128,
+        "compatible_node_observations": 128,
+        "mean_initial_active_count_absolute_error": 0.328125
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    },
+    {
+      "builder": "IAPB03",
+      "source_boolean_builder": "ACB03",
+      "synthetic_operator_tree": {
+        "operator": "*",
+        "raw_attachment": true,
+        "children": [],
+        "raw_arity": 4
+      },
+      "operator_pattern": "prod_φ([sum(X),sum(X),sum(X),sum(X)])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 4,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 4,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 4,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "4": 4,
+              "5": 4
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 4
+            },
+            "reserve_capacity": 1,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 121,
+              "1": 4,
+              "2": 2,
+              "3": 1
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "4": 16
+            },
+            "initial_active_lanes": 4,
+            "unary_route_probability_given_active": 0.5625,
+            "population": "assigned",
+            "population_equations": 16
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 16,
+            "distinct_profiles": 1,
+            "selected_frequency": 16,
+            "mean_distance": 0.0
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 2.734375,
+          "mean_compatible_distance_medoid": 2.734375
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {}
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 128,
+        "compatible_node_observations": 128,
+        "mean_initial_active_count_absolute_error": 0.21875
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    },
+    {
+      "builder": "IAPB04",
+      "source_boolean_builder": "ACB04",
+      "synthetic_operator_tree": {
+        "operator": "*",
+        "raw_attachment": true,
+        "children": [],
+        "raw_arity": 7
+      },
+      "operator_pattern": "prod_φ([sum(X),sum(X),sum(X),sum(X),sum(X),sum(X),sum(X)])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 7,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 7,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 7,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "5": 6,
+              "6": 6,
+              "7": 7
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 7
+            },
+            "reserve_capacity": 0,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 126,
+              "1": 2
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "5": 3,
+              "6": 2,
+              "7": 1
+            },
+            "initial_active_lanes": 6,
+            "unary_route_probability_given_active": 0.5588235294117647,
+            "population": "assigned",
+            "population_equations": 6
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 6,
+            "distinct_profiles": 3,
+            "selected_frequency": 3,
+            "mean_distance": 1.3333333333333333
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 6.453125,
+          "mean_compatible_distance_medoid": 4.546875
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {}
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 128,
+        "compatible_node_observations": 128,
+        "mean_initial_active_count_absolute_error": 0.2109375
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    },
+    {
+      "builder": "IAPB05",
+      "source_boolean_builder": "ACB05",
+      "synthetic_operator_tree": {
+        "operator": "+",
+        "raw_attachment": true,
+        "children": [],
+        "raw_arity": 3
+      },
+      "operator_pattern": "sum_φ([sum(X),sum(X),sum(X)])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 3,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 3,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "+|raw|leaf",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 3
+            },
+            "reserve_capacity": 1,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 105,
+              "1": 17,
+              "2": 3,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "2": 22,
+              "3": 9
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 0.9436619718309859,
+            "population": "assigned",
+            "population_equations": 31
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 31,
+            "distinct_profiles": 2,
+            "selected_frequency": 22,
+            "mean_distance": 0.5806451612903226
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 1.640625,
+          "mean_compatible_distance_medoid": 1.640625
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {}
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 128,
+        "compatible_node_observations": 128,
+        "mean_initial_active_count_absolute_error": 0.8203125
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    },
+    {
+      "builder": "IAPB06",
+      "source_boolean_builder": "ACB06",
+      "synthetic_operator_tree": {
+        "operator": "+",
+        "raw_attachment": true,
+        "children": [
+          {
+            "operator": "*",
+            "raw_attachment": true,
+            "children": [],
+            "raw_arity": 2
+          },
+          {
+            "operator": "*",
+            "raw_attachment": true,
+            "children": [],
+            "raw_arity": 2
+          },
+          {
+            "operator": "*",
+            "raw_attachment": true,
+            "children": [],
+            "raw_arity": 3
+          },
+          {
+            "operator": "*",
+            "raw_attachment": true,
+            "children": [
+              {
+                "operator": "*",
+                "raw_attachment": true,
+                "children": [],
+                "raw_arity": 2
+              }
+            ],
+            "raw_arity": 3
+          }
+        ],
+        "raw_arity": 3
+      },
+      "operator_pattern": "sum_φ([sum(X),sum(X),sum(X),prod_φ([sum(X),sum(X)]),prod_φ([sum(X),sum(X)]),prod_φ([sum(X),sum(X),sum(X)]),prod_φ([sum(X),sum(X),sum(X),prod_φ([sum(X),sum(X)])])])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 3,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 3,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "+|raw|internal",
+            "external_archetype_quantile": 2,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "3": 3,
+              "6": 0
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "3": 2,
+              "6": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.1": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "3": 2,
+              "6": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.2": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 3,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 3,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "3": 3,
+              "6": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.3": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 3,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 3,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|internal",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "3": 3,
+              "6": 0
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.3.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "3": 2,
+              "6": 0
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 3,
+              "root.0": 3,
+              "root.1": 3,
+              "root.2": 3,
+              "root.3": 3,
+              "root.3.0": 3
+            },
+            "reserve_capacity": 1,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 144,
+              "1": 17,
+              "2": 3,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "0": 2,
+              "1": 1,
+              "2": 1,
+              "3": 1
+            },
+            "initial_active_lanes": 1,
+            "unary_route_probability_given_active": 1.0,
+            "population": "assigned",
+            "population_equations": 5
+          },
+          "root.0": {
+            "external_required_lane_histogram": {
+              "2": 5
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 0.4,
+            "population": "assigned",
+            "population_equations": 5
+          },
+          "root.1": {
+            "external_required_lane_histogram": {
+              "0": 1,
+              "2": 4
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 0.5,
+            "population": "assigned",
+            "population_equations": 5
+          },
+          "root.2": {
+            "external_required_lane_histogram": {
+              "0": 1,
+              "2": 3,
+              "3": 1
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 0.3333333333333333,
+            "population": "assigned",
+            "population_equations": 5
+          },
+          "root.3": {
+            "external_required_lane_histogram": {
+              "0": 2,
+              "2": 2,
+              "3": 1
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 0.5714285714285714,
+            "population": "assigned",
+            "population_equations": 5
+          },
+          "root.3.0": {
+            "external_required_lane_histogram": {
+              "0": 4,
+              "2": 1
+            },
+            "initial_active_lanes": 0,
+            "unary_route_probability_given_active": 1.0,
+            "population": "assigned",
+            "population_equations": 5
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 5,
+            "distinct_profiles": 5,
+            "selected_frequency": 1,
+            "mean_distance": 21.4
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 41.37125748502994,
+          "mean_compatible_distance_medoid": 34.41317365269461
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {
+          "root->root.0": {
+            "used_equations": 5,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 0.8,
+            "population": "assigned",
+            "medoid_initially_used": true
+          },
+          "root->root.1": {
+            "used_equations": 4,
+            "unused_equations": 1,
+            "unary_route_probability_given_used": 0.75,
+            "population": "assigned",
+            "medoid_initially_used": true
+          },
+          "root->root.2": {
+            "used_equations": 4,
+            "unused_equations": 1,
+            "unary_route_probability_given_used": 0.75,
+            "population": "assigned",
+            "medoid_initially_used": true
+          },
+          "root->root.3": {
+            "used_equations": 3,
+            "unused_equations": 2,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": true
+          },
+          "root.3->root.3.0": {
+            "used_equations": 1,
+            "unused_equations": 4,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": false
+          }
+        }
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 167,
+        "compatible_node_observations": 1002,
+        "mean_initial_active_count_absolute_error": 1.496007984031936
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    },
+    {
+      "builder": "IAPB07",
+      "source_boolean_builder": "ACB07",
+      "synthetic_operator_tree": {
+        "operator": "*",
+        "raw_attachment": true,
+        "children": [
+          {
+            "operator": "*",
+            "raw_attachment": true,
+            "children": [],
+            "raw_arity": 2
+          },
+          {
+            "operator": "*",
+            "raw_attachment": true,
+            "children": [],
+            "raw_arity": 2
+          },
+          {
+            "operator": "+",
+            "raw_attachment": true,
+            "children": [],
+            "raw_arity": 2
+          },
+          {
+            "operator": "+",
+            "raw_attachment": true,
+            "children": [],
+            "raw_arity": 2
+          }
+        ]
+      },
+      "operator_pattern": "prod_φ([sum(X),prod_φ([sum(X),sum(X)]),prod_φ([sum(X),sum(X)]),sum_φ([sum(X),sum(X)]),sum_φ([sum(X),sum(X)])])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 1,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 1,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|internal",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 1,
+              "3": 1
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.1": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.2": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 0,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 0,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "+|raw|leaf",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 0,
+              "3": 0
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.3": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 0,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 0,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "+|raw|leaf",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 0,
+              "3": 0
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 3,
+              "root.0": 3,
+              "root.1": 3,
+              "root.2": 3,
+              "root.3": 3
+            },
+            "reserve_capacity": 1,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 139,
+              "1": 23,
+              "2": 5,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "1": 2
+            },
+            "initial_active_lanes": 1,
+            "unary_route_probability_given_active": 0.0,
+            "population": "assigned",
+            "population_equations": 2
+          },
+          "root.0": {
+            "external_required_lane_histogram": {
+              "2": 2
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 0.75,
+            "population": "assigned",
+            "population_equations": 2
+          },
+          "root.1": {
+            "external_required_lane_histogram": {
+              "2": 2
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 0.75,
+            "population": "assigned",
+            "population_equations": 2
+          },
+          "root.2": {
+            "external_required_lane_histogram": {
+              "0": 2
+            },
+            "initial_active_lanes": 0,
+            "unary_route_probability_given_active": 0.0,
+            "population": "assigned",
+            "population_equations": 2
+          },
+          "root.3": {
+            "external_required_lane_histogram": {
+              "0": 2
+            },
+            "initial_active_lanes": 0,
+            "unary_route_probability_given_active": 0.0,
+            "population": "assigned",
+            "population_equations": 2
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 2,
+            "distinct_profiles": 2,
+            "selected_frequency": 1,
+            "mean_distance": 2.5
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 13.894117647058824,
+          "mean_compatible_distance_medoid": 13.894117647058824
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {
+          "root->root.0": {
+            "used_equations": 2,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": true
+          },
+          "root->root.1": {
+            "used_equations": 2,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": true
+          },
+          "root->root.2": {
+            "used_equations": 0,
+            "unused_equations": 2,
+            "unary_route_probability_given_used": 0.0,
+            "population": "assigned",
+            "medoid_initially_used": false
+          },
+          "root->root.3": {
+            "used_equations": 0,
+            "unused_equations": 2,
+            "unary_route_probability_given_used": 0.0,
+            "population": "assigned",
+            "medoid_initially_used": false
+          }
+        }
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 170,
+        "compatible_node_observations": 850,
+        "mean_initial_active_count_absolute_error": 1.0235294117647058
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    },
+    {
+      "builder": "IAPB08",
+      "source_boolean_builder": "ACB08",
+      "synthetic_operator_tree": {
+        "operator": "*",
+        "raw_attachment": true,
+        "children": [
+          {
+            "operator": "*",
+            "raw_attachment": true,
+            "children": [],
+            "raw_arity": 2
+          }
+        ],
+        "raw_arity": 2
+      },
+      "operator_pattern": "prod_φ([sum(X),sum(X),prod_φ([sum(X),sum(X)])])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|internal",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 2,
+              "4": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 2,
+              "4": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 3,
+              "root.0": 3
+            },
+            "reserve_capacity": 1,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 137,
+              "1": 23,
+              "2": 5,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "1": 9,
+              "2": 6
+            },
+            "initial_active_lanes": 1,
+            "unary_route_probability_given_active": 0.38095238095238093,
+            "population": "assigned",
+            "population_equations": 15
+          },
+          "root.0": {
+            "external_required_lane_histogram": {
+              "2": 15
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 0.4,
+            "population": "assigned",
+            "population_equations": 15
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 15,
+            "distinct_profiles": 4,
+            "selected_frequency": 4,
+            "mean_distance": 2.0
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 6.029761904761905,
+          "mean_compatible_distance_medoid": 5.0773809523809526
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {
+          "root->root.0": {
+            "used_equations": 15,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": true
+          }
+        }
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 168,
+        "compatible_node_observations": 336,
+        "mean_initial_active_count_absolute_error": 1.5892857142857142
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    },
+    {
+      "builder": "IAPB09",
+      "source_boolean_builder": "ACB09",
+      "synthetic_operator_tree": {
+        "operator": "+",
+        "raw_attachment": true,
+        "children": [
+          {
+            "operator": "*",
+            "raw_attachment": true,
+            "children": [],
+            "raw_arity": 2
+          }
+        ]
+      },
+      "operator_pattern": "sum_φ([sum(X),prod_φ([sum(X),sum(X)])])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 1,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 1,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "+|raw|internal",
+            "external_archetype_quantile": 2,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 1,
+              "3": 1
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 3,
+              "root.0": 3
+            },
+            "reserve_capacity": 1,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 136,
+              "1": 17,
+              "2": 3,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "1": 17
+            },
+            "initial_active_lanes": 1,
+            "unary_route_probability_given_active": 1.0,
+            "population": "assigned",
+            "population_equations": 17
+          },
+          "root.0": {
+            "external_required_lane_histogram": {
+              "2": 17
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 0.4117647058823529,
+            "population": "assigned",
+            "population_equations": 17
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 17,
+            "distinct_profiles": 2,
+            "selected_frequency": 10,
+            "mean_distance": 1.2352941176470589
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 5.767295597484277,
+          "mean_compatible_distance_medoid": 4.10062893081761
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {
+          "root->root.0": {
+            "used_equations": 17,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 0.7058823529411765,
+            "population": "assigned",
+            "medoid_initially_used": true
+          }
+        }
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 159,
+        "compatible_node_observations": 318,
+        "mean_initial_active_count_absolute_error": 1.5723270440251573
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    },
+    {
+      "builder": "IAPB10",
+      "source_boolean_builder": "ACB10",
+      "synthetic_operator_tree": {
+        "operator": "+",
+        "raw_attachment": true,
+        "children": [
+          {
+            "operator": "*",
+            "raw_attachment": true,
+            "children": [],
+            "raw_arity": 3
+          }
+        ],
+        "raw_arity": 2
+      },
+      "operator_pattern": "sum_φ([sum(X),sum(X),prod_φ([sum(X),sum(X),sum(X)])])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "+|raw|internal",
+            "external_archetype_quantile": 2,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 2,
+              "4": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 3,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 3,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 2,
+              "4": 3
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 3,
+              "root.0": 3
+            },
+            "reserve_capacity": 1,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 136,
+              "1": 17,
+              "2": 3,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "1": 1,
+              "2": 13
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 0.9629629629629629,
+            "population": "assigned",
+            "population_equations": 14
+          },
+          "root.0": {
+            "external_required_lane_histogram": {
+              "2": 12,
+              "3": 2
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 0.23333333333333334,
+            "population": "assigned",
+            "population_equations": 14
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 14,
+            "distinct_profiles": 5,
+            "selected_frequency": 7,
+            "mean_distance": 1.6428571428571428
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 6.8930817610062896,
+          "mean_compatible_distance_medoid": 4.8742138364779874
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {
+          "root->root.0": {
+            "used_equations": 14,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 0.6428571428571429,
+            "population": "assigned",
+            "medoid_initially_used": true
+          }
+        }
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 159,
+        "compatible_node_observations": 318,
+        "mean_initial_active_count_absolute_error": 1.1981132075471699
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    },
+    {
+      "builder": "IAPB11",
+      "source_boolean_builder": "ACB11",
+      "synthetic_operator_tree": {
+        "operator": "*",
+        "raw_attachment": true,
+        "children": [
+          {
+            "operator": "*",
+            "raw_attachment": true,
+            "children": [],
+            "raw_arity": 5
+          }
+        ],
+        "raw_arity": 4
+      },
+      "operator_pattern": "prod_φ([sum(X),sum(X),sum(X),sum(X),prod_φ([sum(X),sum(X),sum(X),sum(X),sum(X)])])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 4,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 4,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 4,
+            "external_archetype": "*|raw|internal",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "3": 3,
+              "4": 4,
+              "5": 3,
+              "6": 4
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 5,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 5,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 5,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 5
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 4,
+              "root.0": 5
+            },
+            "reserve_capacity": 0,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 161,
+              "1": 4,
+              "2": 2,
+              "3": 1
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "1": 4,
+              "2": 1,
+              "3": 4,
+              "4": 2
+            },
+            "initial_active_lanes": 3,
+            "unary_route_probability_given_active": 0.2692307692307692,
+            "population": "assigned",
+            "population_equations": 11
+          },
+          "root.0": {
+            "external_required_lane_histogram": {
+              "2": 4,
+              "3": 1,
+              "4": 5,
+              "5": 1
+            },
+            "initial_active_lanes": 4,
+            "unary_route_probability_given_active": 0.5,
+            "population": "assigned",
+            "population_equations": 11
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 11,
+            "distinct_profiles": 11,
+            "selected_frequency": 1,
+            "mean_distance": 4.2727272727272725
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 11.255952380952381,
+          "mean_compatible_distance_medoid": 8.244047619047619
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {
+          "root->root.0": {
+            "used_equations": 11,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": true
+          }
+        }
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 168,
+        "compatible_node_observations": 336,
+        "mean_initial_active_count_absolute_error": 1.4494047619047619
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    },
+    {
+      "builder": "IAPB12",
+      "source_boolean_builder": "ACB12",
+      "synthetic_operator_tree": {
+        "operator": "*",
+        "raw_attachment": true,
+        "children": [
+          {
+            "operator": "+",
+            "raw_attachment": true,
+            "children": [],
+            "raw_arity": 2
+          }
+        ],
+        "raw_arity": 2
+      },
+      "operator_pattern": "prod_φ([sum(X),sum(X),sum_φ([sum(X),sum(X)])])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|internal",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 1,
+              "4": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "+|raw|leaf",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 2,
+              "4": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 3,
+              "root.0": 3
+            },
+            "reserve_capacity": 1,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 137,
+              "1": 23,
+              "2": 5,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "1": 5,
+              "2": 3
+            },
+            "initial_active_lanes": 1,
+            "unary_route_probability_given_active": 0.5454545454545454,
+            "population": "assigned",
+            "population_equations": 8
+          },
+          "root.0": {
+            "external_required_lane_histogram": {
+              "2": 8
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 0.875,
+            "population": "assigned",
+            "population_equations": 8
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 8,
+            "distinct_profiles": 4,
+            "selected_frequency": 4,
+            "mean_distance": 2.125
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 6.029761904761905,
+          "mean_compatible_distance_medoid": 4.279761904761905
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {
+          "root->root.0": {
+            "used_equations": 8,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 0.375,
+            "population": "assigned",
+            "medoid_initially_used": true
+          }
+        }
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 168,
+        "compatible_node_observations": 336,
+        "mean_initial_active_count_absolute_error": 1.5892857142857142
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    },
+    {
+      "builder": "IAPB13",
+      "source_boolean_builder": "ACB13",
+      "synthetic_operator_tree": {
+        "operator": "*",
+        "raw_attachment": true,
+        "children": [
+          {
+            "operator": "+",
+            "raw_attachment": true,
+            "children": [],
+            "raw_arity": 3
+          }
+        ],
+        "raw_arity": 4
+      },
+      "operator_pattern": "prod_φ([sum(X),sum(X),sum(X),sum(X),sum_φ([sum(X),sum(X),sum(X)])])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 4,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 4,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 4,
+            "external_archetype": "*|raw|internal",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "3": 1,
+              "4": 1,
+              "5": 3,
+              "6": 4,
+              "9": 3
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 3,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 3,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "+|raw|leaf",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "3": 3,
+              "4": 3,
+              "5": 2,
+              "6": 2,
+              "9": 3
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 4,
+              "root.0": 3
+            },
+            "reserve_capacity": 1,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 155,
+              "1": 9,
+              "2": 3,
+              "3": 1
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "1": 3,
+              "3": 2,
+              "4": 1
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 0.3076923076923077,
+            "population": "assigned",
+            "population_equations": 6
+          },
+          "root.0": {
+            "external_required_lane_histogram": {
+              "2": 2,
+              "3": 4
+            },
+            "initial_active_lanes": 3,
+            "unary_route_probability_given_active": 1.0,
+            "population": "assigned",
+            "population_equations": 6
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 6,
+            "distinct_profiles": 5,
+            "selected_frequency": 2,
+            "mean_distance": 2.8333333333333335
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 7.755952380952381,
+          "mean_compatible_distance_medoid": 5.696428571428571
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {
+          "root->root.0": {
+            "used_equations": 6,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 0.8333333333333334,
+            "population": "assigned",
+            "medoid_initially_used": true
+          }
+        }
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 168,
+        "compatible_node_observations": 336,
+        "mean_initial_active_count_absolute_error": 1.4851190476190477
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    },
+    {
+      "builder": "IAPB14",
+      "source_boolean_builder": "ACB14",
+      "synthetic_operator_tree": {
+        "operator": "+",
+        "raw_attachment": true,
+        "children": [
+          {
+            "operator": "*",
+            "raw_attachment": true,
+            "children": [
+              {
+                "operator": "*",
+                "raw_attachment": true,
+                "children": [],
+                "raw_arity": 2
+              },
+              {
+                "operator": "*",
+                "raw_attachment": true,
+                "children": [],
+                "raw_arity": 2
+              }
+            ]
+          }
+        ],
+        "raw_arity": 2
+      },
+      "operator_pattern": "sum_φ([sum(X),sum(X),prod_φ([sum(X),prod_φ([sum(X),sum(X)]),prod_φ([sum(X),sum(X)])])])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "+|raw|internal",
+            "external_archetype_quantile": 2,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 1,
+              "3": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 1,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 1,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|internal",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 1,
+              "3": 1
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0.1": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 0,
+              "3": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 3,
+              "root.0": 3,
+              "root.0.0": 3,
+              "root.0.1": 3
+            },
+            "reserve_capacity": 1,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 140,
+              "1": 17,
+              "2": 3,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "1": 2,
+              "2": 1
+            },
+            "initial_active_lanes": 1,
+            "unary_route_probability_given_active": 0.5,
+            "population": "assigned",
+            "population_equations": 3
+          },
+          "root.0": {
+            "external_required_lane_histogram": {
+              "0": 1,
+              "1": 2
+            },
+            "initial_active_lanes": 1,
+            "unary_route_probability_given_active": 0.5,
+            "population": "assigned",
+            "population_equations": 3
+          },
+          "root.0.0": {
+            "external_required_lane_histogram": {
+              "2": 3
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 0.3333333333333333,
+            "population": "assigned",
+            "population_equations": 3
+          },
+          "root.0.1": {
+            "external_required_lane_histogram": {
+              "0": 2,
+              "2": 1
+            },
+            "initial_active_lanes": 0,
+            "unary_route_probability_given_active": 1.0,
+            "population": "assigned",
+            "population_equations": 3
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 3,
+            "distinct_profiles": 3,
+            "selected_frequency": 1,
+            "mean_distance": 5.0
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 11.05521472392638,
+          "mean_compatible_distance_medoid": 8.662576687116564
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {
+          "root->root.0": {
+            "used_equations": 3,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 0.6666666666666666,
+            "population": "assigned",
+            "medoid_initially_used": true
+          },
+          "root.0->root.0.0": {
+            "used_equations": 3,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": true
+          },
+          "root.0->root.0.1": {
+            "used_equations": 1,
+            "unused_equations": 2,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": false
+          }
+        }
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 163,
+        "compatible_node_observations": 652,
+        "mean_initial_active_count_absolute_error": 1.111963190184049
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    },
+    {
+      "builder": "IAPB15",
+      "source_boolean_builder": "ACB15",
+      "synthetic_operator_tree": {
+        "operator": "*",
+        "raw_attachment": true,
+        "children": [
+          {
+            "operator": "+",
+            "raw_attachment": true,
+            "children": [
+              {
+                "operator": "*",
+                "raw_attachment": true,
+                "children": [],
+                "raw_arity": 3
+              }
+            ],
+            "raw_arity": 3
+          }
+        ],
+        "raw_arity": 2
+      },
+      "operator_pattern": "prod_φ([sum(X),sum(X),sum_φ([sum(X),sum(X),sum(X),prod_φ([sum(X),sum(X),sum(X)])])])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|internal",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "3": 2,
+              "5": 2,
+              "8": 1
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 3,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 3,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "+|raw|internal",
+            "external_archetype_quantile": 2,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "3": 2,
+              "5": 2,
+              "8": 3
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 3,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 3,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "3": 2,
+              "5": 3,
+              "8": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 3,
+              "root.0": 3,
+              "root.0.0": 3
+            },
+            "reserve_capacity": 1,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 145,
+              "1": 23,
+              "2": 5,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "1": 5,
+              "2": 3
+            },
+            "initial_active_lanes": 1,
+            "unary_route_probability_given_active": 0.45454545454545453,
+            "population": "assigned",
+            "population_equations": 8
+          },
+          "root.0": {
+            "external_required_lane_histogram": {
+              "1": 5,
+              "2": 2,
+              "3": 1
+            },
+            "initial_active_lanes": 1,
+            "unary_route_probability_given_active": 0.75,
+            "population": "assigned",
+            "population_equations": 8
+          },
+          "root.0.0": {
+            "external_required_lane_histogram": {
+              "2": 4,
+              "3": 4
+            },
+            "initial_active_lanes": 3,
+            "unary_route_probability_given_active": 0.65,
+            "population": "assigned",
+            "population_equations": 8
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 8,
+            "distinct_profiles": 6,
+            "selected_frequency": 2,
+            "mean_distance": 4.5
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 12.017045454545455,
+          "mean_compatible_distance_medoid": 7.9602272727272725
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {
+          "root->root.0": {
+            "used_equations": 8,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 0.25,
+            "population": "assigned",
+            "medoid_initially_used": true
+          },
+          "root.0->root.0.0": {
+            "used_equations": 8,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 0.5,
+            "population": "assigned",
+            "medoid_initially_used": true
+          }
+        }
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 176,
+        "compatible_node_observations": 528,
+        "mean_initial_active_count_absolute_error": 1.7083333333333333
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    },
+    {
+      "builder": "IAPB16",
+      "source_boolean_builder": "ACB16",
+      "synthetic_operator_tree": {
+        "operator": "*",
+        "raw_attachment": true,
+        "children": [
+          {
+            "operator": "+",
+            "raw_attachment": false,
+            "children": [
+              {
+                "operator": "*",
+                "raw_attachment": true,
+                "children": [],
+                "raw_arity": 4
+              },
+              {
+                "operator": "*",
+                "raw_attachment": true,
+                "children": [],
+                "raw_arity": 4
+              }
+            ]
+          }
+        ],
+        "raw_arity": 2
+      },
+      "operator_pattern": "prod_φ([sum(X),sum(X),sum_φ([prod_φ([sum(X),sum(X),sum(X),sum(X)]),prod_φ([sum(X),sum(X),sum(X),sum(X)])])])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|internal",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "5": 1,
+              "6": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 0,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 0,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 0,
+            "external_archetype": "+|state_only|internal",
+            "external_archetype_quantile": 0,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "5": 0,
+              "6": 0
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 4,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 4,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 4,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "5": 4,
+              "6": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0.1": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 4,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 4,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 4,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "5": 4,
+              "6": 3
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 3,
+              "root.0": 0,
+              "root.0.0": 4,
+              "root.0.1": 4
+            },
+            "reserve_capacity": 1,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 107,
+              "1": 17,
+              "2": 3,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "1": 1,
+              "2": 1
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 0.6666666666666666,
+            "population": "assigned",
+            "population_equations": 2
+          },
+          "root.0": {
+            "external_required_lane_histogram": {
+              "0": 2
+            },
+            "initial_active_lanes": 0,
+            "unary_route_probability_given_active": 0.0,
+            "population": "assigned",
+            "population_equations": 2
+          },
+          "root.0.0": {
+            "external_required_lane_histogram": {
+              "2": 1,
+              "4": 1
+            },
+            "initial_active_lanes": 3,
+            "unary_route_probability_given_active": 0.6666666666666666,
+            "population": "assigned",
+            "population_equations": 2
+          },
+          "root.0.1": {
+            "external_required_lane_histogram": {
+              "3": 1,
+              "4": 1
+            },
+            "initial_active_lanes": 4,
+            "unary_route_probability_given_active": 0.5714285714285714,
+            "population": "assigned",
+            "population_equations": 2
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 2,
+            "distinct_profiles": 2,
+            "selected_frequency": 1,
+            "mean_distance": 7.5
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 23.053846153846155,
+          "mean_compatible_distance_medoid": 19.869230769230768
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {
+          "root->root.0": {
+            "used_equations": 2,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 0.5,
+            "population": "assigned",
+            "medoid_initially_used": true
+          },
+          "root.0->root.0.0": {
+            "used_equations": 2,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": true
+          },
+          "root.0->root.0.1": {
+            "used_equations": 2,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 0.5,
+            "population": "assigned",
+            "medoid_initially_used": true
+          }
+        }
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 130,
+        "compatible_node_observations": 520,
+        "mean_initial_active_count_absolute_error": 1.5480769230769231
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    },
+    {
+      "builder": "IAPB17",
+      "source_boolean_builder": "ACB17",
+      "synthetic_operator_tree": {
+        "operator": "+",
+        "raw_attachment": true,
+        "children": [
+          {
+            "operator": "*",
+            "raw_attachment": true,
+            "children": [
+              {
+                "operator": "+",
+                "raw_attachment": true,
+                "children": [],
+                "raw_arity": 2
+              }
+            ],
+            "raw_arity": 3
+          },
+          {
+            "operator": "*",
+            "raw_attachment": true,
+            "children": [
+              {
+                "operator": "+",
+                "raw_attachment": true,
+                "children": [
+                  {
+                    "operator": "*",
+                    "raw_attachment": true,
+                    "children": [
+                      {
+                        "operator": "+",
+                        "raw_attachment": true,
+                        "children": [
+                          {
+                            "operator": "*",
+                            "raw_attachment": true,
+                            "children": [],
+                            "raw_arity": 2
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "raw_arity": 2
+              }
+            ],
+            "raw_arity": 2
+          }
+        ]
+      },
+      "operator_pattern": "sum_φ([sum(X),prod_φ([sum(X),sum(X),sum(X),sum_φ([sum(X),sum(X)])]),prod_φ([sum(X),sum(X),sum_φ([sum(X),sum(X),prod_φ([sum(X),sum_φ([sum(X),prod_φ([sum(X),sum(X)])])])])])])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 1,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 1,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "+|raw|internal",
+            "external_archetype_quantile": 2,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 0,
+              "3": 1,
+              "4": 1
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 3,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 3,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|internal",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 1,
+              "3": 1,
+              "4": 3
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "+|raw|leaf",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 2,
+              "4": 0
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.1": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|internal",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 1,
+              "3": 0,
+              "4": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.1.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "+|raw|internal",
+            "external_archetype_quantile": 2,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 0,
+              "4": 1
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.1.0.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 1,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 1,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|internal",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 0,
+              "3": 0,
+              "4": 1
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.1.0.0.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 1,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 1,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "+|raw|internal",
+            "external_archetype_quantile": 2,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 0,
+              "3": 0,
+              "4": 1
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.1.0.0.0.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 0,
+              "3": 0,
+              "4": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 3,
+              "root.0": 3,
+              "root.0.0": 3,
+              "root.1": 3,
+              "root.1.0": 3,
+              "root.1.0.0": 3,
+              "root.1.0.0.0": 3,
+              "root.1.0.0.0.0": 3
+            },
+            "reserve_capacity": 1,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 142,
+              "1": 17,
+              "2": 3,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "0": 1,
+              "1": 2
+            },
+            "initial_active_lanes": 1,
+            "unary_route_probability_given_active": 1.0,
+            "population": "assigned",
+            "population_equations": 3
+          },
+          "root.0": {
+            "external_required_lane_histogram": {
+              "1": 2,
+              "3": 1
+            },
+            "initial_active_lanes": 1,
+            "unary_route_probability_given_active": 0.4,
+            "population": "assigned",
+            "population_equations": 3
+          },
+          "root.0.0": {
+            "external_required_lane_histogram": {
+              "0": 1,
+              "2": 2
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 1.0,
+            "population": "assigned",
+            "population_equations": 3
+          },
+          "root.1": {
+            "external_required_lane_histogram": {
+              "0": 1,
+              "1": 1,
+              "2": 1
+            },
+            "initial_active_lanes": 1,
+            "unary_route_probability_given_active": 0.6666666666666666,
+            "population": "assigned",
+            "population_equations": 3
+          },
+          "root.1.0": {
+            "external_required_lane_histogram": {
+              "0": 1,
+              "1": 1,
+              "2": 1
+            },
+            "initial_active_lanes": 1,
+            "unary_route_probability_given_active": 1.0,
+            "population": "assigned",
+            "population_equations": 3
+          },
+          "root.1.0.0": {
+            "external_required_lane_histogram": {
+              "0": 2,
+              "1": 1
+            },
+            "initial_active_lanes": 0,
+            "unary_route_probability_given_active": 0.0,
+            "population": "assigned",
+            "population_equations": 3
+          },
+          "root.1.0.0.0": {
+            "external_required_lane_histogram": {
+              "0": 2,
+              "1": 1
+            },
+            "initial_active_lanes": 0,
+            "unary_route_probability_given_active": 1.0,
+            "population": "assigned",
+            "population_equations": 3
+          },
+          "root.1.0.0.0.0": {
+            "external_required_lane_histogram": {
+              "0": 2,
+              "2": 1
+            },
+            "initial_active_lanes": 0,
+            "unary_route_probability_given_active": 0.5,
+            "population": "assigned",
+            "population_equations": 3
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 3,
+            "distinct_profiles": 3,
+            "selected_frequency": 1,
+            "mean_distance": 16.0
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 27.036363636363635,
+          "mean_compatible_distance_medoid": 7.612121212121212
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {
+          "root->root.0": {
+            "used_equations": 3,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": true
+          },
+          "root.0->root.0.0": {
+            "used_equations": 2,
+            "unused_equations": 1,
+            "unary_route_probability_given_used": 0.5,
+            "population": "assigned",
+            "medoid_initially_used": true
+          },
+          "root->root.1": {
+            "used_equations": 2,
+            "unused_equations": 1,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": false
+          },
+          "root.1->root.1.0": {
+            "used_equations": 2,
+            "unused_equations": 1,
+            "unary_route_probability_given_used": 0.5,
+            "population": "assigned",
+            "medoid_initially_used": false
+          },
+          "root.1.0->root.1.0.0": {
+            "used_equations": 1,
+            "unused_equations": 2,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": false
+          },
+          "root.1.0.0->root.1.0.0.0": {
+            "used_equations": 1,
+            "unused_equations": 2,
+            "unary_route_probability_given_used": 0.0,
+            "population": "assigned",
+            "medoid_initially_used": false
+          },
+          "root.1.0.0.0->root.1.0.0.0.0": {
+            "used_equations": 1,
+            "unused_equations": 2,
+            "unary_route_probability_given_used": 0.0,
+            "population": "assigned",
+            "medoid_initially_used": false
+          }
+        }
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 165,
+        "compatible_node_observations": 1320,
+        "mean_initial_active_count_absolute_error": 0.8037878787878788
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    },
+    {
+      "builder": "IAPB18",
+      "source_boolean_builder": "ACB18",
+      "synthetic_operator_tree": {
+        "operator": "*",
+        "raw_attachment": true,
+        "children": [
+          {
+            "operator": "*",
+            "raw_attachment": true,
+            "children": [
+              {
+                "operator": "+",
+                "raw_attachment": true,
+                "children": [
+                  {
+                    "operator": "*",
+                    "raw_attachment": true,
+                    "children": [],
+                    "raw_arity": 2
+                  },
+                  {
+                    "operator": "+",
+                    "raw_attachment": false,
+                    "children": [
+                      {
+                        "operator": "*",
+                        "raw_attachment": true,
+                        "children": [],
+                        "raw_arity": 2
+                      },
+                      {
+                        "operator": "+",
+                        "raw_attachment": true,
+                        "children": [
+                          {
+                            "operator": "*",
+                            "raw_attachment": true,
+                            "children": [],
+                            "raw_arity": 2
+                          }
+                        ],
+                        "raw_arity": 2
+                      }
+                    ]
+                  }
+                ],
+                "raw_arity": 2
+              }
+            ],
+            "raw_arity": 2
+          }
+        ],
+        "raw_arity": 2
+      },
+      "operator_pattern": "prod_φ([sum(X),sum(X),prod_φ([sum(X),sum(X),sum_φ([sum(X),sum(X),prod_φ([sum(X),sum(X)]),sum_φ([prod_φ([sum(X),sum(X)]),sum_φ([sum(X),sum(X),prod_φ([sum(X),sum(X)])])])])])])",
+      "raw_incidence_rule": {
+        "port_capacity_by_node": {
+          "root": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|internal",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 1
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|internal",
+            "external_archetype_quantile": 3,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 1
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "+|raw|internal",
+            "external_archetype_quantile": 2,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 1
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0.0.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 2
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0.0.1": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 0,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 0,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 0,
+            "external_archetype": "+|state_only|internal",
+            "external_archetype_quantile": 0,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 0,
+              "3": 0
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0.0.1.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 0
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0.0.1.1": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "+|raw|internal",
+            "external_archetype_quantile": 2,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 0
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "root.0.0.1.1.0": {
+            "mode": "input_role_lanes",
+            "formula": "global active-node quantile with assigned-path maximum",
+            "external_global_active_node_p85": 3,
+            "external_path_maximum": 2,
+            "external_assigned_core_quantile": 1.0,
+            "external_assigned_core_capacity": 2,
+            "external_compatible_path_quantile": 0,
+            "external_path_capacity": 3,
+            "external_archetype": "*|raw|leaf",
+            "external_archetype_quantile": 4,
+            "capacity_policy": "compatible-shared-reserve",
+            "external_global_quantile_by_input_dimension": {
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "5": 4,
+              "6": 4,
+              "7": 7,
+              "8": 3,
+              "9": 3
+            },
+            "external_path_maximum_by_input_dimension": {
+              "2": 2,
+              "3": 0
+            },
+            "cap_by_input_dimension": true,
+            "sparse_neutral_gate": true
+          },
+          "__shared_pool__": {
+            "mode": "external_compatible_deficit_shared_reserve",
+            "core_capacity_by_node": {
+              "root": 3,
+              "root.0": 3,
+              "root.0.0": 3,
+              "root.0.0.0": 3,
+              "root.0.0.1": 0,
+              "root.0.0.1.0": 3,
+              "root.0.0.1.1": 3,
+              "root.0.0.1.1.0": 3
+            },
+            "reserve_capacity": 1,
+            "reserve_quantile": 0.95,
+            "external_compatible_deficit_histogram": {
+              "0": 140,
+              "1": 23,
+              "2": 5,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "role_source": "trainable affine projection of all observed inputs",
+        "role_reuse": "lane index identifies one affine role shared across arithmetic nodes",
+        "neutral_gate": "0 for sum lane; 1 for product lane",
+        "activation_prior_by_node": {
+          "root": {
+            "external_required_lane_histogram": {
+              "1": 2,
+              "2": 1
+            },
+            "initial_active_lanes": 1,
+            "unary_route_probability_given_active": 0.5,
+            "population": "assigned",
+            "population_equations": 3
+          },
+          "root.0": {
+            "external_required_lane_histogram": {
+              "1": 2,
+              "2": 1
+            },
+            "initial_active_lanes": 1,
+            "unary_route_probability_given_active": 0.5,
+            "population": "assigned",
+            "population_equations": 3
+          },
+          "root.0.0": {
+            "external_required_lane_histogram": {
+              "1": 1,
+              "2": 2
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 1.0,
+            "population": "assigned",
+            "population_equations": 3
+          },
+          "root.0.0.0": {
+            "external_required_lane_histogram": {
+              "0": 1,
+              "2": 2
+            },
+            "initial_active_lanes": 2,
+            "unary_route_probability_given_active": 0.5,
+            "population": "assigned",
+            "population_equations": 3
+          },
+          "root.0.0.1": {
+            "external_required_lane_histogram": {
+              "0": 3
+            },
+            "initial_active_lanes": 0,
+            "unary_route_probability_given_active": 0.0,
+            "population": "assigned",
+            "population_equations": 3
+          },
+          "root.0.0.1.0": {
+            "external_required_lane_histogram": {
+              "0": 2,
+              "2": 1
+            },
+            "initial_active_lanes": 0,
+            "unary_route_probability_given_active": 1.0,
+            "population": "assigned",
+            "population_equations": 3
+          },
+          "root.0.0.1.1": {
+            "external_required_lane_histogram": {
+              "0": 2,
+              "2": 1
+            },
+            "initial_active_lanes": 0,
+            "unary_route_probability_given_active": 1.0,
+            "population": "assigned",
+            "population_equations": 3
+          },
+          "root.0.0.1.1.0": {
+            "external_required_lane_histogram": {
+              "0": 2,
+              "2": 1
+            },
+            "initial_active_lanes": 0,
+            "unary_route_probability_given_active": 0.5,
+            "population": "assigned",
+            "population_equations": 3
+          }
+        },
+        "role_incidence_prior": {
+          "mode": "independent-prefix",
+          "population": "assigned",
+          "lanes": [],
+          "medoid_quality": {
+            "profiles": 3,
+            "distinct_profiles": 3,
+            "selected_frequency": 1,
+            "mean_distance": 29.333333333333332
+          },
+          "state_usage_source": "independent state-route majority",
+          "mean_compatible_distance_independent_prefix": 21.678362573099417,
+          "mean_compatible_distance_medoid": 11.08187134502924
+        }
+      },
+      "edge_route_rule": {
+        "mode": "KAN native with affine base; zero nonlinear coefficients represent affine-only",
+        "constant_and_affine_rescaling_in_structure": false,
+        "state_route_prior": {
+          "root->root.0": {
+            "used_equations": 3,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": true
+          },
+          "root.0->root.0.0": {
+            "used_equations": 3,
+            "unused_equations": 0,
+            "unary_route_probability_given_used": 0.6666666666666666,
+            "population": "assigned",
+            "medoid_initially_used": true
+          },
+          "root.0.0->root.0.0.0": {
+            "used_equations": 2,
+            "unused_equations": 1,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": true
+          },
+          "root.0.0->root.0.0.1": {
+            "used_equations": 1,
+            "unused_equations": 2,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": false
+          },
+          "root.0.0.1->root.0.0.1.0": {
+            "used_equations": 1,
+            "unused_equations": 2,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": false
+          },
+          "root.0.0.1->root.0.0.1.1": {
+            "used_equations": 1,
+            "unused_equations": 2,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": false
+          },
+          "root.0.0.1.1->root.0.0.1.1.0": {
+            "used_equations": 1,
+            "unused_equations": 2,
+            "unary_route_probability_given_used": 1.0,
+            "population": "assigned",
+            "medoid_initially_used": false
+          }
+        }
+      },
+      "fits_per_equation": 1,
+      "prior_population": "assigned",
+      "role_incidence_prior": "independent-prefix",
+      "prior_quality": {
+        "compatible_equations": 171,
+        "compatible_node_observations": 1368,
+        "mean_initial_active_count_absolute_error": 0.8252923976608187
+      },
+      "input_dimension_changes_materialized_width": true,
+      "external_archetype_quantiles": {
+        "*|raw|internal": 3,
+        "*|raw|leaf": 4,
+        "+|raw|internal": 2,
+        "+|raw|leaf": 3,
+        "+|state_only|internal": 0
+      }
+    }
+  ],
+  "construction": {
+    "source_only": true,
+    "existing_catalogue_used": false,
+    "heldout_data_supplied": false,
+    "objective": "verified v2 unused-capacity objective with frequency weighting and six source-only swaps",
+    "reserve_quantile": 0.95,
+    "global_capacity_quantile": 0.85,
+    "prior_population": "assigned",
+    "role_incidence_prior": "independent-prefix",
+    "native_counts": [
+      18
+    ],
+    "commands": [
+      [
+        "source_metadata/python",
+        "-m",
+        "structured_kan.structure_builder.synthesis",
+        "--input",
+        "data/equation_set/folds/heldout_symbolic_search/training225.json",
+        "--output",
+        "data/results/catalogue_rebuild_1788895196/heldout_symbolic_search/stage1",
+        "--builders",
+        "18",
+        "--dimension-weight",
+        "0",
+        "--class-weighting",
+        "frequency",
+        "--structural-score",
+        "unused-capacity",
+        "--ignore-input-dimension",
+        "--refinement-swaps",
+        "6",
+        "--collapse-univariate-chains"
+      ],
+      [
+        "source_metadata/python",
+        "-m",
+        "structured_kan.structure_builder.incidence",
+        "--external",
+        "data/equation_set/folds/heldout_symbolic_search/training225.json",
+        "--feynman",
+        "data/equation_set/folds/heldout_symbolic_search/training225.json",
+        "--catalogue",
+        "data/results/catalogue_rebuild_1788895196/heldout_symbolic_search/stage1",
+        "--output",
+        "data/results/catalogue_rebuild_1788895196/heldout_symbolic_search/incidence",
+        "--structural-score",
+        "unused-capacity",
+        "--raw-arity-policy",
+        "capacity-separated",
+        "--collapse-univariate-chains"
+      ],
+      [
+        "source_metadata/python",
+        "-m",
+        "structured_kan.structure_builder.shared_reserve",
+        "--external",
+        "data/equation_set/folds/heldout_symbolic_search/training225.json",
+        "--feynman",
+        "data/equation_set/folds/heldout_symbolic_search/training225.json",
+        "--catalogue",
+        "data/results/catalogue_rebuild_1788895196/heldout_symbolic_search/stage1",
+        "--audit",
+        "data/results/catalogue_rebuild_1788895196/heldout_symbolic_search/incidence",
+        "--output",
+        "data/results/catalogue_rebuild_1788895196/heldout_symbolic_search/stage2",
+        "--structural-score",
+        "unused-capacity",
+        "--capacity-policy",
+        "compatible-shared-reserve",
+        "--reserve-quantile",
+        "0.95",
+        "--global-capacity-quantile",
+        "0.85",
+        "--prior-population",
+        "assigned",
+        "--role-incidence-prior",
+        "independent-prefix",
+        "--raw-arity-policy",
+        "capacity-separated",
+        "--collapse-univariate-chains"
+      ]
+    ],
+    "seconds": 3.6935971127822995
+  }
+}

@@ -1,0 +1,5169 @@
+{
+  "schema": "structured-kan.catalogue-group.v1",
+  "name": "fgw_sum_pde_k18",
+  "method": "fgw_sum",
+  "heldout_domain": "pde",
+  "builder_count": 18,
+  "training_equations": 300,
+  "training_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+  "source_only": true,
+  "source_domains": [
+    "biochemistry",
+    "mathematics",
+    "physics",
+    "symbolic_search"
+  ],
+  "builder_encoding": "native-finite-topology-v1",
+  "builders": [
+    {
+      "builder": "IAPB01",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "+",
+            "raw_arity": 2,
+            "raw_attachment": true
+          },
+          {
+            "children": [],
+            "operator": "+",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "*",
+        "raw_arity": 1,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 3,
+      "operator_pattern": "prod_φ([sum(X),sum_φ([sum(X),sum(X)]),sum_φ([sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 202,
+        "cluster": 0,
+        "cluster_size": 4,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true},{\"children\":[],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":1,\"raw_attachment\":true}",
+        "equation": "biochemistry:BIOMD0000000490:v22"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 15,
+        "phi_1": 9,
+        "phi_2": 15,
+        "phi_3": 9,
+        "phi_4": 3,
+        "phi_5": 9,
+        "phi_6": 9,
+        "phi_7": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root.0:raw:0",
+            "mean_complexity": 15,
+            "G": 15,
+            "matched": 2,
+            "assigned_sources": 2
+          },
+          {
+            "phi": "phi_1",
+            "route": "root.0:raw:1",
+            "mean_complexity": 9,
+            "G": 9,
+            "matched": 2,
+            "assigned_sources": 2
+          },
+          {
+            "phi": "phi_2",
+            "route": "root.1:raw:0",
+            "mean_complexity": 15,
+            "G": 15,
+            "matched": 2,
+            "assigned_sources": 2
+          },
+          {
+            "phi": "phi_3",
+            "route": "root.1:raw:1",
+            "mean_complexity": 9,
+            "G": 9,
+            "matched": 2,
+            "assigned_sources": 2
+          },
+          {
+            "phi": "phi_4",
+            "route": "root:raw:0",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 2,
+            "assigned_sources": 2
+          },
+          {
+            "phi": "phi_5",
+            "route": "root.0:incoming",
+            "mean_complexity": 9,
+            "G": 9,
+            "matched": 2,
+            "assigned_sources": 2
+          },
+          {
+            "phi": "phi_6",
+            "route": "root.1:incoming",
+            "mean_complexity": 9,
+            "G": 9,
+            "matched": 2,
+            "assigned_sources": 2
+          },
+          {
+            "phi": "phi_7",
+            "route": "output",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 2,
+            "assigned_sources": 2
+          }
+        ]
+      }
+    },
+    {
+      "builder": "IAPB02",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          },
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          },
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "+",
+        "raw_arity": 3,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 4,
+      "operator_pattern": "sum_φ([sum(X),sum(X),sum(X),prod_φ([sum(X),sum(X)]),prod_φ([sum(X),sum(X)]),prod_φ([sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 297,
+        "cluster": 1,
+        "cluster_size": 9,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true},{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true},{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":3,\"raw_attachment\":true}",
+        "equation": "symbolic_search:Livermore2_Vars4_23"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 9,
+        "phi_1": 3,
+        "phi_2": 9,
+        "phi_3": 3,
+        "phi_4": 9,
+        "phi_5": 3,
+        "phi_6": 9,
+        "phi_7": 9,
+        "phi_8": 3,
+        "phi_9": 3,
+        "phi_10": 3,
+        "phi_11": 3,
+        "phi_12": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root.0:raw:0",
+            "mean_complexity": 7.995454545454545,
+            "G": 9,
+            "matched": 8,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_1",
+            "route": "root.0:raw:1",
+            "mean_complexity": 4.478971028971029,
+            "G": 3,
+            "matched": 6,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_2",
+            "route": "root.1:raw:0",
+            "mean_complexity": 9.5,
+            "G": 9,
+            "matched": 12,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_3",
+            "route": "root.1:raw:1",
+            "mean_complexity": 4,
+            "G": 3,
+            "matched": 12,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_4",
+            "route": "root.2:raw:0",
+            "mean_complexity": 8,
+            "G": 9,
+            "matched": 12,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_5",
+            "route": "root.2:raw:1",
+            "mean_complexity": 5,
+            "G": 3,
+            "matched": 12,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_6",
+            "route": "root:raw:0",
+            "mean_complexity": 8,
+            "G": 9,
+            "matched": 11,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_7",
+            "route": "root:raw:1",
+            "mean_complexity": 6.456730769230769,
+            "G": 9,
+            "matched": 9,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_8",
+            "route": "root:raw:2",
+            "mean_complexity": 4.678708791208791,
+            "G": 3,
+            "matched": 6,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_9",
+            "route": "root.0:incoming",
+            "mean_complexity": 4.995454545454545,
+            "G": 3,
+            "matched": 8,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_10",
+            "route": "root.1:incoming",
+            "mean_complexity": 4,
+            "G": 3,
+            "matched": 12,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_11",
+            "route": "root.2:incoming",
+            "mean_complexity": 3.5,
+            "G": 3,
+            "matched": 12,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_12",
+            "route": "output",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 12,
+            "assigned_sources": 12
+          }
+        ]
+      }
+    },
+    {
+      "builder": "IAPB03",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "+",
+        "raw_arity": 2,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 2,
+      "operator_pattern": "sum_φ([sum(X),sum(X),prod_φ([sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 115,
+        "cluster": 2,
+        "cluster_size": 10,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true}",
+        "equation": "mathematics:ForcedBrusselator.1"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 9,
+        "phi_1": 3,
+        "phi_2": 9,
+        "phi_3": 3,
+        "phi_4": 3,
+        "phi_5": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root.0:raw:0",
+            "mean_complexity": 7,
+            "G": 9,
+            "matched": 21,
+            "assigned_sources": 21
+          },
+          {
+            "phi": "phi_1",
+            "route": "root.0:raw:1",
+            "mean_complexity": 3.5714285714285716,
+            "G": 3,
+            "matched": 21,
+            "assigned_sources": 21
+          },
+          {
+            "phi": "phi_2",
+            "route": "root:raw:0",
+            "mean_complexity": 6.142857142857143,
+            "G": 9,
+            "matched": 21,
+            "assigned_sources": 21
+          },
+          {
+            "phi": "phi_3",
+            "route": "root:raw:1",
+            "mean_complexity": 4.142857142857143,
+            "G": 3,
+            "matched": 21,
+            "assigned_sources": 21
+          },
+          {
+            "phi": "phi_4",
+            "route": "root.0:incoming",
+            "mean_complexity": 3.5714285714285716,
+            "G": 3,
+            "matched": 21,
+            "assigned_sources": 21
+          },
+          {
+            "phi": "phi_5",
+            "route": "output",
+            "mean_complexity": 3.2857142857142856,
+            "G": 3,
+            "matched": 21,
+            "assigned_sources": 21
+          }
+        ]
+      }
+    },
+    {
+      "builder": "IAPB04",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "+",
+        "raw_arity": 4,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 2,
+      "operator_pattern": "sum_φ([sum(X),sum(X),sum(X),sum(X),prod_φ([sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 270,
+        "cluster": 3,
+        "cluster_size": 12,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":4,\"raw_attachment\":true}",
+        "equation": "symbolic_search:Livermore2_Vars6_16"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 9,
+        "phi_1": 3,
+        "phi_2": 9,
+        "phi_3": 3,
+        "phi_4": 3,
+        "phi_5": 3,
+        "phi_6": 3,
+        "phi_7": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root.0:raw:0",
+            "mean_complexity": 7.153846153846154,
+            "G": 9,
+            "matched": 13,
+            "assigned_sources": 13
+          },
+          {
+            "phi": "phi_1",
+            "route": "root.0:raw:1",
+            "mean_complexity": 3.777120315581854,
+            "G": 3,
+            "matched": 11,
+            "assigned_sources": 13
+          },
+          {
+            "phi": "phi_2",
+            "route": "root:raw:0",
+            "mean_complexity": 6.6923076923076925,
+            "G": 9,
+            "matched": 13,
+            "assigned_sources": 13
+          },
+          {
+            "phi": "phi_3",
+            "route": "root:raw:1",
+            "mean_complexity": 5.3076923076923075,
+            "G": 3,
+            "matched": 13,
+            "assigned_sources": 13
+          },
+          {
+            "phi": "phi_4",
+            "route": "root:raw:2",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 13,
+            "assigned_sources": 13
+          },
+          {
+            "phi": "phi_5",
+            "route": "root:raw:3",
+            "mean_complexity": 4.238658777120316,
+            "G": 3,
+            "matched": 4,
+            "assigned_sources": 13
+          },
+          {
+            "phi": "phi_6",
+            "route": "root.0:incoming",
+            "mean_complexity": 4.846153846153846,
+            "G": 3,
+            "matched": 13,
+            "assigned_sources": 13
+          },
+          {
+            "phi": "phi_7",
+            "route": "output",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 13,
+            "assigned_sources": 13
+          }
+        ]
+      }
+    },
+    {
+      "builder": "IAPB05",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "operator": "+",
+                            "raw_arity": 2,
+                            "raw_attachment": true
+                          }
+                        ],
+                        "operator": "*",
+                        "raw_arity": 2,
+                        "raw_attachment": true
+                      }
+                    ],
+                    "operator": "*",
+                    "raw_arity": 1,
+                    "raw_attachment": true
+                  }
+                ],
+                "operator": "+",
+                "raw_arity": 1,
+                "raw_attachment": true
+              }
+            ],
+            "operator": "*",
+            "raw_arity": 1,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "+",
+        "raw_arity": 2,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 6,
+      "operator_pattern": "sum_φ([sum(X),sum(X),prod_φ([sum(X),sum_φ([sum(X),prod_φ([sum(X),prod_φ([sum(X),sum(X),sum_φ([sum(X),sum(X)])])])])])])",
+      "source_representative": {
+        "source_index": 278,
+        "cluster": 4,
+        "cluster_size": 21,
+        "signature": "{\"children\":[{\"children\":[{\"children\":[{\"children\":[{\"children\":[{\"children\":[],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":1,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":1,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":1,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true}",
+        "equation": "symbolic_search:Livermore2_Vars5_22"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 9,
+        "phi_1": 3,
+        "phi_2": 9,
+        "phi_3": 3,
+        "phi_4": 9,
+        "phi_5": 9,
+        "phi_6": 9,
+        "phi_7": 9,
+        "phi_8": 3,
+        "phi_9": 9,
+        "phi_10": 9,
+        "phi_11": 3,
+        "phi_12": 9,
+        "phi_13": 3,
+        "phi_14": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root.0.0.0.0.0:raw:0",
+            "mean_complexity": 9.335164835164836,
+            "G": 9,
+            "matched": 4,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_1",
+            "route": "root.0.0.0.0.0:raw:1",
+            "mean_complexity": 5.335164835164835,
+            "G": 3,
+            "matched": 4,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_2",
+            "route": "root.0.0.0.0:raw:0",
+            "mean_complexity": 8,
+            "G": 9,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_3",
+            "route": "root.0.0.0.0:raw:1",
+            "mean_complexity": 5.333333333333333,
+            "G": 3,
+            "matched": 5,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_4",
+            "route": "root.0.0.0.0.0:incoming",
+            "mean_complexity": 6.335164835164835,
+            "G": 9,
+            "matched": 4,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_5",
+            "route": "root.0.0.0:raw:0",
+            "mean_complexity": 7.809523809523809,
+            "G": 9,
+            "matched": 5,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_6",
+            "route": "root.0.0.0.0:incoming",
+            "mean_complexity": 8,
+            "G": 9,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_7",
+            "route": "root.0.0:raw:0",
+            "mean_complexity": 11,
+            "G": 9,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_8",
+            "route": "root.0.0.0:incoming",
+            "mean_complexity": 4,
+            "G": 3,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_9",
+            "route": "root.0:raw:0",
+            "mean_complexity": 8,
+            "G": 9,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_10",
+            "route": "root.0.0:incoming",
+            "mean_complexity": 7,
+            "G": 9,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_11",
+            "route": "root:raw:0",
+            "mean_complexity": 5,
+            "G": 3,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_12",
+            "route": "root:raw:1",
+            "mean_complexity": 6.185714285714286,
+            "G": 9,
+            "matched": 2,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_13",
+            "route": "root.0:incoming",
+            "mean_complexity": 4,
+            "G": 3,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_14",
+            "route": "output",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 6,
+            "assigned_sources": 6
+          }
+        ]
+      }
+    },
+    {
+      "builder": "IAPB06",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 5,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "*",
+        "raw_arity": 1,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 2,
+      "operator_pattern": "prod_φ([sum(X),prod_φ([sum(X),sum(X),sum(X),sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 13,
+        "cluster": 5,
+        "cluster_size": 7,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":5,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":1,\"raw_attachment\":true}",
+        "equation": "physics:Feynman043:I.40.1"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 15,
+        "phi_1": 15,
+        "phi_2": 3,
+        "phi_3": 3,
+        "phi_4": 9,
+        "phi_5": 3,
+        "phi_6": 9,
+        "phi_7": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root.0:raw:0",
+            "mean_complexity": 14,
+            "G": 15,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_1",
+            "route": "root.0:raw:1",
+            "mean_complexity": 14,
+            "G": 15,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_2",
+            "route": "root.0:raw:2",
+            "mean_complexity": 4,
+            "G": 3,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_3",
+            "route": "root.0:raw:3",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_4",
+            "route": "root.0:raw:4",
+            "mean_complexity": 6.656746031746032,
+            "G": 9,
+            "matched": 1,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_5",
+            "route": "root:raw:0",
+            "mean_complexity": 5,
+            "G": 3,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_6",
+            "route": "root.0:incoming",
+            "mean_complexity": 10,
+            "G": 9,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_7",
+            "route": "output",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 6,
+            "assigned_sources": 6
+          }
+        ]
+      }
+    },
+    {
+      "builder": "IAPB07",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "operator": "*",
+                "raw_arity": 2,
+                "raw_attachment": true
+              }
+            ],
+            "operator": "+",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "*",
+        "raw_arity": 1,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 3,
+      "operator_pattern": "prod_φ([sum(X),sum_φ([sum(X),sum(X),prod_φ([sum(X),sum(X)])])])",
+      "source_representative": {
+        "source_index": 299,
+        "cluster": 6,
+        "cluster_size": 16,
+        "signature": "{\"children\":[{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":1,\"raw_attachment\":true}",
+        "equation": "symbolic_search:Livermore2_Vars4_19"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 9,
+        "phi_1": 3,
+        "phi_2": 3,
+        "phi_3": 3,
+        "phi_4": 3,
+        "phi_5": 3,
+        "phi_6": 3,
+        "phi_7": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root.0.0:raw:0",
+            "mean_complexity": 9.9,
+            "G": 9,
+            "matched": 20,
+            "assigned_sources": 20
+          },
+          {
+            "phi": "phi_1",
+            "route": "root.0.0:raw:1",
+            "mean_complexity": 5.724242424242425,
+            "G": 3,
+            "matched": 18,
+            "assigned_sources": 20
+          },
+          {
+            "phi": "phi_2",
+            "route": "root.0:raw:0",
+            "mean_complexity": 5.21025641025641,
+            "G": 3,
+            "matched": 18,
+            "assigned_sources": 20
+          },
+          {
+            "phi": "phi_3",
+            "route": "root.0:raw:1",
+            "mean_complexity": 5.627518315018315,
+            "G": 3,
+            "matched": 6,
+            "assigned_sources": 20
+          },
+          {
+            "phi": "phi_4",
+            "route": "root.0.0:incoming",
+            "mean_complexity": 5.1,
+            "G": 3,
+            "matched": 20,
+            "assigned_sources": 20
+          },
+          {
+            "phi": "phi_5",
+            "route": "root:raw:0",
+            "mean_complexity": 5.7,
+            "G": 3,
+            "matched": 20,
+            "assigned_sources": 20
+          },
+          {
+            "phi": "phi_6",
+            "route": "root.0:incoming",
+            "mean_complexity": 4.8,
+            "G": 3,
+            "matched": 20,
+            "assigned_sources": 20
+          },
+          {
+            "phi": "phi_7",
+            "route": "output",
+            "mean_complexity": 3.3,
+            "G": 3,
+            "matched": 20,
+            "assigned_sources": 20
+          }
+        ]
+      }
+    },
+    {
+      "builder": "IAPB08",
+      "synthetic_operator_tree": {
+        "children": [],
+        "operator": "*",
+        "raw_arity": 3,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 1,
+      "operator_pattern": "prod_φ([sum(X),sum(X),sum(X)])",
+      "source_representative": {
+        "source_index": 17,
+        "cluster": 7,
+        "cluster_size": 28,
+        "signature": "{\"children\":[],\"operator\":\"*\",\"raw_arity\":3,\"raw_attachment\":true}",
+        "equation": "physics:Feynman075:II.34.2a"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 9,
+        "phi_1": 3,
+        "phi_2": 3,
+        "phi_3": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root:raw:0",
+            "mean_complexity": 11.235294117647058,
+            "G": 9,
+            "matched": 51,
+            "assigned_sources": 51
+          },
+          {
+            "phi": "phi_1",
+            "route": "root:raw:1",
+            "mean_complexity": 5.823529411764706,
+            "G": 3,
+            "matched": 51,
+            "assigned_sources": 51
+          },
+          {
+            "phi": "phi_2",
+            "route": "root:raw:2",
+            "mean_complexity": 3.4705882352941178,
+            "G": 3,
+            "matched": 51,
+            "assigned_sources": 51
+          },
+          {
+            "phi": "phi_3",
+            "route": "output",
+            "mean_complexity": 3.3529411764705883,
+            "G": 3,
+            "matched": 51,
+            "assigned_sources": 51
+          }
+        ]
+      }
+    },
+    {
+      "builder": "IAPB09",
+      "synthetic_operator_tree": {
+        "children": [],
+        "operator": "*",
+        "raw_arity": 4,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 1,
+      "operator_pattern": "prod_φ([sum(X),sum(X),sum(X),sum(X)])",
+      "source_representative": {
+        "source_index": 52,
+        "cluster": 8,
+        "cluster_size": 13,
+        "signature": "{\"children\":[],\"operator\":\"*\",\"raw_arity\":4,\"raw_attachment\":true}",
+        "equation": "physics:Feynman055:II.6.11"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 15,
+        "phi_1": 9,
+        "phi_2": 3,
+        "phi_3": 3,
+        "phi_4": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root:raw:0",
+            "mean_complexity": 13.421052631578947,
+            "G": 15,
+            "matched": 19,
+            "assigned_sources": 19
+          },
+          {
+            "phi": "phi_1",
+            "route": "root:raw:1",
+            "mean_complexity": 9.947368421052632,
+            "G": 9,
+            "matched": 19,
+            "assigned_sources": 19
+          },
+          {
+            "phi": "phi_2",
+            "route": "root:raw:2",
+            "mean_complexity": 5.526315789473684,
+            "G": 3,
+            "matched": 19,
+            "assigned_sources": 19
+          },
+          {
+            "phi": "phi_3",
+            "route": "root:raw:3",
+            "mean_complexity": 3.3157894736842106,
+            "G": 3,
+            "matched": 19,
+            "assigned_sources": 19
+          },
+          {
+            "phi": "phi_4",
+            "route": "output",
+            "mean_complexity": 3.3157894736842106,
+            "G": 3,
+            "matched": 19,
+            "assigned_sources": 19
+          }
+        ]
+      }
+    },
+    {
+      "builder": "IAPB10",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "*",
+        "raw_arity": 2,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 2,
+      "operator_pattern": "prod_φ([sum(X),sum(X),prod_φ([sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 20,
+        "cluster": 9,
+        "cluster_size": 26,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}",
+        "equation": "physics:Feynman050:I.48.20"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 9,
+        "phi_1": 9,
+        "phi_2": 9,
+        "phi_3": 3,
+        "phi_4": 9,
+        "phi_5": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root.0:raw:0",
+            "mean_complexity": 9,
+            "G": 9,
+            "matched": 9,
+            "assigned_sources": 9
+          },
+          {
+            "phi": "phi_1",
+            "route": "root.0:raw:1",
+            "mean_complexity": 6.333333333333333,
+            "G": 9,
+            "matched": 9,
+            "assigned_sources": 9
+          },
+          {
+            "phi": "phi_2",
+            "route": "root:raw:0",
+            "mean_complexity": 7.666666666666667,
+            "G": 9,
+            "matched": 9,
+            "assigned_sources": 9
+          },
+          {
+            "phi": "phi_3",
+            "route": "root:raw:1",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 9,
+            "assigned_sources": 9
+          },
+          {
+            "phi": "phi_4",
+            "route": "root.0:incoming",
+            "mean_complexity": 11.666666666666666,
+            "G": 9,
+            "matched": 9,
+            "assigned_sources": 9
+          },
+          {
+            "phi": "phi_5",
+            "route": "output",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 9,
+            "assigned_sources": 9
+          }
+        ]
+      }
+    },
+    {
+      "builder": "IAPB11",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "*",
+        "raw_arity": 4,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 2,
+      "operator_pattern": "prod_φ([sum(X),sum(X),sum(X),sum(X),prod_φ([sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 62,
+        "cluster": 10,
+        "cluster_size": 17,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":4,\"raw_attachment\":true}",
+        "equation": "physics:Feynman064:II.11.27"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 9,
+        "phi_1": 9,
+        "phi_2": 9,
+        "phi_3": 3,
+        "phi_4": 3,
+        "phi_5": 3,
+        "phi_6": 9,
+        "phi_7": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root.0:raw:0",
+            "mean_complexity": 9.75,
+            "G": 9,
+            "matched": 8,
+            "assigned_sources": 8
+          },
+          {
+            "phi": "phi_1",
+            "route": "root.0:raw:1",
+            "mean_complexity": 7.5,
+            "G": 9,
+            "matched": 8,
+            "assigned_sources": 8
+          },
+          {
+            "phi": "phi_2",
+            "route": "root:raw:0",
+            "mean_complexity": 9.75,
+            "G": 9,
+            "matched": 8,
+            "assigned_sources": 8
+          },
+          {
+            "phi": "phi_3",
+            "route": "root:raw:1",
+            "mean_complexity": 5.25,
+            "G": 3,
+            "matched": 8,
+            "assigned_sources": 8
+          },
+          {
+            "phi": "phi_4",
+            "route": "root:raw:2",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 8,
+            "assigned_sources": 8
+          },
+          {
+            "phi": "phi_5",
+            "route": "root:raw:3",
+            "mean_complexity": 5.397321428571429,
+            "G": 3,
+            "matched": 3,
+            "assigned_sources": 8
+          },
+          {
+            "phi": "phi_6",
+            "route": "root.0:incoming",
+            "mean_complexity": 11.25,
+            "G": 9,
+            "matched": 8,
+            "assigned_sources": 8
+          },
+          {
+            "phi": "phi_7",
+            "route": "output",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 8,
+            "assigned_sources": 8
+          }
+        ]
+      }
+    },
+    {
+      "builder": "IAPB12",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "+",
+        "raw_arity": 1,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 2,
+      "operator_pattern": "sum_φ([sum(X),prod_φ([sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 162,
+        "cluster": 11,
+        "cluster_size": 22,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":1,\"raw_attachment\":true}",
+        "equation": "biochemistry:BIOMD0000000674:VmFTS"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 9,
+        "phi_1": 3,
+        "phi_2": 9,
+        "phi_3": 3,
+        "phi_4": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root.0:raw:0",
+            "mean_complexity": 6.75,
+            "G": 9,
+            "matched": 24,
+            "assigned_sources": 24
+          },
+          {
+            "phi": "phi_1",
+            "route": "root.0:raw:1",
+            "mean_complexity": 4.690476190476191,
+            "G": 3,
+            "matched": 22,
+            "assigned_sources": 24
+          },
+          {
+            "phi": "phi_2",
+            "route": "root:raw:0",
+            "mean_complexity": 6.5,
+            "G": 9,
+            "matched": 24,
+            "assigned_sources": 24
+          },
+          {
+            "phi": "phi_3",
+            "route": "root.0:incoming",
+            "mean_complexity": 3.75,
+            "G": 3,
+            "matched": 24,
+            "assigned_sources": 24
+          },
+          {
+            "phi": "phi_4",
+            "route": "output",
+            "mean_complexity": 3.25,
+            "G": 3,
+            "matched": 24,
+            "assigned_sources": 24
+          }
+        ]
+      }
+    },
+    {
+      "builder": "IAPB13",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "*",
+        "raw_arity": 1,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 2,
+      "operator_pattern": "prod_φ([sum(X),prod_φ([sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 1,
+        "cluster": 12,
+        "cluster_size": 28,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":1,\"raw_attachment\":true}",
+        "equation": "physics:Feynman095:III.15.12"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 9,
+        "phi_1": 3,
+        "phi_2": 9,
+        "phi_3": 9,
+        "phi_4": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root.0:raw:0",
+            "mean_complexity": 9.631578947368421,
+            "G": 9,
+            "matched": 19,
+            "assigned_sources": 19
+          },
+          {
+            "phi": "phi_1",
+            "route": "root.0:raw:1",
+            "mean_complexity": 5.035087719298246,
+            "G": 3,
+            "matched": 18,
+            "assigned_sources": 19
+          },
+          {
+            "phi": "phi_2",
+            "route": "root:raw:0",
+            "mean_complexity": 6.157894736842105,
+            "G": 9,
+            "matched": 19,
+            "assigned_sources": 19
+          },
+          {
+            "phi": "phi_3",
+            "route": "root.0:incoming",
+            "mean_complexity": 7.7368421052631575,
+            "G": 9,
+            "matched": 19,
+            "assigned_sources": 19
+          },
+          {
+            "phi": "phi_4",
+            "route": "output",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 19,
+            "assigned_sources": 19
+          }
+        ]
+      }
+    },
+    {
+      "builder": "IAPB14",
+      "synthetic_operator_tree": {
+        "children": [],
+        "operator": "*",
+        "raw_arity": 5,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 1,
+      "operator_pattern": "prod_φ([sum(X),sum(X),sum(X),sum(X),sum(X)])",
+      "source_representative": {
+        "source_index": 16,
+        "cluster": 13,
+        "cluster_size": 10,
+        "signature": "{\"children\":[],\"operator\":\"*\",\"raw_arity\":5,\"raw_attachment\":true}",
+        "equation": "physics:Feynman063:II.11.20"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 15,
+        "phi_1": 15,
+        "phi_2": 9,
+        "phi_3": 3,
+        "phi_4": 3,
+        "phi_5": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root:raw:0",
+            "mean_complexity": 15,
+            "G": 15,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_1",
+            "route": "root:raw:1",
+            "mean_complexity": 13,
+            "G": 15,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_2",
+            "route": "root:raw:2",
+            "mean_complexity": 9,
+            "G": 9,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_3",
+            "route": "root:raw:3",
+            "mean_complexity": 5,
+            "G": 3,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_4",
+            "route": "root:raw:4",
+            "mean_complexity": 4,
+            "G": 3,
+            "matched": 6,
+            "assigned_sources": 6
+          },
+          {
+            "phi": "phi_5",
+            "route": "output",
+            "mean_complexity": 4,
+            "G": 3,
+            "matched": 6,
+            "assigned_sources": 6
+          }
+        ]
+      }
+    },
+    {
+      "builder": "IAPB15",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "+",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "+",
+        "raw_arity": 1,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 2,
+      "operator_pattern": "sum_φ([sum(X),sum_φ([sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 293,
+        "cluster": 14,
+        "cluster_size": 20,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":1,\"raw_attachment\":true}",
+        "equation": "symbolic_search:Livermore2_Vars2_24"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 9,
+        "phi_1": 3,
+        "phi_2": 3,
+        "phi_3": 9,
+        "phi_4": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root.0:raw:0",
+            "mean_complexity": 12,
+            "G": 9,
+            "matched": 2,
+            "assigned_sources": 2
+          },
+          {
+            "phi": "phi_1",
+            "route": "root.0:raw:1",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 2,
+            "assigned_sources": 2
+          },
+          {
+            "phi": "phi_2",
+            "route": "root:raw:0",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 2,
+            "assigned_sources": 2
+          },
+          {
+            "phi": "phi_3",
+            "route": "root.0:incoming",
+            "mean_complexity": 9,
+            "G": 9,
+            "matched": 2,
+            "assigned_sources": 2
+          },
+          {
+            "phi": "phi_4",
+            "route": "output",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 2,
+            "assigned_sources": 2
+          }
+        ]
+      }
+    },
+    {
+      "builder": "IAPB16",
+      "synthetic_operator_tree": {
+        "children": [],
+        "operator": "*",
+        "raw_arity": 2,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 1,
+      "operator_pattern": "prod_φ([sum(X),sum(X)])",
+      "source_representative": {
+        "source_index": 175,
+        "cluster": 16,
+        "cluster_size": 29,
+        "signature": "{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}",
+        "equation": "biochemistry:BIOMD0000000855:Neutrophil_Destruction_Macrophage"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 9,
+        "phi_1": 3,
+        "phi_2": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root:raw:0",
+            "mean_complexity": 8.482758620689655,
+            "G": 9,
+            "matched": 58,
+            "assigned_sources": 58
+          },
+          {
+            "phi": "phi_1",
+            "route": "root:raw:1",
+            "mean_complexity": 4.655172413793103,
+            "G": 3,
+            "matched": 56,
+            "assigned_sources": 58
+          },
+          {
+            "phi": "phi_2",
+            "route": "output",
+            "mean_complexity": 3.206896551724138,
+            "G": 3,
+            "matched": 58,
+            "assigned_sources": 58
+          }
+        ]
+      }
+    },
+    {
+      "builder": "IAPB17",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "operator": "*",
+                "raw_arity": 2,
+                "raw_attachment": true
+              }
+            ],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "+",
+        "raw_arity": 0,
+        "raw_attachment": false
+      },
+      "arithmetic_nodes": 4,
+      "operator_pattern": "sum_φ([prod_φ([sum(X),sum(X)]),prod_φ([sum(X),sum(X),prod_φ([sum(X),sum(X)])])])",
+      "source_representative": {
+        "source_index": 109,
+        "cluster": 0,
+        "cluster_size": 7,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true},{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":0,\"raw_attachment\":false}",
+        "equation": "mathematics:GlycolyticOscillation.2"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 9,
+        "phi_1": 3,
+        "phi_2": 3,
+        "phi_3": 3,
+        "phi_4": 9,
+        "phi_5": 9,
+        "phi_6": 9,
+        "phi_7": 3,
+        "phi_8": 3,
+        "phi_9": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root.0:raw:0",
+            "mean_complexity": 9,
+            "G": 9,
+            "matched": 12,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_1",
+            "route": "root.0:raw:1",
+            "mean_complexity": 3.7727272727272725,
+            "G": 3,
+            "matched": 11,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_2",
+            "route": "root.1.0:raw:0",
+            "mean_complexity": 5.8,
+            "G": 3,
+            "matched": 11,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_3",
+            "route": "root.1.0:raw:1",
+            "mean_complexity": 4.425,
+            "G": 3,
+            "matched": 10,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_4",
+            "route": "root.1:raw:0",
+            "mean_complexity": 8.5,
+            "G": 9,
+            "matched": 12,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_5",
+            "route": "root.1:raw:1",
+            "mean_complexity": 6.234212315462315,
+            "G": 9,
+            "matched": 3,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_6",
+            "route": "root.1.0:incoming",
+            "mean_complexity": 7.3,
+            "G": 9,
+            "matched": 11,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_7",
+            "route": "root.0:incoming",
+            "mean_complexity": 4.5,
+            "G": 3,
+            "matched": 12,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_8",
+            "route": "root.1:incoming",
+            "mean_complexity": 4,
+            "G": 3,
+            "matched": 12,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_9",
+            "route": "output",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 12,
+            "assigned_sources": 12
+          }
+        ]
+      }
+    },
+    {
+      "builder": "IAPB18",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "operator": "*",
+                "raw_arity": 2,
+                "raw_attachment": true
+              }
+            ],
+            "operator": "+",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "*",
+        "raw_arity": 2,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 3,
+      "operator_pattern": "prod_φ([sum(X),sum(X),sum_φ([sum(X),sum(X),prod_φ([sum(X),sum(X)])])])",
+      "source_representative": {
+        "source_index": 239,
+        "cluster": 1,
+        "cluster_size": 6,
+        "signature": "{\"children\":[{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}",
+        "equation": "symbolic_search:Livermore2_Vars2_2"
+      },
+      "materialization": "unshared finite source topology",
+      "phi_basis_by_label": {
+        "phi_0": 9,
+        "phi_1": 3,
+        "phi_2": 3,
+        "phi_3": 3,
+        "phi_4": 3,
+        "phi_5": 9,
+        "phi_6": 3,
+        "phi_7": 9,
+        "phi_8": 3
+      },
+      "output_phi": true,
+      "phi_complexity_allocation": {
+        "source_only": true,
+        "source_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+        "maps": [
+          {
+            "phi": "phi_0",
+            "route": "root.0.0:raw:0",
+            "mean_complexity": 8,
+            "G": 9,
+            "matched": 12,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_1",
+            "route": "root.0.0:raw:1",
+            "mean_complexity": 5,
+            "G": 3,
+            "matched": 12,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_2",
+            "route": "root.0:raw:0",
+            "mean_complexity": 5.818181818181818,
+            "G": 3,
+            "matched": 11,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_3",
+            "route": "root.0:raw:1",
+            "mean_complexity": 5.542388167388167,
+            "G": 3,
+            "matched": 2,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_4",
+            "route": "root.0.0:incoming",
+            "mean_complexity": 5.5,
+            "G": 3,
+            "matched": 12,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_5",
+            "route": "root:raw:0",
+            "mean_complexity": 10,
+            "G": 9,
+            "matched": 12,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_6",
+            "route": "root:raw:1",
+            "mean_complexity": 6,
+            "G": 3,
+            "matched": 12,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_7",
+            "route": "root.0:incoming",
+            "mean_complexity": 6.5,
+            "G": 9,
+            "matched": 12,
+            "assigned_sources": 12
+          },
+          {
+            "phi": "phi_8",
+            "route": "output",
+            "mean_complexity": 3,
+            "G": 3,
+            "matched": 12,
+            "assigned_sources": 12
+          }
+        ]
+      }
+    }
+  ],
+  "construction": {
+    "native_input": "original declared-input expression AST",
+    "phi_projection": "after native representatives, using frozen executable-edge source specifications",
+    "existing_catalogue_used": false,
+    "heldout_data_supplied": false,
+    "native_counts": [
+      18,
+      20
+    ],
+    "shortfall_rule": "K + missing distinct phi builders",
+    "exact_native_hit": false,
+    "added_from_larger_results": [
+      {
+        "from_native_k": 20,
+        "source_index": 109,
+        "cluster": 0,
+        "cluster_size": 7,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true},{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":0,\"raw_attachment\":false}",
+        "equation": "mathematics:GlycolyticOscillation.2"
+      },
+      {
+        "from_native_k": 20,
+        "source_index": 239,
+        "cluster": 1,
+        "cluster_size": 6,
+        "signature": "{\"children\":[{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}",
+        "equation": "symbolic_search:Livermore2_Vars2_2"
+      }
+    ],
+    "acuos2_policy": null,
+    "pair_timeout_seconds": null,
+    "seconds": 226.71871984098107,
+    "base_native_k": 18
+  },
+  "complexity_allocation": {
+    "rule": "source-aligned average, nearest 3/9/15, lower tie",
+    "unmatched": "source equation mean; empty builder uses source-pool mean",
+    "source_rows": 300,
+    "heldout_rows_read": 0,
+    "source_assignments": [
+      {
+        "equation": "physics:Feynman040:I.39.10",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman095:III.15.12",
+        "builder": "IAPB13",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman085:II.38.14",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman106:N-slit diffraction",
+        "builder": "IAPB11",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "physics:Feynman019:I.15.10",
+        "builder": "IAPB10",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman047:I.43.43",
+        "builder": "IAPB09",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman031:I.30.5",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman099:III.19.51",
+        "builder": "IAPB14",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman058:II.8.7",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman016:I.14.4",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman107:Goldstein 3.16",
+        "builder": "IAPB07",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman036:I.34.14",
+        "builder": "IAPB11",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "physics:Feynman109:Goldstein 3.64 (ellipse)",
+        "builder": "IAPB10",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman043:I.40.1",
+        "builder": "IAPB06",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman060:I.10.9",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman010:I.12.4",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman063:II.11.20",
+        "builder": "IAPB14",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman075:II.34.2a",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman045:I.43.16",
+        "builder": "IAPB09",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman049:I.47.23",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman050:I.48.20",
+        "builder": "IAPB10",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman024:I.24.6",
+        "builder": "IAPB10",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman108:Goldstein 3.55",
+        "builder": "IAPB11",
+        "mismatch": 2,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman013:I.13.4",
+        "builder": "IAPB13",
+        "mismatch": 2,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman119:Weinberg 15.2.2",
+        "builder": "IAPB18",
+        "mismatch": 4,
+        "unused": 2
+      },
+      {
+        "equation": "physics:Feynman081:II.35.21",
+        "builder": "IAPB06",
+        "mismatch": 1,
+        "unused": 1
+      },
+      {
+        "equation": "physics:Feynman089:III.8.54",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman005:I.9.18",
+        "builder": "IAPB11",
+        "mismatch": 2,
+        "unused": 1
+      },
+      {
+        "equation": "physics:Feynman083:II.37.1",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman103:Compton scattering",
+        "builder": "IAPB06",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "physics:Feynman020:I.16.6",
+        "builder": "IAPB13",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman039:I.38.12",
+        "builder": "IAPB09",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman012:I.12.11",
+        "builder": "IAPB07",
+        "mismatch": 1,
+        "unused": 1
+      },
+      {
+        "equation": "physics:Feynman111:Goldstein 3.99",
+        "builder": "IAPB14",
+        "mismatch": 2,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman069:II.15.4",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman065:II.11.28",
+        "builder": "IAPB10",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman032:I.32.5",
+        "builder": "IAPB09",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman056:II.6.15a",
+        "builder": "IAPB11",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman110:Goldstein 3.74 (Kepler)",
+        "builder": "IAPB13",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman029:I.29.16",
+        "builder": "IAPB03",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman072:II.24.17",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman004:I.8.4",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman002:I.6.20",
+        "builder": "IAPB13",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman026:I.26.2",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman014:I.13.12",
+        "builder": "IAPB14",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman118:Weinberg 15.2.1",
+        "builder": "IAPB07",
+        "mismatch": 1,
+        "unused": 1
+      },
+      {
+        "equation": "physics:Feynman038:I.37.4",
+        "builder": "IAPB18",
+        "mismatch": 2,
+        "unused": 1
+      },
+      {
+        "equation": "physics:Feynman022:I.18.4",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman093:III.13.18",
+        "builder": "IAPB09",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman062:II.11.17",
+        "builder": "IAPB14",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman007:I.11.19",
+        "builder": "IAPB02",
+        "mismatch": 0,
+        "unused": 3
+      },
+      {
+        "equation": "physics:Feynman052:II.2.42",
+        "builder": "IAPB09",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman055:II.6.11",
+        "builder": "IAPB09",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman053:II.3.24",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman057:II.6.15b",
+        "builder": "IAPB09",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman091:III.10.19",
+        "builder": "IAPB13",
+        "mismatch": 2,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman094:III.14.14",
+        "builder": "IAPB06",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "physics:Feynman027:I.27.6",
+        "builder": "IAPB18",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "physics:Feynman080:II.35.18",
+        "builder": "IAPB07",
+        "mismatch": 7,
+        "unused": 2
+      },
+      {
+        "equation": "physics:Feynman096:III.15.14",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman044:I.41.16",
+        "builder": "IAPB06",
+        "mismatch": 2,
+        "unused": 1
+      },
+      {
+        "equation": "physics:Feynman066:II.13.17",
+        "builder": "IAPB09",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman064:II.11.27",
+        "builder": "IAPB11",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman098:III.17.37",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman030:I.30.3",
+        "builder": "IAPB10",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman048:I.44.4",
+        "builder": "IAPB11",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "physics:Feynman086:III.4.32",
+        "builder": "IAPB09",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman079:II.34.29b",
+        "builder": "IAPB14",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman023:I.18.16",
+        "builder": "IAPB09",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman009:I.12.2",
+        "builder": "IAPB09",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman061:II.11.3",
+        "builder": "IAPB11",
+        "mismatch": 1,
+        "unused": 1
+      },
+      {
+        "equation": "physics:Feynman073:II.27.16",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman003:I.6.20b",
+        "builder": "IAPB13",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "physics:Feynman116:Jackson 4.60",
+        "builder": "IAPB18",
+        "mismatch": 1,
+        "unused": 1
+      },
+      {
+        "equation": "physics:Feynman035:I.34.10",
+        "builder": "IAPB13",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:RayleighBenard.1",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "mathematics:Ikeda.2",
+        "builder": "IAPB17",
+        "mismatch": 4,
+        "unused": 2
+      },
+      {
+        "equation": "mathematics:HyperWang.3",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:LorenzStenflo.1",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "mathematics:HyperBao.2",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:FluidTrampoline.2",
+        "builder": "IAPB12",
+        "mismatch": 3,
+        "unused": 1
+      },
+      {
+        "equation": "mathematics:NewtonLiepnik.2",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:KaplanYorke.2",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:ArnoldBeltramiChildress.2",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:HyperPang.2",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:GenesioTesi.3",
+        "builder": "IAPB08",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:strogatz_6",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:PanXuZhou.2",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:eponymous_141",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:DoublePendulum.3",
+        "builder": "IAPB05",
+        "mismatch": 7,
+        "unused": 2
+      },
+      {
+        "equation": "mathematics:Rossler.3",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:YuWang2.3",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Tinkerbell.1",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:SprottD.3",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Thomas.1",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:ArnoldWeb.1",
+        "builder": "IAPB13",
+        "mismatch": 2,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:SprottJ.3",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:SanUmSrisuchinwong.3",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:CoevolvingPredatorPrey.2",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:SprottTorus.3",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:AtmosphericRegime.3",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Gingerbreadman.1",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Hadley.1",
+        "builder": "IAPB08",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Qi.4",
+        "builder": "IAPB12",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:SprottMore.3",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:SprottQ.3",
+        "builder": "IAPB08",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:eponymous_144",
+        "builder": "IAPB13",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Bogdanov.2",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:strogatz_4",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:GlycolyticOscillation.2",
+        "builder": "IAPB17",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:LorenzBounded.1",
+        "builder": "IAPB02",
+        "mismatch": 3,
+        "unused": 1
+      },
+      {
+        "equation": "mathematics:ForcedVanDerPol.2",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:OscillatingFlow.1",
+        "builder": "IAPB13",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Aizawa.3",
+        "builder": "IAPB02",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:SaltonSea.1",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:ForcedBrusselator.1",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Chirikov.2",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:strogatz_8",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:ItikBanksTumor.1",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:JerkCircuit.3",
+        "builder": "IAPB08",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:IsothermalChemical.2",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Coullet.3",
+        "builder": "IAPB08",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:HindmarshRose.1",
+        "builder": "IAPB08",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:BelousovZhabotinsky.1",
+        "builder": "IAPB02",
+        "mismatch": 5,
+        "unused": 2
+      },
+      {
+        "equation": "mathematics:NuclearQuadrupole.3",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Hopalong.1",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Laser.1",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Svensson.1",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:PehlivanWei.3",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:DequanLi.3",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:SwingingAtwood.3",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:WindmiReduced.3",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:strogatz_13",
+        "builder": "IAPB13",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:RabinovichFabrikant.3",
+        "builder": "IAPB13",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Duffing.2",
+        "builder": "IAPB08",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Bedhead.1",
+        "builder": "IAPB07",
+        "mismatch": 2,
+        "unused": 1
+      },
+      {
+        "equation": "mathematics:Baker.2",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Chua.1",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:eponymous_51",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:TurchinHanski.1",
+        "builder": "IAPB07",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Blasius.2",
+        "builder": "IAPB13",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Bouali.3",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:GuckenheimerHolmes.3",
+        "builder": "IAPB08",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:eponymous_107",
+        "builder": "IAPB13",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:Bouali2.2",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:strogatz_0",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:ForcedFitzHughNagumo.1",
+        "builder": "IAPB08",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:YuWang.3",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:strogatz_3",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "mathematics:DoubleGyre.1",
+        "builder": "IAPB13",
+        "mismatch": 5,
+        "unused": 1
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000697:Degradation_Cdk2_CycErem",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000699:R14",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000001058:Activation_of_SBF_by_Cln",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000828:Production_of_miR_451",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000622:R9",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000834:r39",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000744:PCC_activation_by_PSC",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000700:Phosphorylation_of_APC_C_Cdh1_in_Emi1_APC_C_Cdh1_complexes",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000999:reaction27",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000607:v10",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000819:Cancer_Stem_Cell_S_death",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000596:NFkB_a1",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000674:VmFTS",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000646:p27_degradation_from_CycE_p27_complexes",
+        "builder": "IAPB13",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000001022:T_cell_mediated_tumor_cell_killing",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000913:Increase_in_IL_2_concentration",
+        "builder": "IAPB13",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000627:AK_neurons",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000568:reaction_38",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000922:reaction_for_L",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000737:Liver_NTBI",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000934:Sic1_degradation__Clb_regulated__2",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000981:Exposed_to_Quarantined",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000714:reaction_3",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000723:reaction_58",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000540:re2",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000855:Neutrophil_Destruction_Macrophage",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000001065:R11_0_2",
+        "builder": "IAPB10",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000961:re44",
+        "builder": "IAPB13",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000724:CD3i_P_CD3a",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000727:GcrA_synthesis",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000730:Ca_synthesis_through_E2F",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000761:CD8_Population_Growth_Inhibition",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000001041:CAR_T_cell_population_growth",
+        "builder": "IAPB18",
+        "mismatch": 2,
+        "unused": 1
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000661:T_cell_degradation",
+        "builder": "IAPB09",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000703:c_syn",
+        "builder": "IAPB10",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000826:v3",
+        "builder": "IAPB09",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000773:differentiation_of_cell",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000876:CTL_Stimulation",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000933:Cdc2_kinase_activation",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000833:R55",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000811:CD8_Proliferation_Stimulation_IFNG",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000954:reaction_for_Rbpp_production",
+        "builder": "IAPB07",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000849:re9",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000791:tumor_immune",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000837:Helper_T_Cells_Memory_Decay",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000711:Binding_of_Antibody__A__and_Virus__V",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000729:Cdc2_kinase_activation",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000926:Tumor_Cell_u1__death",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000769:H2_growth",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000937:R3_APC_activation_by_Cdk1_active",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000839:v4_1",
+        "builder": "IAPB16",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000001007:p53_degradation",
+        "builder": "IAPB05",
+        "mismatch": 12,
+        "unused": 2
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000490:v22",
+        "builder": "IAPB01",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000042:reaction_2",
+        "builder": "IAPB18",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "biochemistry:BIOMD0000001033:virus_death_elimination",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000768:tumor_growth",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000001077:v14_v_13",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000889:STATP2n_Formation",
+        "builder": "IAPB09",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000991:susceptible_to_exposed",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000895:CD8_Competition",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000657:R3",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000852:MPN_SC_Self_Renewal",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000571:binding_CRP_cAMP",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000757:tumor_killing",
+        "builder": "IAPB09",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000923:reaction_for_O_c",
+        "builder": "IAPB07",
+        "mismatch": 5,
+        "unused": 2
+      },
+      {
+        "equation": "biochemistry:BIOMD0000001005:P_cyt_mRNA_Production",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000898:PC_Self_Renewal",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000731:func_CD8_ETC_Production",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000766:effector_growth",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000648:v11b",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000759:M2_growth",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000468:re7",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000859:Sucrose_Consumption_PCF",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000784:Tumor_Killing",
+        "builder": "IAPB10",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "biochemistry:BIOMD0000000929:Lysis_of_cancer_cells_by_CD8__T_cells",
+        "builder": "IAPB01",
+        "mismatch": 2,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars3_3",
+        "builder": "IAPB05",
+        "mismatch": 2,
+        "unused": 3
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars3_21",
+        "builder": "IAPB07",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_16",
+        "builder": "IAPB02",
+        "mismatch": 3,
+        "unused": 3
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars7_13",
+        "builder": "IAPB06",
+        "mismatch": 1,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars6_25",
+        "builder": "IAPB04",
+        "mismatch": 4,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars5_12",
+        "builder": "IAPB07",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars3_11",
+        "builder": "IAPB04",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars5_8",
+        "builder": "IAPB17",
+        "mismatch": 5,
+        "unused": 2
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_12",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars2_13",
+        "builder": "IAPB12",
+        "mismatch": 3,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars2_19",
+        "builder": "IAPB07",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_1",
+        "builder": "IAPB04",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars3_20",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_2",
+        "builder": "IAPB09",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars2_2",
+        "builder": "IAPB18",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_21",
+        "builder": "IAPB12",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_7",
+        "builder": "IAPB09",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars6_13",
+        "builder": "IAPB03",
+        "mismatch": 8,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars5_5",
+        "builder": "IAPB04",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars2_25",
+        "builder": "IAPB07",
+        "mismatch": 3,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars7_4",
+        "builder": "IAPB03",
+        "mismatch": 5,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars5_14",
+        "builder": "IAPB17",
+        "mismatch": 3,
+        "unused": 3
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars3_19",
+        "builder": "IAPB17",
+        "mismatch": 3,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars6_7",
+        "builder": "IAPB17",
+        "mismatch": 3,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars3_25",
+        "builder": "IAPB04",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars2_15",
+        "builder": "IAPB16",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars5_7",
+        "builder": "IAPB17",
+        "mismatch": 3,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars3_4",
+        "builder": "IAPB04",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars3_6",
+        "builder": "IAPB18",
+        "mismatch": 1,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_24",
+        "builder": "IAPB04",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_25",
+        "builder": "IAPB18",
+        "mismatch": 6,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars5_15",
+        "builder": "IAPB17",
+        "mismatch": 4,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars6_1",
+        "builder": "IAPB04",
+        "mismatch": 3,
+        "unused": 2
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars6_21",
+        "builder": "IAPB02",
+        "mismatch": 1,
+        "unused": 3
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars3_12",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars7_25",
+        "builder": "IAPB17",
+        "mismatch": 8,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars5_11",
+        "builder": "IAPB02",
+        "mismatch": 4,
+        "unused": 2
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_14",
+        "builder": "IAPB07",
+        "mismatch": 1,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars2_17",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_10",
+        "builder": "IAPB07",
+        "mismatch": 3,
+        "unused": 2
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars6_15",
+        "builder": "IAPB18",
+        "mismatch": 4,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars7_20",
+        "builder": "IAPB05",
+        "mismatch": 3,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_13",
+        "builder": "IAPB07",
+        "mismatch": 1,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars3_9",
+        "builder": "IAPB18",
+        "mismatch": 3,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars2_4",
+        "builder": "IAPB08",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars6_16",
+        "builder": "IAPB04",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_6",
+        "builder": "IAPB12",
+        "mismatch": 4,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars5_2",
+        "builder": "IAPB07",
+        "mismatch": 5,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_17",
+        "builder": "IAPB09",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_18",
+        "builder": "IAPB17",
+        "mismatch": 4,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars2_11",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_3",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars2_3",
+        "builder": "IAPB07",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars5_22",
+        "builder": "IAPB05",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars3_15",
+        "builder": "IAPB17",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars3_10",
+        "builder": "IAPB08",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars5_13",
+        "builder": "IAPB07",
+        "mismatch": 2,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars3_18",
+        "builder": "IAPB03",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars7_10",
+        "builder": "IAPB04",
+        "mismatch": 3,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars6_22",
+        "builder": "IAPB12",
+        "mismatch": 5,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars7_18",
+        "builder": "IAPB17",
+        "mismatch": 7,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars5_25",
+        "builder": "IAPB02",
+        "mismatch": 1,
+        "unused": 3
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars6_14",
+        "builder": "IAPB02",
+        "mismatch": 0,
+        "unused": 3
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_15",
+        "builder": "IAPB02",
+        "mismatch": 2,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars5_4",
+        "builder": "IAPB04",
+        "mismatch": 0,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars6_8",
+        "builder": "IAPB04",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars3_22",
+        "builder": "IAPB07",
+        "mismatch": 1,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_20",
+        "builder": "IAPB18",
+        "mismatch": 1,
+        "unused": 1
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars2_24",
+        "builder": "IAPB15",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars7_3",
+        "builder": "IAPB04",
+        "mismatch": 7,
+        "unused": 2
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars5_18",
+        "builder": "IAPB05",
+        "mismatch": 3,
+        "unused": 4
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars2_21",
+        "builder": "IAPB15",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_23",
+        "builder": "IAPB02",
+        "mismatch": 0,
+        "unused": 0
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars3_1",
+        "builder": "IAPB02",
+        "mismatch": 1,
+        "unused": 3
+      },
+      {
+        "equation": "symbolic_search:Livermore2_Vars4_19",
+        "builder": "IAPB07",
+        "mismatch": 0,
+        "unused": 0
+      }
+    ],
+    "vocabulary": {
+      "x": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "cos": {
+        "complexity": 9,
+        "family": "cos"
+      },
+      "1/(2*(z + 1))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "z**(-2)": {
+        "complexity": 15,
+        "family": "inverse_square"
+      },
+      "sin(z/2)**2": {
+        "complexity": 9,
+        "family": "sin²"
+      },
+      "2/(1 - cos(z))": {
+        "complexity": 9,
+        "family": "provisional:2/(1 - cos(z))"
+      },
+      "sin(z)**2": {
+        "complexity": 9,
+        "family": "sin²"
+      },
+      "x²": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "-z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "pow(-1/2)": {
+        "complexity": 9,
+        "family": "provisional:pow(-1/2)"
+      },
+      "1/x": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(z - 1)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "asin": {
+        "complexity": 9,
+        "family": "provisional:asin"
+      },
+      "z**4": {
+        "complexity": 9,
+        "family": "provisional:z**4"
+      },
+      "-z/2": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "sqrt": {
+        "complexity": 9,
+        "family": "provisional:sqrt"
+      },
+      "z**2 - 1": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "exp": {
+        "complexity": 9,
+        "family": "provisional:exp"
+      },
+      "1/(z + 1)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "2*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "2*z - 1": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "tanh": {
+        "complexity": 9,
+        "family": "provisional:tanh"
+      },
+      "z + 1": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "cos(z) - 1": {
+        "complexity": 9,
+        "family": "cos"
+      },
+      "sin": {
+        "complexity": 9,
+        "family": "sin"
+      },
+      "z**(-4)": {
+        "complexity": 9,
+        "family": "provisional:z**(-4)"
+      },
+      "-3*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "z**(-3)": {
+        "complexity": 9,
+        "family": "provisional:z**(-3)"
+      },
+      "z**(-5)": {
+        "complexity": 9,
+        "family": "provisional:z**(-5)"
+      },
+      "z**(3/2)": {
+        "complexity": 9,
+        "family": "provisional:z**(3/2)"
+      },
+      "-2*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-pi**2/z**2": {
+        "complexity": 15,
+        "family": "inverse_square"
+      },
+      "1/sqrt(z**2)": {
+        "complexity": 9,
+        "family": "provisional:1/sqrt(z**2)"
+      },
+      "3*z**2": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "3*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "z**3": {
+        "complexity": 9,
+        "family": "provisional:z**3"
+      },
+      "log": {
+        "complexity": 9,
+        "family": "provisional:log"
+      },
+      "-z**2": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "z - 1": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "1/(z + 2)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "-6/z": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "9*z/10": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "4*z**2": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "-5*z/2": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "20*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-100000*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-1019*z*Abs(z)": {
+        "complexity": 9,
+        "family": "provisional:-1019*z*Abs(z)"
+      },
+      "Heaviside(-z, 0)": {
+        "complexity": 9,
+        "family": "provisional:Heaviside(-z, 0)"
+      },
+      "91*cos(z)/50": {
+        "complexity": 9,
+        "family": "cos"
+      },
+      "z/100000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-2*z/5": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "5*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "z/5": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "cos(4*pi*z)": {
+        "complexity": 9,
+        "family": "cos"
+      },
+      "141421*sin(z)/100000": {
+        "complexity": 9,
+        "family": "sin"
+      },
+      "34641*cos(z)/20000": {
+        "complexity": 9,
+        "family": "cos"
+      },
+      "-11*z/10": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-11*z/25": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-sin(z)": {
+        "complexity": 9,
+        "family": "sin"
+      },
+      "sin(z)/2": {
+        "complexity": 9,
+        "family": "sin"
+      },
+      "16 - z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-981*sin(z)/50": {
+        "complexity": 9,
+        "family": "sin"
+      },
+      "z/2": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-57*z/10": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "cosh": {
+        "complexity": 9,
+        "family": "provisional:cosh"
+      },
+      "-6013*z/10000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-37*z/20": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "10*sin(z)": {
+        "complexity": 9,
+        "family": "sin"
+      },
+      "abs": {
+        "complexity": 9,
+        "family": "provisional:abs"
+      },
+      "11167*z - 1000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "1/(250*(1333*z + 1000))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "2*z**2": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "-z/100": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-z/5": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-10*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-exp(-z**2)": {
+        "complexity": 9,
+        "family": "provisional:-exp(-z**2)"
+      },
+      "31*z/10": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "6*z*(z - 1)/5": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "-10*z**3/3": {
+        "complexity": 9,
+        "family": "provisional:-10*z**3/3"
+      },
+      "10*z/3": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "10*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "(z + 1)**2": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "100*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "1/(5000*((z + 1)**2 + 100))": {
+        "complexity": 9,
+        "family": "provisional:1/(5000*((z + 1)**2 + 100))"
+      },
+      "111111*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-111111*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "5*z**3/2048": {
+        "complexity": 9,
+        "family": "provisional:5*z**3/2048"
+      },
+      "-5*z**3/2048": {
+        "complexity": 9,
+        "family": "provisional:-5*z**3/2048"
+      },
+      "-5*z/2048": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "5*z/2048": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "6*sin(z)/5": {
+        "complexity": 9,
+        "family": "sin"
+      },
+      "-853*z/100": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "12*sin(z)/25": {
+        "complexity": 9,
+        "family": "sin"
+      },
+      "-z**3/3": {
+        "complexity": 9,
+        "family": "provisional:-z**3/3"
+      },
+      "19*z/20": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "z/10": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-z/4": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-11*z/5": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "cos(z)/20": {
+        "complexity": 9,
+        "family": "cos"
+      },
+      "194327*sin(z)/200000": {
+        "complexity": 9,
+        "family": "sin"
+      },
+      "-z**2/20": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "-exp(76923076923077*z/2000000000000)/1000000000": {
+        "complexity": 9,
+        "family": "provisional:-exp(76923076923077*z/2000000000000)/1000000000"
+      },
+      "769230769230769*z/10000000000000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-769230769230769*z/10000000000000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-z**3": {
+        "complexity": 9,
+        "family": "provisional:-z**3"
+      },
+      "4*z/5": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-9*z/20": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-163333333333333*z**3/10000000000000": {
+        "complexity": 9,
+        "family": "provisional:-163333333333333*z**3/10000000000000"
+      },
+      "333333333333333*z**2/10000000000000": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "333333333333333*z/10000000000000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "1/(50000000*(200869*z + 1387))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(250000*(200869*z + 1387))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "Max(0, z)": {
+        "complexity": 9,
+        "family": "provisional:Max(0, z)"
+      },
+      "80056589547501*z - 8005658954750100": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "sqrt(Max(0, z))": {
+        "complexity": 9,
+        "family": "provisional:sqrt(Max(0, z))"
+      },
+      "-6688418433*Max(0, z)**2/250000000": {
+        "complexity": 9,
+        "family": "provisional:-6688418433*Max(0, z)**2/250000000"
+      },
+      "-808017*Max(0, z)/1000000": {
+        "complexity": 9,
+        "family": "provisional:-808017*Max(0, z)/1000000"
+      },
+      "55980499236371*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-41585498930699*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-673078161*z/10000000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-z/5000000000000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-2*z**3/5": {
+        "complexity": 9,
+        "family": "provisional:-2*z**3/5"
+      },
+      "33*sqrt(2)*z**2/40": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "-33*sqrt(2)*z**2/40": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "Piecewise((0, Eq(z, 1)), (sqrt(10)*(1 - z)*Abs(sqrt(25*z - 52)/(z - 1))/10, True))": {
+        "complexity": 9,
+        "family": "provisional:Piecewise((0, Eq(z, 1)), (sqrt(10)*(1 - z)*Abs(sqrt(25*z - 52)/(z - 1))/10, True))"
+      },
+      "9*sin(3*z/2)/10": {
+        "complexity": 9,
+        "family": "sin"
+      },
+      "sin(9*z/5)": {
+        "complexity": 9,
+        "family": "sin"
+      },
+      "-13*z**2/20": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "1833*z/1000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "491*cos(z)/50": {
+        "complexity": 9,
+        "family": "cos"
+      },
+      "z**(5/4)": {
+        "complexity": 9,
+        "family": "provisional:z**(5/4)"
+      },
+      "tanh(2200*z - 2200) + 1": {
+        "complexity": 9,
+        "family": "provisional:tanh(2200*z - 2200) + 1"
+      },
+      "-111803398874989*z/100000000000000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "z/(z + 1)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "-3*z/40": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-z/10": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "7*cos(z)/20": {
+        "complexity": 9,
+        "family": "cos"
+      },
+      "floor(19999999999*z/10000000000)/2": {
+        "complexity": 9,
+        "family": "provisional:floor(19999999999*z/10000000000)/2"
+      },
+      "-1114269*z/250000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "78*z/5": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-16714113*Abs(z - 1)/5000000": {
+        "complexity": 9,
+        "family": "provisional:-16714113*Abs(z - 1)/5000000"
+      },
+      "16714113*Abs(z + 1)/5000000": {
+        "complexity": 9,
+        "family": "provisional:16714113*Abs(z + 1)/5000000"
+      },
+      "4*z**3": {
+        "complexity": 9,
+        "family": "provisional:4*z**3"
+      },
+      "1/(25*z + 1)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "203*z/25": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "5*z/(2*(25*z**2 + 16))": {
+        "complexity": 9,
+        "family": "provisional:5*z/(2*(25*z**2 + 16))"
+      },
+      "203*sin(z)/50": {
+        "complexity": 9,
+        "family": "sin"
+      },
+      "200*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "4*z/(z + 20)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "-3*z/2": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-z/20": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-11*z**2/25": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "1/(z**2 + 2)": {
+        "complexity": 9,
+        "family": "provisional:1/(z**2 + 2)"
+      },
+      "160329*sin(z)/400000": {
+        "complexity": 9,
+        "family": "sin"
+      },
+      "1 - 9*sin(z)**2/10": {
+        "complexity": 9,
+        "family": "sin²"
+      },
+      "-sin(z)/5": {
+        "complexity": 9,
+        "family": "sin"
+      },
+      "cos(pi*z)": {
+        "complexity": 9,
+        "family": "cos"
+      },
+      "-549*z/1000000000000000000000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "219*z/2000000000000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "10*z + 1": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "1/(z - 2)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "20/(8*z**2 + 5)": {
+        "complexity": 9,
+        "family": "provisional:20/(8*z**2 + 5)"
+      },
+      "1 - z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "5000000000000 - 51*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "50**(1/3)*(12500*z + 3)**(2/3)/1250": {
+        "complexity": 9,
+        "family": "provisional:50**(1/3)*(12500*z + 3)**(2/3)/1250"
+      },
+      "1/(25000*(1250000*z + 59739))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(z + 43)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(z + 3)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "-6300*z/(z + 22)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "2000*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "3000*z/(z + 100000)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "20000*z**2/9": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "-18400*z/9": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "1/(1000000000000000000000000000000000000000000*z**3 + 8422285439738230275574404262942078033675549)": {
+        "complexity": 9,
+        "family": "provisional:1/(1000000000000000000000000000000000000000000*z**3 + 8422285439738230275574404262942078033675549)"
+      },
+      "361*z/1000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-z**2/5000": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "-1841*z/10000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "1/(8000000*(10000000000000000*z + 159421218669513))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(1000000000*z + 1)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(5*(625*z**2 + 49))": {
+        "complexity": 9,
+        "family": "provisional:1/(5*(625*z**2 + 49))"
+      },
+      "(-234745541006981*z - 30737*sqrt(60339460644141129*z**2 - 493575880270000000*z + 1010025000000000000) - 30890685000000)/(243062627*z - sqrt(60339460644141129*z**2 - 493575880270000000*z + 1010025000000000000) - 1005000000)": {
+        "complexity": 9,
+        "family": "provisional:(-234745541006981*z - 30737*sqrt(60339460644141129*z**2 - 493575880270000000*z + 1010025000000000000) - 30890685000000)/(243062627*z - sqrt(60339460644141129*z**2 - 493575880270000000*z + 1010025000000000000) - 1005000000)"
+      },
+      "1/(5000000000*(5000000*z + 105823))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "500000000/(500000000*z + 52044819)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "50000000/(50000000*z + 875872171)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(50*(10000*z**2 + 121))": {
+        "complexity": 9,
+        "family": "provisional:1/(50*(10000*z**2 + 121))"
+      },
+      "8953523556571010702993637514821482953926056495719972948818007045625382769005600419878171078718732265263135388071266983014644752857004635190109564984699994569180576473290583052814919334767335727223009000000*2**(231126569/1000000000)*21137**(429557633/1000000000)*5**(220712101/500000000)*(1/(640000000000000000000000000000000000000*z**(60273/10000) + 89178483832726762152832609*2**(8089/10000)*21137**(273/10000)*5**(4181/5000)))**(770321/100000)": {
+        "complexity": 9,
+        "family": "provisional:8953523556571010702993637514821482953926056495719972948818007045625382769005600419878171078718732265263135388071266983014644752857004635190109564984699994569180576473290583052814919334767335727223009000000*2**(231126569/1000000000)*21137**(429557633/1000000000)*5**(220712101/500000000)*(1/(640000000000000000000000000000000000000*z**(60273/10000) + 89178483832726762152832609*2**(8089/10000)*21137**(273/10000)*5**(4181/5000)))**(770321/100000)"
+      },
+      "579751*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "3122857400000000*z*exp(100000*z)/(10000000000*exp(100000*z) + 220264657948067)": {
+        "complexity": 9,
+        "family": "provisional:3122857400000000*z*exp(100000*z)/(10000000000*exp(100000*z) + 220264657948067)"
+      },
+      "-13920000000000000*z*exp(100000*z)/(10000000000*exp(100000*z) + 220264657948067)": {
+        "complexity": 9,
+        "family": "provisional:-13920000000000000*z*exp(100000*z)/(10000000000*exp(100000*z) + 220264657948067)"
+      },
+      "1/(100*(z + 80))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(50*(25*z**2 + 4))": {
+        "complexity": 9,
+        "family": "provisional:1/(50*(25*z**2 + 4))"
+      },
+      "1/(40*(10*z + 1))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "5*z + 7092": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "1/(3*(3601*z + 78012))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "423*z**2": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "1000*z**2": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "5250000*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "500*(z - 1)**2": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "125*(z + 4)**2": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "(z - 1)**2": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "14*z + 25": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "9015738568500000*z + 86696318059": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "(z + 6000)/(z + 10000)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "(z + 60)/(z + 100)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "400/(z + 10000)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(1000*(z + 1000))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(2*z + 1)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(1000*z - 1001)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "-1500*z/(1000*z + 1)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "6000*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "z/(2*z + 1)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "40*z/(20*z + 1)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "(22125000000000000000000000000000000000000000000000*z**5 + 910422439057349660656605805811238367586183893)/(3125000000000000000000000000000000000000000000000*z**5 + 910422439057349660656605805811238367586183893)": {
+        "complexity": 9,
+        "family": "provisional:(22125000000000000000000000000000000000000000000000*z**5 + 910422439057349660656605805811238367586183893)/(3125000000000000000000000000000000000000000000000*z**5 + 910422439057349660656605805811238367586183893)"
+      },
+      "(11534336*z**10 + 1)/(1048576*z**10 + 1)": {
+        "complexity": 9,
+        "family": "provisional:(11534336*z**10 + 1)/(1048576*z**10 + 1)"
+      },
+      "z/100": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "51*z/1000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "1/(100000*(100*z + 1))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(12500*(z**2 + 640000))": {
+        "complexity": 9,
+        "family": "provisional:1/(12500*(z**2 + 640000))"
+      },
+      "2/(2*z + 1)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "100/(100*z - 101)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "tanh(6*z/84745 - 406779/84745) - 1": {
+        "complexity": 9,
+        "family": "provisional:tanh(6*z/84745 - 406779/84745) - 1"
+      },
+      "tanh(z/141243 - 677966/141243) + tanh(677966/141243) + 4": {
+        "complexity": 9,
+        "family": "provisional:tanh(z/141243 - 677966/141243) + tanh(677966/141243) + 4"
+      },
+      "z**8": {
+        "complexity": 9,
+        "family": "provisional:z**8"
+      },
+      "1/(256*z**8 + 1)": {
+        "complexity": 9,
+        "family": "provisional:1/(256*z**8 + 1)"
+      },
+      "2/(5*(100*z**2 + 641601))": {
+        "complexity": 9,
+        "family": "provisional:2/(5*(100*z**2 + 641601))"
+      },
+      "50/(50*z + 177)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "83 - 100*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-1000*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "83/z": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "-4000*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "55000*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "z/(z + 50)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "342857142857143*z/(800000000000000*(z + 312500))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "800000000000000*z/(z + 50)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "342857142857143*z/(z + 312500)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "343*z**3/51200000000000000000000000000000": {
+        "complexity": 9,
+        "family": "provisional:343*z**3/51200000000000000000000000000000"
+      },
+      "17*z/625000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "50/(100*z + 1)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(5*(4000*z + 1))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(500*(z + 1))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "51*z/50000000000 - 1": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "1/(3125000000000000*(3447116782037*z + 54164595637736))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(25*(2600000*z + 1))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(20*(sqrt(z) + 1000*sqrt(34)))": {
+        "complexity": 9,
+        "family": "provisional:1/(20*(sqrt(z) + 1000*sqrt(34)))"
+      },
+      "10000000000000000000000000/(10000000000000000000000000*z + 1)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "z**5": {
+        "complexity": 9,
+        "family": "provisional:z**5"
+      },
+      "1/(4*(z**5 + 60466176))": {
+        "complexity": 9,
+        "family": "provisional:1/(4*(z**5 + 60466176))"
+      },
+      "-z*(312500000*z**5 + 1240029)/(12500000000*z**5 + 2361960)": {
+        "complexity": 9,
+        "family": "provisional:-z*(312500000*z**5 + 1240029)/(12500000000*z**5 + 2361960)"
+      },
+      "9*z**2/160000": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "-1000000000*z**2": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "1600000000000000000*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "(69*z + 1000000)/(100*(z + 10000))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(25*(z + 10000))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(z + 500000000)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "-z/40000 - 1/2": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "11*z/200000 + 11/10": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "61*z + 61": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "(-2*z - 5)/(5*(2*z + 1))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "(-7*z - 250)/(10*(z + 25))": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "1/(5*(11*z**2 + 540*z + 4000))": {
+        "complexity": 9,
+        "family": "provisional:1/(5*(11*z**2 + 540*z + 4000))"
+      },
+      "10/(10*z + 3)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "29/(10*z + 29)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "625000*z**2/9": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "(z + 200)**(-3)": {
+        "complexity": 9,
+        "family": "provisional:(z + 200)**(-3)"
+      },
+      "z**2/20000000000": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "-2500*z**2/(z + 150)**2": {
+        "complexity": 9,
+        "family": "provisional:-2500*z**2/(z + 150)**2"
+      },
+      "83*z/25": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "23*z**(21/100)/2": {
+        "complexity": 9,
+        "family": "provisional:23*z**(21/100)/2"
+      },
+      "z**(21/100)": {
+        "complexity": 9,
+        "family": "provisional:z**(21/100)"
+      },
+      "200*z**(2/3)": {
+        "complexity": 9,
+        "family": "provisional:200*z**(2/3)"
+      },
+      "z**(2/3)": {
+        "complexity": 9,
+        "family": "provisional:z**(2/3)"
+      },
+      "351*z**2": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "115*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-log(z)": {
+        "complexity": 9,
+        "family": "provisional:-log(z)"
+      },
+      "log(z)/2": {
+        "complexity": 9,
+        "family": "provisional:log(z)/2"
+      },
+      "199*sqrt(z)/200": {
+        "complexity": 9,
+        "family": "provisional:199*sqrt(z)/200"
+      },
+      "-181/z": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "-117*z/50": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "exp(-z)": {
+        "complexity": 9,
+        "family": "provisional:exp(-z)"
+      },
+      "11/(25*z)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "-219*sqrt(z)/100": {
+        "complexity": 9,
+        "family": "provisional:-219*sqrt(z)/100"
+      },
+      "483*z/100": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-383*z/100": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "sqrt(100*z + 99)/10": {
+        "complexity": 9,
+        "family": "provisional:sqrt(100*z + 99)/10"
+      },
+      "7*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "1697*z/100": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "149*z - 681": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "25021729686849*z**2 + 25021729686849*log(z)": {
+        "complexity": 9,
+        "family": "provisional:25021729686849*z**2 + 25021729686849*log(z)"
+      },
+      "123*z/100": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-z/25000000000000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "71*sqrt(z)/100": {
+        "complexity": 9,
+        "family": "provisional:71*sqrt(z)/100"
+      },
+      "741*z**3/100": {
+        "complexity": 9,
+        "family": "provisional:741*z**3/100"
+      },
+      "157*z/25": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "cos(z)/log(z**2 + 1)": {
+        "complexity": 9,
+        "family": "provisional:cos(z)/log(z**2 + 1)"
+      },
+      "21*sqrt(z)/100": {
+        "complexity": 9,
+        "family": "provisional:21*sqrt(z)/100"
+      },
+      "9*log(z)/25": {
+        "complexity": 9,
+        "family": "provisional:9*log(z)/25"
+      },
+      "4*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "37*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "4/z": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "357*z/50": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-341*z/100": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "341*z/100": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "1157*z**3/100": {
+        "complexity": 9,
+        "family": "provisional:1157*z**3/100"
+      },
+      "-20*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "31*z/100": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "100*z - 123": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "sin(exp(z))": {
+        "complexity": 9,
+        "family": "provisional:sin(exp(z))"
+      },
+      "-481*z/100": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-cos(z)": {
+        "complexity": 9,
+        "family": "cos"
+      },
+      "553*z/50": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "log(z + 1)": {
+        "complexity": 9,
+        "family": "provisional:log(z + 1)"
+      },
+      "1/log(z)": {
+        "complexity": 9,
+        "family": "provisional:1/log(z)"
+      },
+      "log(z + 1/2)": {
+        "complexity": 9,
+        "family": "provisional:log(z + 1/2)"
+      },
+      "sin(347*z/100)": {
+        "complexity": 9,
+        "family": "sin"
+      },
+      "639*z/25": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-27*z/20": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "20*z + 19": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-29*z/25": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-1/sqrt(z)": {
+        "complexity": 9,
+        "family": "provisional:-1/sqrt(z)"
+      },
+      "47*sqrt(z)/100": {
+        "complexity": 9,
+        "family": "provisional:47*sqrt(z)/100"
+      },
+      "-43*z**2/100": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "171*sqrt(z)/50": {
+        "complexity": 9,
+        "family": "provisional:171*sqrt(z)/50"
+      },
+      "-exp(z)": {
+        "complexity": 9,
+        "family": "provisional:-exp(z)"
+      },
+      "101666666666667*z/(100000000000000*Abs(z))": {
+        "complexity": 9,
+        "family": "provisional:101666666666667*z/(100000000000000*Abs(z))"
+      },
+      "-670820393249937*z/1000000000000000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "29*z/100": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-sqrt(z)": {
+        "complexity": 9,
+        "family": "provisional:-sqrt(z)"
+      },
+      "exp(-2*z)": {
+        "complexity": 9,
+        "family": "provisional:exp(-2*z)"
+      },
+      "-27*z/50": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "100*z**2": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "27/z": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "9*z**2/25": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "74*sqrt(z)/25": {
+        "complexity": 9,
+        "family": "provisional:74*sqrt(z)/25"
+      },
+      "88*sin(z)/25": {
+        "complexity": 9,
+        "family": "sin"
+      },
+      "sqrt(100*z**4 + 30)/10": {
+        "complexity": 9,
+        "family": "provisional:sqrt(100*z**4 + 30)/10"
+      },
+      "-117*z/25": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "100*z - 143": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "25*z - 38": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "z/25": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-303*sqrt(z)/100": {
+        "complexity": 9,
+        "family": "provisional:-303*sqrt(z)/100"
+      },
+      "-207*z/100": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-367/z": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "-357*z/100": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-307*z/100": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "-7/(25*z)": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "192781542695611*z/100000000000000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "79643800108461*z**2/50000000000000": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "-197030294733579*sin(z)/2000000000000000": {
+        "complexity": 9,
+        "family": "sin"
+      },
+      "182736688175257*z/10000000000000000": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "17*z/50": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "25*z": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "25/z": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "76*z/25": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "76*z**2/25": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "-113/z": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "75/z": {
+        "complexity": 15,
+        "family": "reciprocal"
+      },
+      "-223*sqrt(z)/100": {
+        "complexity": 9,
+        "family": "provisional:-223*sqrt(z)/100"
+      },
+      "-223*z/100": {
+        "complexity": 3,
+        "family": "affine"
+      },
+      "89*z**2/20": {
+        "complexity": 9,
+        "family": "square"
+      },
+      "-143*z/50": {
+        "complexity": 3,
+        "family": "affine"
+      }
+    },
+    "source_mean_mismatch": 0.89,
+    "source_mean_unused": 0.35,
+    "base_catalogue_sha256": "b389e27c0160d2de493e07ba57e2c5a3521d39ca65b8d40a06d190bce61677e6"
+  }
+}

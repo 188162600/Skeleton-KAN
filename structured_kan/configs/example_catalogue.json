@@ -1,0 +1,50 @@
+[
+  {
+    "id": "sum_product",
+    "structure": {
+      "operation": "sum",
+      "children": [
+        {
+          "input": 0
+        },
+        {
+          "operation": "prod",
+          "children": [
+            {
+              "input": 0
+            },
+            {
+              "input": 1
+            }
+          ],
+          "phi": [
+            3,
+            3
+          ]
+        }
+      ],
+      "phi": [
+        9,
+        3
+      ]
+    }
+  },
+  {
+    "id": "additive",
+    "structure": {
+      "operation": "sum",
+      "children": [
+        {
+          "input": 0
+        },
+        {
+          "input": 1
+        }
+      ],
+      "phi": [
+        9,
+        9
+      ]
+    }
+  }
+]

@@ -1,0 +1,581 @@
+{
+  "schema": "structured-kan.catalogue-group.v1",
+  "name": "fgw_sum_mathematics_k18",
+  "method": "fgw_sum",
+  "heldout_domain": "mathematics",
+  "builder_count": 18,
+  "training_equations": 225,
+  "training_sha256": "5d8573ab53daf03a7bd2834a5fbaf5cce0d61ae451f1d3300c9204935861ec61",
+  "source_only": true,
+  "source_domains": [
+    "biochemistry",
+    "physics",
+    "symbolic_search"
+  ],
+  "builder_encoding": "native-finite-topology-v1",
+  "builders": [
+    {
+      "builder": "IAPB01",
+      "synthetic_operator_tree": {
+        "children": [],
+        "operator": "*",
+        "raw_arity": 3,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 1,
+      "operator_pattern": "prod_φ([sum(X),sum(X),sum(X)])",
+      "source_representative": {
+        "source_index": 17,
+        "cluster": 0,
+        "cluster_size": 7,
+        "signature": "{\"children\":[],\"operator\":\"*\",\"raw_arity\":3,\"raw_attachment\":true}",
+        "equation": "physics:Feynman075:II.34.2a"
+      },
+      "materialization": "unshared finite source topology"
+    },
+    {
+      "builder": "IAPB02",
+      "synthetic_operator_tree": {
+        "children": [],
+        "operator": "+",
+        "raw_arity": 2,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 1,
+      "operator_pattern": "sum_φ([sum(X),sum(X)])",
+      "source_representative": {
+        "source_index": 41,
+        "cluster": 1,
+        "cluster_size": 4,
+        "signature": "{\"children\":[],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true}",
+        "equation": "physics:Feynman004:I.8.4"
+      },
+      "materialization": "unshared finite source topology"
+    },
+    {
+      "builder": "IAPB03",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "operator": "*",
+                    "raw_arity": 2,
+                    "raw_attachment": true
+                  }
+                ],
+                "operator": "+",
+                "raw_arity": 2,
+                "raw_attachment": true
+              }
+            ],
+            "operator": "*",
+            "raw_arity": 4,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "+",
+        "raw_arity": 2,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 4,
+      "operator_pattern": "sum_φ([sum(X),sum(X),prod_φ([sum(X),sum(X),sum(X),sum(X),sum_φ([sum(X),sum(X),prod_φ([sum(X),sum(X)])])])])",
+      "source_representative": {
+        "source_index": 167,
+        "cluster": 2,
+        "cluster_size": 7,
+        "signature": "{\"children\":[{\"children\":[{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":4,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true}",
+        "equation": "symbolic_search:Livermore2_Vars6_13"
+      },
+      "materialization": "unshared finite source topology"
+    },
+    {
+      "builder": "IAPB04",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "operator": "+",
+                "raw_arity": 2,
+                "raw_attachment": true
+              }
+            ],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "+",
+        "raw_arity": 2,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 4,
+      "operator_pattern": "sum_φ([sum(X),sum(X),prod_φ([sum(X),sum(X)]),prod_φ([sum(X),sum(X),sum_φ([sum(X),sum(X)])])])",
+      "source_representative": {
+        "source_index": 173,
+        "cluster": 3,
+        "cluster_size": 2,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true},{\"children\":[{\"children\":[],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true}",
+        "equation": "symbolic_search:Livermore2_Vars6_7"
+      },
+      "materialization": "unshared finite source topology"
+    },
+    {
+      "builder": "IAPB05",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "+",
+        "raw_arity": 3,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 2,
+      "operator_pattern": "sum_φ([sum(X),sum(X),sum(X),prod_φ([sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 161,
+        "cluster": 4,
+        "cluster_size": 6,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":3,\"raw_attachment\":true}",
+        "equation": "symbolic_search:Livermore2_Vars4_1"
+      },
+      "materialization": "unshared finite source topology"
+    },
+    {
+      "builder": "IAPB06",
+      "synthetic_operator_tree": {
+        "children": [],
+        "operator": "*",
+        "raw_arity": 4,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 1,
+      "operator_pattern": "prod_φ([sum(X),sum(X),sum(X),sum(X)])",
+      "source_representative": {
+        "source_index": 48,
+        "cluster": 5,
+        "cluster_size": 3,
+        "signature": "{\"children\":[],\"operator\":\"*\",\"raw_arity\":4,\"raw_attachment\":true}",
+        "equation": "physics:Feynman093:III.13.18"
+      },
+      "materialization": "unshared finite source topology"
+    },
+    {
+      "builder": "IAPB07",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          },
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "+",
+        "raw_arity": 3,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 3,
+      "operator_pattern": "sum_φ([sum(X),sum(X),sum(X),prod_φ([sum(X),sum(X)]),prod_φ([sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 212,
+        "cluster": 6,
+        "cluster_size": 8,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true},{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":3,\"raw_attachment\":true}",
+        "equation": "symbolic_search:Livermore2_Vars6_14"
+      },
+      "materialization": "unshared finite source topology"
+    },
+    {
+      "builder": "IAPB08",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "*",
+        "raw_arity": 4,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 2,
+      "operator_pattern": "prod_φ([sum(X),sum(X),sum(X),sum(X),prod_φ([sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 62,
+        "cluster": 7,
+        "cluster_size": 11,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":4,\"raw_attachment\":true}",
+        "equation": "physics:Feynman064:II.11.27"
+      },
+      "materialization": "unshared finite source topology"
+    },
+    {
+      "builder": "IAPB09",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "*",
+        "raw_arity": 2,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 2,
+      "operator_pattern": "prod_φ([sum(X),sum(X),prod_φ([sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 101,
+        "cluster": 8,
+        "cluster_size": 2,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}",
+        "equation": "biochemistry:BIOMD0000001065:R11_0_2"
+      },
+      "materialization": "unshared finite source topology"
+    },
+    {
+      "builder": "IAPB10",
+      "synthetic_operator_tree": {
+        "children": [],
+        "operator": "*",
+        "raw_arity": 2,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 1,
+      "operator_pattern": "prod_φ([sum(X),sum(X)])",
+      "source_representative": {
+        "source_index": 80,
+        "cluster": 10,
+        "cluster_size": 7,
+        "signature": "{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}",
+        "equation": "biochemistry:BIOMD0000000834:r39"
+      },
+      "materialization": "unshared finite source topology"
+    },
+    {
+      "builder": "IAPB11",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "*",
+        "raw_arity": 1,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 2,
+      "operator_pattern": "prod_φ([sum(X),prod_φ([sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 88,
+        "cluster": 11,
+        "cluster_size": 3,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":1,\"raw_attachment\":true}",
+        "equation": "biochemistry:BIOMD0000000646:p27_degradation_from_CycE_p27_complexes"
+      },
+      "materialization": "unshared finite source topology"
+    },
+    {
+      "builder": "IAPB12",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "operator": "+",
+                            "raw_arity": 2,
+                            "raw_attachment": true
+                          }
+                        ],
+                        "operator": "*",
+                        "raw_arity": 2,
+                        "raw_attachment": true
+                      }
+                    ],
+                    "operator": "*",
+                    "raw_arity": 1,
+                    "raw_attachment": true
+                  }
+                ],
+                "operator": "+",
+                "raw_arity": 1,
+                "raw_attachment": true
+              }
+            ],
+            "operator": "*",
+            "raw_arity": 1,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "+",
+        "raw_arity": 2,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 6,
+      "operator_pattern": "sum_φ([sum(X),sum(X),prod_φ([sum(X),sum_φ([sum(X),prod_φ([sum(X),prod_φ([sum(X),sum(X),sum_φ([sum(X),sum(X)])])])])])])",
+      "source_representative": {
+        "source_index": 203,
+        "cluster": 13,
+        "cluster_size": 12,
+        "signature": "{\"children\":[{\"children\":[{\"children\":[{\"children\":[{\"children\":[{\"children\":[],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":1,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":1,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":1,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true}",
+        "equation": "symbolic_search:Livermore2_Vars5_22"
+      },
+      "materialization": "unshared finite source topology"
+    },
+    {
+      "builder": "IAPB13",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "*",
+        "raw_arity": 3,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 2,
+      "operator_pattern": "prod_φ([sum(X),sum(X),sum(X),prod_φ([sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 3,
+        "cluster": 18,
+        "cluster_size": 6,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":3,\"raw_attachment\":true}",
+        "equation": "physics:Feynman106:N-slit diffraction"
+      },
+      "materialization": "unshared finite source topology"
+    },
+    {
+      "builder": "IAPB14",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          },
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          },
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "+",
+        "raw_arity": 3,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 4,
+      "operator_pattern": "sum_φ([sum(X),sum(X),sum(X),prod_φ([sum(X),sum(X)]),prod_φ([sum(X),sum(X)]),prod_φ([sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 222,
+        "cluster": 19,
+        "cluster_size": 5,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true},{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true},{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":3,\"raw_attachment\":true}",
+        "equation": "symbolic_search:Livermore2_Vars4_23"
+      },
+      "materialization": "unshared finite source topology"
+    },
+    {
+      "builder": "IAPB15",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 3,
+            "raw_attachment": true
+          },
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 4,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "+",
+        "raw_arity": 0,
+        "raw_attachment": false
+      },
+      "arithmetic_nodes": 3,
+      "operator_pattern": "sum_φ([prod_φ([sum(X),sum(X),sum(X)]),prod_φ([sum(X),sum(X),sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 171,
+        "cluster": 23,
+        "cluster_size": 9,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":3,\"raw_attachment\":true},{\"children\":[],\"operator\":\"*\",\"raw_arity\":4,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":0,\"raw_attachment\":false}",
+        "equation": "symbolic_search:Livermore2_Vars5_14"
+      },
+      "materialization": "unshared finite source topology"
+    },
+    {
+      "builder": "IAPB16",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "+",
+            "raw_arity": 2,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "+",
+        "raw_arity": 1,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 2,
+      "operator_pattern": "sum_φ([sum(X),sum_φ([sum(X),sum(X)])])",
+      "source_representative": {
+        "source_index": 218,
+        "cluster": 24,
+        "cluster_size": 12,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":1,\"raw_attachment\":true}",
+        "equation": "symbolic_search:Livermore2_Vars2_24"
+      },
+      "materialization": "unshared finite source topology"
+    },
+    {
+      "builder": "IAPB17",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          },
+          {
+            "children": [],
+            "operator": "*",
+            "raw_arity": 2,
+            "raw_attachment": true
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "operator": "*",
+                "raw_arity": 2,
+                "raw_attachment": true
+              }
+            ],
+            "operator": "*",
+            "raw_arity": 1,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "+",
+        "raw_arity": 0,
+        "raw_attachment": false
+      },
+      "arithmetic_nodes": 5,
+      "operator_pattern": "sum_φ([prod_φ([sum(X),sum(X)]),prod_φ([sum(X),sum(X)]),prod_φ([sum(X),prod_φ([sum(X),sum(X)])])])",
+      "source_representative": {
+        "source_index": 172,
+        "cluster": 26,
+        "cluster_size": 15,
+        "signature": "{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true},{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true},{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"*\",\"raw_arity\":1,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":0,\"raw_attachment\":false}",
+        "equation": "symbolic_search:Livermore2_Vars3_19"
+      },
+      "materialization": "unshared finite source topology"
+    },
+    {
+      "builder": "IAPB18",
+      "synthetic_operator_tree": {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "operator": "*",
+                "raw_arity": 2,
+                "raw_attachment": true
+              }
+            ],
+            "operator": "+",
+            "raw_arity": 1,
+            "raw_attachment": true
+          }
+        ],
+        "operator": "+",
+        "raw_arity": 2,
+        "raw_attachment": true
+      },
+      "arithmetic_nodes": 3,
+      "operator_pattern": "sum_φ([sum(X),sum(X),sum_φ([sum(X),prod_φ([sum(X),sum(X)])])])",
+      "source_representative": {
+        "source_index": 217,
+        "cluster": 29,
+        "cluster_size": 11,
+        "signature": "{\"children\":[{\"children\":[{\"children\":[],\"operator\":\"*\",\"raw_arity\":2,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":1,\"raw_attachment\":true}],\"operator\":\"+\",\"raw_arity\":2,\"raw_attachment\":true}",
+        "equation": "symbolic_search:Livermore2_Vars4_20"
+      },
+      "materialization": "unshared finite source topology"
+    }
+  ],
+  "construction": {
+    "native_input": "original declared-input expression AST",
+    "phi_projection": "after native representatives, using frozen executable-edge source specifications",
+    "existing_catalogue_used": false,
+    "heldout_data_supplied": false,
+    "native_counts": [
+      18,
+      26,
+      30
+    ],
+    "shortfall_rule": "K + missing distinct phi builders",
+    "exact_native_hit": true,
+    "added_from_larger_results": [],
+    "acuos2_policy": null,
+    "pair_timeout_seconds": null,
+    "seconds": 491.1960028326139,
+    "base_native_k": 30
+  }
+}

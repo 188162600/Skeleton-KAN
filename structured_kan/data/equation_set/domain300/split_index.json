@@ -1,0 +1,2402 @@
+[
+  {
+    "case_id": "Feynman040:I.39.10",
+    "domain": "physics",
+    "file": "splits/physics/001_15fd633205c8.npz",
+    "sha256": "6bdcc7c378ab298e1b8e6b79bf8a53f2281077b57c647d2aee67ef0d77dbc9b8",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman095:III.15.12",
+    "domain": "physics",
+    "file": "splits/physics/002_6c29042ec686.npz",
+    "sha256": "5ad811393ff51f6e771598cc5fb1497e834f75fe0b088768086430d9d1a1b061",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman085:II.38.14",
+    "domain": "physics",
+    "file": "splits/physics/003_096d5a30e8f7.npz",
+    "sha256": "532c4c5fbebe8410f08173ac231523f5b6bcd5a9712cb71fdc3fe93c5b41d6d7",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman106:N-slit diffraction",
+    "domain": "physics",
+    "file": "splits/physics/004_1f87550f3d8c.npz",
+    "sha256": "ee90aea0863b9a4a95b06354c652b053719cda0b149c5ac2fe220c376acb9dc1",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman019:I.15.10",
+    "domain": "physics",
+    "file": "splits/physics/005_774d1a0844be.npz",
+    "sha256": "643e4a54d5614d834fe6b3485a39f740b3bbf30fb744909614f0a0b3b1180458",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman047:I.43.43",
+    "domain": "physics",
+    "file": "splits/physics/006_fa144f1c7246.npz",
+    "sha256": "1dd64514e538cbdaabc132c364aaa0458d879857a772f81290fb088bfbf0d212",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman031:I.30.5",
+    "domain": "physics",
+    "file": "splits/physics/007_1a7f1d0de5a9.npz",
+    "sha256": "9b2df8e58997841b87f9e0c5a6f9051418996d23f3cdfa662ff1c48c53e0df94",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman099:III.19.51",
+    "domain": "physics",
+    "file": "splits/physics/008_609768a3a3ec.npz",
+    "sha256": "e341c0e67458ad777f5228731c9c0f549ef7175c462ec0bb606a4eefd0461d26",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman058:II.8.7",
+    "domain": "physics",
+    "file": "splits/physics/009_ec23330d025c.npz",
+    "sha256": "833ff1ba56c8be28f5be1d2dfaa73111a0613d8582524ee94e50e433467e0714",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman016:I.14.4",
+    "domain": "physics",
+    "file": "splits/physics/010_ee5bfd3639f7.npz",
+    "sha256": "15ce19e27467a6c4566e4247851adc07d5ea744304685feb364ce7cc80c87291",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman107:Goldstein 3.16",
+    "domain": "physics",
+    "file": "splits/physics/011_6ecae68d4765.npz",
+    "sha256": "fa80d3646e39261e73b5159f0a582725f26e50859a332f366436903708cd8c85",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman036:I.34.14",
+    "domain": "physics",
+    "file": "splits/physics/012_e4733a63dbcf.npz",
+    "sha256": "6f6683753ae2224fe0c2e41ca1db0f8fd736a5d95fc8da517772d3e0d728ef75",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman109:Goldstein 3.64 (ellipse)",
+    "domain": "physics",
+    "file": "splits/physics/013_f38f5fd9654f.npz",
+    "sha256": "5031cf6ae011dd8d427fa16f8702b0515153d521acb08f74cea0db78cba7d6a1",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman043:I.40.1",
+    "domain": "physics",
+    "file": "splits/physics/014_8b507a4b690b.npz",
+    "sha256": "e777bb5f0dd878a0cbc522c1d0d528173ecc0e5b57d2bc4667ae4dd2e89be202",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman060:I.10.9",
+    "domain": "physics",
+    "file": "splits/physics/015_d5afe2a791f5.npz",
+    "sha256": "67626f67e29e2f283ae61861b1ea67dfd89635dbab18ea78601bf648a837fa54",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman010:I.12.4",
+    "domain": "physics",
+    "file": "splits/physics/016_ee68105ad081.npz",
+    "sha256": "e4a7fa426d5b54d123533534c66bcde6fcb28992e956eb01dc5a133f92cdcf7a",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman063:II.11.20",
+    "domain": "physics",
+    "file": "splits/physics/017_ee42dd7ff2b1.npz",
+    "sha256": "90642e00201d48f3d8fb1178c09ef179939249135072299175cf1e05e75fcf94",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman075:II.34.2a",
+    "domain": "physics",
+    "file": "splits/physics/018_e799e956db92.npz",
+    "sha256": "ea1968888bc866856cc21ccf7c1c9d919d2ce8a2e429693aa024067e68a5e4e0",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman045:I.43.16",
+    "domain": "physics",
+    "file": "splits/physics/019_550b640b0acb.npz",
+    "sha256": "742611f752cef025843edf225fce2b073f51f391a33b32625672e015d019c3f4",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman049:I.47.23",
+    "domain": "physics",
+    "file": "splits/physics/020_d17f4dccee6f.npz",
+    "sha256": "8d4712fd6a935fda2310e6956957c47ca84836e1bb5c778c7816d9a1de5d0655",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman050:I.48.20",
+    "domain": "physics",
+    "file": "splits/physics/021_57fe028e2510.npz",
+    "sha256": "25a49d96e71a8a31f52bc004614f054d14b6fe2f94534c856cba40572813f62c",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman024:I.24.6",
+    "domain": "physics",
+    "file": "splits/physics/022_82909143d34f.npz",
+    "sha256": "886a22ee74cd637b3be7e97331ef651b9219ffea71161aaf071124a50da831a2",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman108:Goldstein 3.55",
+    "domain": "physics",
+    "file": "splits/physics/023_296f5519f2e2.npz",
+    "sha256": "c5fd06eb7666d62bb67f85009257b58f318825dd7a4ba68eae8a122b1ca2ff82",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman013:I.13.4",
+    "domain": "physics",
+    "file": "splits/physics/024_9dd89d884953.npz",
+    "sha256": "6d55391e0b77b3659a1c3d10e265a20c98a298e5686755ea53d6d86dc13b5919",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman119:Weinberg 15.2.2",
+    "domain": "physics",
+    "file": "splits/physics/025_3b0415110f6a.npz",
+    "sha256": "52fb4edee36ad45e9f9b032125f6ce10524eeae5c18f0eccd866dce856b6d8a8",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman081:II.35.21",
+    "domain": "physics",
+    "file": "splits/physics/026_b2a755714de7.npz",
+    "sha256": "45a15d659d93b13666d9f95269833abaa905dc2fcb04f6fa11f69f68dabcac38",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman089:III.8.54",
+    "domain": "physics",
+    "file": "splits/physics/027_8220b80234fc.npz",
+    "sha256": "32bcf95953eb2d75dee1b2dc0a48bff5855cb13624ea9d1493d5abd5782089c6",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman005:I.9.18",
+    "domain": "physics",
+    "file": "splits/physics/028_9668d2f88cf3.npz",
+    "sha256": "8c211b36c2b9598ddae1192f8f58a88f32cd48ce1b35f126a0cbcf21ccf24a3c",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman083:II.37.1",
+    "domain": "physics",
+    "file": "splits/physics/029_2bc9e5a9dfdf.npz",
+    "sha256": "c43fbe98cf328ef23dcf4809d557f258626668dad0bf5f90f8c5048004abf088",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman103:Compton scattering",
+    "domain": "physics",
+    "file": "splits/physics/030_688a7814bdb7.npz",
+    "sha256": "ea24f3e5329294b0e55f1dbf2a8a5aa341faf29fd5373268f138ee4bdfde89ea",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman020:I.16.6",
+    "domain": "physics",
+    "file": "splits/physics/031_436378426ca7.npz",
+    "sha256": "a48d109ad7b5e29aea66d167bed39e8a31ce2579633f6c5246fda40d4ba5481a",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman039:I.38.12",
+    "domain": "physics",
+    "file": "splits/physics/032_e61968784879.npz",
+    "sha256": "6b2dde8e91b0011532fdc35613a991516dc9a7e5f884041f7b4d388b5a62941c",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman012:I.12.11",
+    "domain": "physics",
+    "file": "splits/physics/033_d075a0cca3d8.npz",
+    "sha256": "ac502f285dc711c55d0d44ecc428e9ef8ac5798bf20b50baf2c866811a25861e",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman111:Goldstein 3.99",
+    "domain": "physics",
+    "file": "splits/physics/034_e4d258991b08.npz",
+    "sha256": "94c500a565a479d8ac2ec37a3a8092a92b768497af5fb11006f622f361afafa1",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman069:II.15.4",
+    "domain": "physics",
+    "file": "splits/physics/035_93fe96ac821f.npz",
+    "sha256": "fa83b12a3017cde5052aae10bc68e745e1ca76e232b4680965f5c1eb8f90b290",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman065:II.11.28",
+    "domain": "physics",
+    "file": "splits/physics/036_5c28b768c5de.npz",
+    "sha256": "2216bccba44b4f2a340674c7583464a1fd4e310b94d1289f0b952f583707ac26",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman032:I.32.5",
+    "domain": "physics",
+    "file": "splits/physics/037_db3626068b6e.npz",
+    "sha256": "b0eccf2d8d77ad336423d061c2fde8f061caf4f98a527b4fb73ed9cee90137a5",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman056:II.6.15a",
+    "domain": "physics",
+    "file": "splits/physics/038_e326abf62ed2.npz",
+    "sha256": "109fe26dacd69d326684e26a640594b1087081b9c0f60fef30928f37e402d183",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman110:Goldstein 3.74 (Kepler)",
+    "domain": "physics",
+    "file": "splits/physics/039_d96f713d2ab3.npz",
+    "sha256": "4c4e250093467259a440b8b04bb9a79c018c32281c337ef51f41a4b4b3513c54",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman029:I.29.16",
+    "domain": "physics",
+    "file": "splits/physics/040_a1c33ac8fd28.npz",
+    "sha256": "dbbfc4fa3effca7e4f6e237b393f6c90a09879379074596cc67067a4ffa596b2",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman072:II.24.17",
+    "domain": "physics",
+    "file": "splits/physics/041_eb769ccede1d.npz",
+    "sha256": "e45c83060e5fd2829524053b651222b8d5515fa562c94d0f306f82c751aafcca",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman004:I.8.4",
+    "domain": "physics",
+    "file": "splits/physics/042_ed36980eaf8f.npz",
+    "sha256": "ac0f82b6a6f5b9033fddc38fb302933f1c0fd2105fe5b2d5381f595637a5894e",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman002:I.6.20",
+    "domain": "physics",
+    "file": "splits/physics/043_13cd0f2511b0.npz",
+    "sha256": "2c0f5f22ebd1c2377a8a0b75523952e6096d17357ac94a501c91728f292c08f8",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman026:I.26.2",
+    "domain": "physics",
+    "file": "splits/physics/044_b942982a5fb1.npz",
+    "sha256": "4855be0f0e79de0471f2ec6b85c5dc8708f5844ed4d8f9721d7613554d4c93d1",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman014:I.13.12",
+    "domain": "physics",
+    "file": "splits/physics/045_f0108bfaa2d0.npz",
+    "sha256": "4926a281cec8de027e3c17efd6a149e85b47aa42fbf05eecf55f5f0b22d458e3",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman118:Weinberg 15.2.1",
+    "domain": "physics",
+    "file": "splits/physics/046_5e5a7da08f96.npz",
+    "sha256": "87f5aac261a7d38ce15928ead8ad39a35872d743797bffdd0d896b7b469dbef5",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman038:I.37.4",
+    "domain": "physics",
+    "file": "splits/physics/047_64faeca75391.npz",
+    "sha256": "555212b0b391663113065b0072f1719e0cf4ba423d66bea24477e4b41e4cef7b",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman022:I.18.4",
+    "domain": "physics",
+    "file": "splits/physics/048_86b8c7ac3017.npz",
+    "sha256": "338c4cd0d05a1ca6282a307b3c06fef75a758b82be1de79db6ed69fb4e947c17",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman093:III.13.18",
+    "domain": "physics",
+    "file": "splits/physics/049_aa9677c7fa10.npz",
+    "sha256": "6fc6ba971d3cf9159c1529c15ef0812931b2b0df80f519013d9e3b7bb609ba3c",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman062:II.11.17",
+    "domain": "physics",
+    "file": "splits/physics/050_b59bae2906df.npz",
+    "sha256": "700beba48bf6393aa419529fee1794fdd52225bf05d64b0c020c785d5a6b496d",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman007:I.11.19",
+    "domain": "physics",
+    "file": "splits/physics/051_0df40d034c95.npz",
+    "sha256": "34c5a65098518f712a3f3739c0f687685d78f01337ad71204ef5944201240265",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman052:II.2.42",
+    "domain": "physics",
+    "file": "splits/physics/052_5897d62d9cc6.npz",
+    "sha256": "003a2d9c16acd75844d67149e18223376b37bf61e8fa734b3327db6386afa5a3",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman055:II.6.11",
+    "domain": "physics",
+    "file": "splits/physics/053_b60a7f30e522.npz",
+    "sha256": "6e576333643ed87b6436157cf526f36d9f1167d7c5700de5314f96fe4e38abb0",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman053:II.3.24",
+    "domain": "physics",
+    "file": "splits/physics/054_1e14efe80c9a.npz",
+    "sha256": "271c3759d02dffcdaa6bb322dbfdabb19c8bad72f6ecc2c8957746115f2d717c",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman057:II.6.15b",
+    "domain": "physics",
+    "file": "splits/physics/055_6afda48878c0.npz",
+    "sha256": "181832d23d8c9dd8e4f06f249fe00dde8695285b5ccd1088f65f29c43453c603",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman091:III.10.19",
+    "domain": "physics",
+    "file": "splits/physics/056_eaae321565f0.npz",
+    "sha256": "c89bffebaa4d9d67103afb1041f049cbf2bd86a1e0395d8c9b66a073efea6109",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman094:III.14.14",
+    "domain": "physics",
+    "file": "splits/physics/057_cf853cfb3a21.npz",
+    "sha256": "5c94dcffa426738718b9e64a82400a1fe8a888a5d9e451d329620b26e9758a2b",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman027:I.27.6",
+    "domain": "physics",
+    "file": "splits/physics/058_f178e027fff1.npz",
+    "sha256": "d14781a8a8f99391cd96395834926ce7b423bc98463afc5c15c357d45b2dedf1",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman080:II.35.18",
+    "domain": "physics",
+    "file": "splits/physics/059_b47414c902c7.npz",
+    "sha256": "053ee4ab34e70b4669b39ffc6c16c10b778097c23d33add5fa13cb0e965d5039",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman096:III.15.14",
+    "domain": "physics",
+    "file": "splits/physics/060_26ab1fcae3b6.npz",
+    "sha256": "8ee0ba69d42d97da628bc723d31db1db4c2140584ce61526e98634a2e3614647",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman044:I.41.16",
+    "domain": "physics",
+    "file": "splits/physics/061_7a32fb1af19b.npz",
+    "sha256": "62b80ca2ee473ab6245aefdebf80399f0e4b1d991f3a4aaf8b42342e91c62ef5",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman066:II.13.17",
+    "domain": "physics",
+    "file": "splits/physics/062_49755612011e.npz",
+    "sha256": "d922c1496fea1803d143d8e29ba98e9dfddae95b691f160ead3729b6aa68517a",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman064:II.11.27",
+    "domain": "physics",
+    "file": "splits/physics/063_6252198e0914.npz",
+    "sha256": "6b024605d239995233c097ec9542a75dc36eb8dbc29f400c7cbbf502d3556bb8",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman098:III.17.37",
+    "domain": "physics",
+    "file": "splits/physics/064_8afb860bf8ff.npz",
+    "sha256": "5bd6ed3682a4053a3185147b81237db27c8bc375b233a516476fec5fd10b76c5",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman030:I.30.3",
+    "domain": "physics",
+    "file": "splits/physics/065_8219518b9244.npz",
+    "sha256": "41537cb00f6ef9e75fccd7bd92b301c8d78a29f01cbbf06cb6e9d508b84ab899",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman048:I.44.4",
+    "domain": "physics",
+    "file": "splits/physics/066_9a050dafa2ec.npz",
+    "sha256": "f77e0af107abc165953a59e0d71cf0a9d27ac7a436a4a205dfb7180524ef07ee",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman086:III.4.32",
+    "domain": "physics",
+    "file": "splits/physics/067_937346b0c9ea.npz",
+    "sha256": "8db16627bcc2d02b5a0bcde8368dd8ee1544d5bcab5f6f7a7401e77b934fb447",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman079:II.34.29b",
+    "domain": "physics",
+    "file": "splits/physics/068_804d9c926746.npz",
+    "sha256": "aeff019705eccb6b7111cdab2d0f023012e8ac4b46648b752c0453d2c98a6f01",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman023:I.18.16",
+    "domain": "physics",
+    "file": "splits/physics/069_cdd317ee5487.npz",
+    "sha256": "f7538d496dd2749e30c5664e0bdb0996ac98a6aa6598a1f4aa201d7ea4d9ccce",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman009:I.12.2",
+    "domain": "physics",
+    "file": "splits/physics/070_3e4e0eaf144e.npz",
+    "sha256": "8c82dc60f7f9189e5f9e482994f35641209b67f85ef2e8da4485085a640169be",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman061:II.11.3",
+    "domain": "physics",
+    "file": "splits/physics/071_87b92008f172.npz",
+    "sha256": "55bdc5fb94841a28ffde7c340313777c4915eda33356aa528ab45b2f122a8eb3",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman073:II.27.16",
+    "domain": "physics",
+    "file": "splits/physics/072_b9c89f1d64f7.npz",
+    "sha256": "3613be89da2b67849ff31cbebcf952c3e94d9743cb7173e57899edbc555cf81c",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman003:I.6.20b",
+    "domain": "physics",
+    "file": "splits/physics/073_682046d6dbde.npz",
+    "sha256": "04a937d4515130f0ebcbeb43e06d1715804b37c6545b5acd5bac8916a7cba0df",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman116:Jackson 4.60",
+    "domain": "physics",
+    "file": "splits/physics/074_4874ea18e077.npz",
+    "sha256": "f483f12c1899b05dd995aa636f08fec18e4bb605af7a708ed5ef1d0f037c60bf",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Feynman035:I.34.10",
+    "domain": "physics",
+    "file": "splits/physics/075_6bc21708ee60.npz",
+    "sha256": "f0750ec51f9096594e18c1376a1a2f2b8cf04648f7bd5b4dd8893b159fe86af9",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "RayleighBenard.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/001_848044125e56.npz",
+    "sha256": "2644d9fbdbcd2bca8998d6650771e36053f4cdef2a7f056c0dade9f8e757bce3",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Ikeda.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/002_7d827d921362.npz",
+    "sha256": "550177e00015c567fde7e756aeab660f9808878219e20a25d9f55b9df7a15e1c",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "HyperWang.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/003_f1a62dc90413.npz",
+    "sha256": "299b5ea5accda9bd6ada0fe45283cf5fb1dc24ecb9f62e5b610d065167b9fab6",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "LorenzStenflo.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/004_b7c784423138.npz",
+    "sha256": "2d57318b39da83f3601bed47868238e85e2179d0522a7c9e39bf7b1aaadf690c",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "HyperBao.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/005_180aca0c6e2e.npz",
+    "sha256": "239499192d70093344c201263944d3d907c641f8cd4840dfdefe8eb61e136c4d",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "FluidTrampoline.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/006_62430ba5d707.npz",
+    "sha256": "ff181e98ab07140f57050c8a3598b4acdc948066d82048c907000f202c8625c7",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "NewtonLiepnik.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/007_0ed354747ea1.npz",
+    "sha256": "bb9c2e1cd61b97dfadf66d03f4f24917c1afe90f692ceb1ca918958e5ee5fe1f",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "KaplanYorke.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/008_9c750d3cf44f.npz",
+    "sha256": "480921d127f0d1569723bac311036e9ee4c4278ed7464264dae21f97d5d20dfc",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "ArnoldBeltramiChildress.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/009_2056ccc46c8d.npz",
+    "sha256": "79c4a533b273fcacb1e23c9213315fa6d7a773c2baa4b5adf580e847cbc26ce4",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "HyperPang.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/010_129d423559e6.npz",
+    "sha256": "88b48997636e98821105ad43744ba2fa194eb2e55336fbaa92861329ace948dc",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "GenesioTesi.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/011_460cd646b648.npz",
+    "sha256": "b699c04f9a3d463de49fbed02e040dba83491223a5be29e19363f169bfa29356",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "strogatz_6",
+    "domain": "mathematics",
+    "file": "splits/mathematics/012_03a6284864e6.npz",
+    "sha256": "416cef0c1d9ea0e860f0fbf8bb2c052b8059f73a726c37cb8110a801c0d38226",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "PanXuZhou.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/013_ba1f5f75fba7.npz",
+    "sha256": "53878b30119287ae20b700b48b63386adc1296e47228df46aedb72417a5e15ab",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "eponymous_141",
+    "domain": "mathematics",
+    "file": "splits/mathematics/014_e68cab09117f.npz",
+    "sha256": "5d2c1d058fd7c53b28942f4532ddc2dafe7185311ed693e58641906234efb412",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "DoublePendulum.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/015_da10060a6b97.npz",
+    "sha256": "fccc9507426586036c2976fd6ea5bd71aa0c8c37973a84f1655fd8b5dbb75d61",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Rossler.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/016_3669e4780556.npz",
+    "sha256": "59988acf42abfc98e3dcf3f2075fda1744ce84ef45eb25debad42b08616bdef0",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "YuWang2.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/017_1db6357b648d.npz",
+    "sha256": "ea0af37a392823d986611ca1fe25da22e8aed7dc8257d308848d8c0cf2c046e5",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Tinkerbell.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/018_cbbd9ba4470f.npz",
+    "sha256": "fe87b3a289c832d17000513aec8e7fad5110281f26055f3744887902ca978931",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "SprottD.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/019_89aecaaf950a.npz",
+    "sha256": "751ed155f559d3a2ce6c6e8418de6b27661c93fbb65a2b8f11f10d64761ca16e",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Thomas.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/020_ae0c72dd5c88.npz",
+    "sha256": "09168dd37c44e0eb33172da09dfe45725ff2e293d770c94836b61962405ce9e1",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "ArnoldWeb.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/021_8a5df456b4e9.npz",
+    "sha256": "959982385b65a5c18111e28d5c44e4f124d9dced7ed5c7a226097f251cd4425a",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "SprottJ.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/022_bc3e3e93e99f.npz",
+    "sha256": "fc36b1470795cf7a38f6315285c1055e4bf4c84b1f56d3b67414d506f808f91a",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "SanUmSrisuchinwong.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/023_78d29e0ce5fb.npz",
+    "sha256": "932ac45707b5906082d34d9c0c41322320834f5439bd9c03e92ea6a718ea2cd0",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "CoevolvingPredatorPrey.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/024_11170954d143.npz",
+    "sha256": "6112c756532ce1a061dc127f1306251231e23448c8521609a95db00894de47a4",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "SprottTorus.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/025_cc8973f31c16.npz",
+    "sha256": "3622f52a45b5b9b87d34de5310b99f659c50b1e2ba7b378dab5fd3bef5363f36",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "AtmosphericRegime.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/026_3106810e4f6f.npz",
+    "sha256": "136ba1ba28b9c0d2dd8ef173a86816d535df0b48e5965e531aa3e92616e64edd",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Gingerbreadman.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/027_187ae8f6c47c.npz",
+    "sha256": "9e7679d50519c2db8e8aa743ccd461dca839d432a1dd50d54790a848af690c7b",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Hadley.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/028_ddbdbd53e911.npz",
+    "sha256": "ca5a7c0a79e481cbdec4e49a87136c175163d33854e2b676652806b4b671a076",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Qi.4",
+    "domain": "mathematics",
+    "file": "splits/mathematics/029_5cf42f351c00.npz",
+    "sha256": "6057ed8714188da197fed58fd4ff323b23738791bd5a11e1141115e0049e7eb6",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "SprottMore.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/030_2804ab23ff69.npz",
+    "sha256": "3dd8fb204626e634c76f684ac17a03e823b409c5521b01bfa2092dc10b7de116",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "SprottQ.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/031_0bb26abb16c4.npz",
+    "sha256": "2152deaf71b6e38d8b9d1252ed496a1670782849798fe6434ea4d8c90cb07a4b",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "eponymous_144",
+    "domain": "mathematics",
+    "file": "splits/mathematics/032_87bf891ac5fb.npz",
+    "sha256": "b6db50a165ab8988bb6e21c7c65014ddb89e18e877abaaff55899956db6dd583",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Bogdanov.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/033_833a996186b6.npz",
+    "sha256": "8041419f9b7fcd7b6e356411eb135d68b1e68e928504cd1a2040dc99ec4ab75c",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "strogatz_4",
+    "domain": "mathematics",
+    "file": "splits/mathematics/034_82552c49ef3a.npz",
+    "sha256": "1ff5d901ed04d40bb5f3a682889c1717929d9a803fd8887da612f10d5fa68dca",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "GlycolyticOscillation.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/035_8b95d88f879c.npz",
+    "sha256": "06f48bf9a092e828dbeed28ccdff01fa011c84efe9336d3abc03dad2e5173e49",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "LorenzBounded.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/036_9a637dd7b61f.npz",
+    "sha256": "07ca59176b63e70263c304bcd105291a6b311e72e889c4b0223926290cb85832",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "ForcedVanDerPol.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/037_ecbd284661f1.npz",
+    "sha256": "d4d01a161bb4f85dc25a2744633989f374979f0046a7b78c4834810a339d0e08",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "OscillatingFlow.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/038_7703da427a88.npz",
+    "sha256": "74a9771a9de1754b589f7c61f902a83da8b0134d23df9b9c5820d4326a6b4b70",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Aizawa.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/039_5a3cef8706fe.npz",
+    "sha256": "85e7d50d893bc7f6dfd37c2679a342b5c4f19d25ffd0ab5daa3bd30d94b74894",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "SaltonSea.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/040_1b32a3b30d60.npz",
+    "sha256": "cd95769791521bda41d75941ec223ee660b3a55176d871fcd07dc4c9928f0d1a",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "ForcedBrusselator.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/041_4d33b56147ef.npz",
+    "sha256": "7826a39a87a99238dfafe37d56743ee2ed34dca212537ea61393075ae51a0502",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Chirikov.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/042_d531cb0f563a.npz",
+    "sha256": "79e03d7207160ab309535acb1307c4f2e8e2f69326749f538897177c591f0ede",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "strogatz_8",
+    "domain": "mathematics",
+    "file": "splits/mathematics/043_4ef635a8b4dc.npz",
+    "sha256": "f17ab6db687f189896f9a82fd94fcada80a3ceee1f2d306c251bd644ba4f574c",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "ItikBanksTumor.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/044_f927bf7c6d80.npz",
+    "sha256": "2f731b11656fe5c3c1ae008f89c8e04fec442352b4e96f92a83acd2cbf0c4076",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "JerkCircuit.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/045_573797ea00f8.npz",
+    "sha256": "d6f11393d10c0b769b17daa201fbf4a3387807340b42b645504eaefad5ecfc67",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "IsothermalChemical.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/046_b606f3506b9e.npz",
+    "sha256": "0f5609c5d454d29d92284f47b434333da1a5aaa60aaad498db6c345e9749c160",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Coullet.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/047_4a2e9df10d52.npz",
+    "sha256": "870d0e7598d5cf6e2b1312f202fafd0e4e4b30f253b46d0ca772141ea94d6d44",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "HindmarshRose.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/048_c6b4bb9528ae.npz",
+    "sha256": "fda0a58669f613d215f868897ba0776fffa36789b674bb9b78e619f54166d1a5",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BelousovZhabotinsky.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/049_b5f358074407.npz",
+    "sha256": "7fee6b4d3c84e5e89376b4886c004b12a5bc88ed8b0b64a79f464337676797f7",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "NuclearQuadrupole.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/050_8b7d56506cfc.npz",
+    "sha256": "0c385dbca9d46397a4b8158b615c07d48dcc4bd11a2e758933384041a6dedb93",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Hopalong.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/051_e45d34407ea4.npz",
+    "sha256": "bfd813b8125c9ee2792f16dd56530175a5a394cb1eacdf2cc28616f90af1fb98",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Laser.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/052_174de89f92bf.npz",
+    "sha256": "8b9cdb258a4779c3c1932058b6e836afd0f26283d21766dbc5afa08d569856b2",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Svensson.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/053_55be0c3a6eb7.npz",
+    "sha256": "b2ddfefbbbb2443e9e9db329d644000162c813f7d6fcd4174c7ac1223317208a",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "PehlivanWei.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/054_e47b5b8a018c.npz",
+    "sha256": "904bafb38a6c14f7e8353aa9d523332ed04aef31b5fce6ae8e116e87ce13fe7d",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "DequanLi.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/055_43de8667f479.npz",
+    "sha256": "6b4e8a7f8eb4d64b6a117d06f541ff542cbeebd0becab2e52a582ce766afd051",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "SwingingAtwood.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/056_8377bb500b5a.npz",
+    "sha256": "9ebb9f993cef4503a097c08e8c035dbe1e4efd9bfe6f9181dabde9e7d9b8fe63",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "WindmiReduced.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/057_c724866e936c.npz",
+    "sha256": "2e95a8a8e11e24b8a94babad844cb7937cbe6e0d31ce28b52478e52e23180326",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "strogatz_13",
+    "domain": "mathematics",
+    "file": "splits/mathematics/058_5e0d0f82dc16.npz",
+    "sha256": "742d87a0fe30a002acf5256e4e259a5099809640fb6d3a58842eaed7a9a9be5b",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "RabinovichFabrikant.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/059_c50d015d2f25.npz",
+    "sha256": "1833ffad2db5eebfe5fb22d79a623290f511382aca00b15a8868e3176df416b8",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Duffing.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/060_3ef844f42d53.npz",
+    "sha256": "6d7fff43bb4d7ce6f2bf4ad688b4275ec0620920e6ead824905588ceb3eed5be",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Bedhead.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/061_f3dc4e1a8db5.npz",
+    "sha256": "995ab905beaf10558ad91ba865e8619988b2c2e32288a33db619a4d0a9cf6342",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Baker.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/062_7b42a84be558.npz",
+    "sha256": "8fc5c76a012ad2bc618f184abcf4e60afbb9ac990ed0a8708f0a6eac6d78f7f9",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Chua.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/063_6f71d7655a67.npz",
+    "sha256": "5fe1993706b4068154d263d6659d19482007c00815bf64f0ce8461019569260d",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "eponymous_51",
+    "domain": "mathematics",
+    "file": "splits/mathematics/064_b3a7c9afb3b2.npz",
+    "sha256": "2ea33282c54bcefbb7632b2d15319da274c6885ea05d97796ad6d867bd5a3701",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "TurchinHanski.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/065_3280a2b01fc7.npz",
+    "sha256": "3c9b17c8a5a3e7ab7a1641f6ebc01be6e3720b3a66e17b35b536e540f12ea8b3",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Blasius.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/066_23e6f913ae60.npz",
+    "sha256": "eba88af0ac6617032f6b8b9a3f36f94a373e212acc2f07e42d06efa46f25e246",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Bouali.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/067_11c8ddfc203d.npz",
+    "sha256": "abfcb7ee82c20a6c642d15dd24ba8c5a406814d0ae3f871ab7e6b1f221f79ae5",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "GuckenheimerHolmes.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/068_9e87bf32906b.npz",
+    "sha256": "2e1eb0297aa7618ce67b61b58612c4c1617d39ee6c7248614f4e4c4b4644bf30",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "eponymous_107",
+    "domain": "mathematics",
+    "file": "splits/mathematics/069_fb0d8786ad28.npz",
+    "sha256": "8d7ca0eaaaf59c0f15ecba998694860d71c8fe0dc9d2dce5973ed09f23ab846a",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Bouali2.2",
+    "domain": "mathematics",
+    "file": "splits/mathematics/070_bfdedc4406bf.npz",
+    "sha256": "3ff108e9617e71ed246d816ab7fd2fed8e28f2be648cecc7073b6a0b94c56e88",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "strogatz_0",
+    "domain": "mathematics",
+    "file": "splits/mathematics/071_ce9de5d362a9.npz",
+    "sha256": "ee19dd6daa62053dfeba37c6c5796fd373db027ed8fd0ab35e1d7f1264c57c9c",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "ForcedFitzHughNagumo.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/072_c171dbd8e6c2.npz",
+    "sha256": "9f658894b45d98a4add3c1b3a9b355f58c5d445c6339631eeabcc651fa3d1086",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "YuWang.3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/073_45840b1e5e00.npz",
+    "sha256": "1867d14dfb78b01545cefca21c5e98901976882ffaade5aabae9c9bd000e92b2",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "strogatz_3",
+    "domain": "mathematics",
+    "file": "splits/mathematics/074_ce41342d9286.npz",
+    "sha256": "7a6a98840a296a0c818a15cdf9253ffbcbc30b18c7caa9764da288c01ee72373",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "DoubleGyre.1",
+    "domain": "mathematics",
+    "file": "splits/mathematics/075_a4a9d789b6ea.npz",
+    "sha256": "922dabcea3231ec92137b04cd91420f67d3ab30dcf6fa87b58afa69f63862ab9",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000697:Degradation_Cdk2_CycErem",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/001_cb6856b75506.npz",
+    "sha256": "1fb855a0a702255a2d0ef21b59792e0dd4f6d9fda59229da8b22cc3d2dab94d1",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000699:R14",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/002_793f649f21e4.npz",
+    "sha256": "67c0a96b3929e2203238a0bc77cc9337a7dae2790a69e5f35bd30abd0f501958",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000001058:Activation_of_SBF_by_Cln",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/003_6c08b2ecce98.npz",
+    "sha256": "06456d290481c2e57ee7d0be664c386d5282f803b1ffbb92aaeeb993e4f7eb16",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000828:Production_of_miR_451",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/004_f4d7fa3a8489.npz",
+    "sha256": "85405ff9c30715de08d7727031c5efb01fbba3cb28a52f265dba1a6b0be00044",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000622:R9",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/005_11834c7f28a2.npz",
+    "sha256": "351b880b53804ae84d90a07c6af22467b85cd728b7958b52ac90c6278a27b7e4",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000834:r39",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/006_bc1c11763c66.npz",
+    "sha256": "d72f91d3363237e5a673a2cec216f798294e2dc873f7cfc93efd4e1c9a58ca92",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000744:PCC_activation_by_PSC",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/007_72ff045377f9.npz",
+    "sha256": "5db3b44eac2072e5a02cde06c4cbbb25a5b8d9376f9a19a09ac761a709f61b59",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000700:Phosphorylation_of_APC_C_Cdh1_in_Emi1_APC_C_Cdh1_complexes",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/008_477e9c9eb451.npz",
+    "sha256": "8aef9de30a0992679ddce356ebf6ae6985e89d21551f396f8dd7ab6f554ade35",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000999:reaction27",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/009_3dbf1d7f1a7c.npz",
+    "sha256": "57967cc5c546bdbbc743a60148f20089f9211e4109d54fab8f0d502d8ed50348",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000607:v10",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/010_15d2318de5f5.npz",
+    "sha256": "8b2293e20472d95f60d6d711b9c87c893a8f2b1757be475dd23f9f89891196be",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000819:Cancer_Stem_Cell_S_death",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/011_d1b7dfe5b28d.npz",
+    "sha256": "1d2bfc39d912230e3abe22ffbc811134ce98ec58447c165ee15521f047534c2d",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000596:NFkB_a1",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/012_b4c19417ed35.npz",
+    "sha256": "a42df917c27b76fc9938090dad6b8152c6fdbc63fcfcb4c2e7aae61bc828ccf2",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000674:VmFTS",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/013_bc61ccaf2791.npz",
+    "sha256": "450c68bfd4edd3778be8da4cc0ce8f61101c8dd77c69987d126cfe3690f541fc",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000646:p27_degradation_from_CycE_p27_complexes",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/014_9b9b6318500a.npz",
+    "sha256": "b43eb171a0730b67d04b9322f4fcf63ce5b76bc3c3dd593091f53a3ab19df8b0",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000001022:T_cell_mediated_tumor_cell_killing",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/015_457d02162672.npz",
+    "sha256": "4dfe79aeebf500fdc9f1a29f6bee477701ecf42bea25f4b872c221f1888e2d7e",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000913:Increase_in_IL_2_concentration",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/016_dfd9fa061bfb.npz",
+    "sha256": "830bf210f29952a1c84873ae57ccc2ea0e81a7b8ac79f318606c5d5a328a9113",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000627:AK_neurons",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/017_1cd5883891e3.npz",
+    "sha256": "9da5ea6190fb417d66437cb9ca015197350eb566839c5f0fa910ac423006fa93",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000568:reaction_38",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/018_9611690fb2a3.npz",
+    "sha256": "b72f4a9506373fb0c25d45c8e499b92961cb1b37e94b4f8c963a17f891dad59a",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000922:reaction_for_L",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/019_b5722e77a547.npz",
+    "sha256": "c9bb35a7072c6e3dbd349eb8450ea272d31ea0bac7fd08395114d867630c65f6",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000737:Liver_NTBI",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/020_fe64fc98c96f.npz",
+    "sha256": "e4cef6515185fce54c5405e9a03ce6683b9982d6086c9804cc186b67a41041c3",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000934:Sic1_degradation__Clb_regulated__2",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/021_2e23234fd2fc.npz",
+    "sha256": "890420da545ce2cb52ce2998561a8456d61c26261525c32849eaf71ad6292fa7",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000981:Exposed_to_Quarantined",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/022_9601fc7ebf2f.npz",
+    "sha256": "272dcdb64bf999ee95ffd5840fb61f8769079da6b32a10b4b5c5bfedbc0f0837",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000714:reaction_3",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/023_f679a445a607.npz",
+    "sha256": "e819abd7b2fc0b173842f7597d1477905927d1240a35285f7e197eeaab7064a3",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000723:reaction_58",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/024_171d1806c540.npz",
+    "sha256": "71c590a0aa5f9150e9adb1d37ad9916530739c09ff6a614e83d60d71f5112240",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000540:re2",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/025_fbd7df520f8a.npz",
+    "sha256": "d255d26a721996873a97c8db61d79c2c3e4f9de4f0af9c6eb46f4ae92e2c772e",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000855:Neutrophil_Destruction_Macrophage",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/026_5d1da6dc5554.npz",
+    "sha256": "660300e89b4d6737ae7929238ec7e01483747aac203143dd169520e9fed96393",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000001065:R11_0_2",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/027_7641e1cb3530.npz",
+    "sha256": "6353b88602808d2dd9a08caf7e7ba9e6e488cdae55ebf2bb0bed231d0ef7b595",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000961:re44",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/028_405c6ec7820a.npz",
+    "sha256": "49341b29aecc56e9899fbf1907ff46b4076a0655aee224e4bd9d6acbf6821669",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000724:CD3i_P_CD3a",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/029_b6b2e96ba6fd.npz",
+    "sha256": "539f5942bf33c7a15ce02a979bc6c88eb6fa2568b01018b8ed3758245b04ac98",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000727:GcrA_synthesis",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/030_5c10bf1210a4.npz",
+    "sha256": "c32f5ae389bdf211bac506e4c4cd0fde62db7289a2f276d6d5d5863195bde7e1",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000730:Ca_synthesis_through_E2F",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/031_65b026913990.npz",
+    "sha256": "07ceb4aa4aca44437c97974c9c0c3a98c7c33d60cd16d453b6a028e155dce938",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000761:CD8_Population_Growth_Inhibition",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/032_66ffdac33b8c.npz",
+    "sha256": "df7c333d38c6b63b26d4476b97e9d8fb24c7be348f050ea9482f15320ee74505",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000001041:CAR_T_cell_population_growth",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/033_eb41f1f03c54.npz",
+    "sha256": "032a612438693f5bf67ddff18b65694575adea88e41e668345163ca7f0f3db62",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000661:T_cell_degradation",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/034_5961225565dd.npz",
+    "sha256": "5ea69393a95dde0d193cf1d83cb57f765780c12944b0351460bc105f5602c200",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000703:c_syn",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/035_d0f2121baf0f.npz",
+    "sha256": "bf3db29ba560a2bd32661edbc03755fa48257aba66a9dcb7c5e06f12f299a5e2",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000826:v3",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/036_fd47de440312.npz",
+    "sha256": "b6e40f3277b6c46c0bd758ed730211b758cc9a3f05e356ddb1865aefc119f65e",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000773:differentiation_of_cell",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/037_be125594b8a9.npz",
+    "sha256": "580788a42810678db718c89e579280f1d29f60905d34c7db5edd438ef8840bbd",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000876:CTL_Stimulation",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/038_c33e0d569bc8.npz",
+    "sha256": "d10e39c5b853d7cfb68b3bb29388963146d3cd062e08a96e1d6c5bed463ff299",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000933:Cdc2_kinase_activation",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/039_3ba9c5871509.npz",
+    "sha256": "5a9712c4dd880bb3ca7d0bf0f3f1f54c5a573c01376246567c95d92ff7992963",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000833:R55",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/040_79cf245158e9.npz",
+    "sha256": "adfef90e38ec9288def7fba592c5b4367b10a8f95ba77326e68102262f83136f",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000811:CD8_Proliferation_Stimulation_IFNG",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/041_0a61b647fbef.npz",
+    "sha256": "3854b3a5a948b7137a829f477a433eadb31e44178fe4ab04ad1359d7a004a89d",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000954:reaction_for_Rbpp_production",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/042_e6840593bf50.npz",
+    "sha256": "b64cc78b37233134711b13afbc59b8c9a461c270e3ddfd88fd155dc6f62eb244",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000849:re9",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/043_fab0959d00b0.npz",
+    "sha256": "d95f2d503176bb0d766299d27333ad6f933c4aabf04fd2391de54a96dbb213fd",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000791:tumor_immune",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/044_f91f33d18385.npz",
+    "sha256": "e9718c60006ad2bec8904e65df14aff4d48d6b53f70e976ee16d27b046cf0971",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000837:Helper_T_Cells_Memory_Decay",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/045_11d66f17dd59.npz",
+    "sha256": "4f1aaf1029a4c11dbbb5417e501fe8f2ff917d8ef87f89ef7f645dcef850e457",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000711:Binding_of_Antibody__A__and_Virus__V",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/046_b48891a2a893.npz",
+    "sha256": "c3d5a0a1a19a78d8b38a0888d7a0157461e097dfc1238d021201dee94bd7fa60",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000729:Cdc2_kinase_activation",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/047_ce96fb0d1923.npz",
+    "sha256": "1606127dc1e5a38a78c3b36c5a8442c98b16b9f76566fee8c3911b1923692429",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000926:Tumor_Cell_u1__death",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/048_35f99a13672c.npz",
+    "sha256": "eb1419ed83e42f13b237122367541d6f445d54102f028ff0855e97fccf18b71d",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000769:H2_growth",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/049_65db9a4905fc.npz",
+    "sha256": "357a81bc8d14d0a52cf6367321387c8515a48b1eec19602bb3a431a4cc24f4c6",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000937:R3_APC_activation_by_Cdk1_active",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/050_1edef07bf813.npz",
+    "sha256": "8bf1b167bfe869e01f84925c62486e542a4ed21342f04b3b61370447e25faedc",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000839:v4_1",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/051_8b4ba33f994b.npz",
+    "sha256": "fb6d9cddc3797258e75d339d598475a2e2e436a2e454c85c23271cdd900aa222",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000001007:p53_degradation",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/052_be840eb3f0b7.npz",
+    "sha256": "52c17243db7749716c3530660bd8d1a94f78cfa6843192d9211dda3906501322",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000490:v22",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/053_9da66997cffb.npz",
+    "sha256": "3bd96e517334202a6d5396788a1018a283267c9caa3652f11816d8e1a7c31579",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000042:reaction_2",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/054_741fc392473c.npz",
+    "sha256": "60c67f94918d3acdba7dddf0728b9d31dbc23257b94ac9d1f7000ecaf4cdf45f",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000001033:virus_death_elimination",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/055_4174bd1f1760.npz",
+    "sha256": "1004fe0593349ae86726ecb56fb90281cffed247cf3516aa6c6ed7ee2822b25d",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000768:tumor_growth",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/056_061358211989.npz",
+    "sha256": "0ee48ee12d2bddbda7df1df0f8ec02e2c151a0113606832932f513ce12cc63ae",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000001077:v14_v_13",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/057_9d2c40fea5e8.npz",
+    "sha256": "d27ae7e0d18d2a509916e801095fcb1dd54993a254ee262ffa7b05c200975eee",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000889:STATP2n_Formation",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/058_d686166a388a.npz",
+    "sha256": "2803c31ec88fafa52d9d9b9c8d636f70ac5cd803ac05af21459c1dccb23ea1fa",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000991:susceptible_to_exposed",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/059_39b5c6724944.npz",
+    "sha256": "ff44db0185a78fb84f7a21accd3ca08e8553463f68817901078c02071a0d0ebf",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000895:CD8_Competition",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/060_5118cc3934a4.npz",
+    "sha256": "055ca0a2f888545c194d2b5c809f88fb04e7f9bd74c840da09ba1ec8b1c92683",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000657:R3",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/061_9ab3664ecbab.npz",
+    "sha256": "94c59aaa90bbd9617ccc4ef722e24b44e22794d4a9b3b9c527ffb7243b6f7a0d",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000852:MPN_SC_Self_Renewal",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/062_c3ce22d02772.npz",
+    "sha256": "90530669eaf1fece93db05cb9e471382597d13a9428d9690d7a5caab4b12dee7",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000571:binding_CRP_cAMP",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/063_5c96db9ec352.npz",
+    "sha256": "0c32aeec695dc71cc45539fcbcf8562aa30c3070f37e57c08e00c4ba667287ef",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000757:tumor_killing",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/064_8a9143363839.npz",
+    "sha256": "04f80cb555db098773f390c66408bc711b18c8606869e99a4444eceec5237f18",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000923:reaction_for_O_c",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/065_bd67bbf5f2e0.npz",
+    "sha256": "2a3d201a0ddb8709ce08bbe5b8957de82aa234418ac94bf38c12736bec75b90a",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000001005:P_cyt_mRNA_Production",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/066_4c6de49c360b.npz",
+    "sha256": "ce153a4c9560bf1d2181c4c420a825c68621ccb37aecc411b4f2bcdbbb29a07f",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000898:PC_Self_Renewal",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/067_67cf83ed19b7.npz",
+    "sha256": "28f528c048fabd201ae26ef87b70f89d340d9fb07123b8ad8e2463b0da37ac75",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000731:func_CD8_ETC_Production",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/068_223a2f49cc90.npz",
+    "sha256": "33ec80d2ff89cf26641d01c47c2f160086da0a816729083d2e6b596e85925e1e",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000766:effector_growth",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/069_f507532c2300.npz",
+    "sha256": "21aad8ecd6ba4a06365c1baae7fd33dbc48604bfc2c1c95fa6e95254f010d2ad",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000648:v11b",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/070_36b5c66e6d15.npz",
+    "sha256": "8cb2e31ca740a6f8bcc0538cf9fd89e53eaf346d7f56c6d16548ad47294f9312",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000759:M2_growth",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/071_475ae4ff23d7.npz",
+    "sha256": "d5df15e138b15ca0fe1d17782c435d93352019964be0692287a80a5be7cd9ee7",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000468:re7",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/072_3adb374f988c.npz",
+    "sha256": "2417409dec5182a737e33ad2b4514435547960d0fd9bf49b40f15bbf65dde441",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000859:Sucrose_Consumption_PCF",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/073_4fdf9314a9e9.npz",
+    "sha256": "9f6590e4a9775ec7f694c67f49cc6efbb395037125edaa5e2ece02132af9aea5",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000784:Tumor_Killing",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/074_2957bafe35d5.npz",
+    "sha256": "9f141cebd2fb1a475396cbc4ab1adef993af3fc54f37f40d6fbf0b18938574e6",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "BIOMD0000000929:Lysis_of_cancer_cells_by_CD8__T_cells",
+    "domain": "biochemistry",
+    "file": "splits/biochemistry/075_3c801e682665.npz",
+    "sha256": "dc4db5e507f0f7cd5c9f5a6a64e1c6002e5e40fbd2954fb69982aff6dbc2a9ee",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars3_3",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/001_49834e21cc6e.npz",
+    "sha256": "f0332b4905586299369800228d11f8ed9585671e49f2d9502a05d358f1b38891",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars3_21",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/002_55ebd2c07ebb.npz",
+    "sha256": "b1fc328f5b0e6ab1da66d95437921aad2eab9f86fb31f2155b4b8ec7b03a49a2",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_16",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/003_c833f23cb995.npz",
+    "sha256": "0d767bb4107f25b88d1de9c0a2e82f5bcc1ed299372ce44f92e604fc21b3ba1f",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars7_13",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/004_26943790456f.npz",
+    "sha256": "a28d05fb0206f6989270e794cafef9e469429691c1d4e6d3d0e7f8f04ae511d3",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars6_25",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/005_da59daebe1c9.npz",
+    "sha256": "e82906e0444130304a87fde4fc8d5a268944e90a8ea9b1f6b2e647ff2022635c",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars5_12",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/006_5647ceb6a494.npz",
+    "sha256": "1da08352cc3f2a6526c4c2d52649cdd1b3a4f64ec9eefc3854c9da97186fabee",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars3_11",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/007_be8af05d88e1.npz",
+    "sha256": "b9ffc42f26ebd68d2f1c1ab4084500e7c6e0a6bf5fb756f63b51eeb4c00356b3",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars5_8",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/008_a2593450540b.npz",
+    "sha256": "0e15d0b58232f96e699d8a2cfcc93fe43fdfcc2f52f35d109ad10467ffd188eb",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_12",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/009_3ee26dc03e2d.npz",
+    "sha256": "4816bb9561b3d80b29aae88270a6643649523a3afc0fb8c861e8ed9537b49f28",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars2_13",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/010_5b84810eaf80.npz",
+    "sha256": "d49085a07b15c66517dde72a7241ec7135a32a33a5db0b8ea43a05eac02c832c",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars2_19",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/011_7e3b4c135930.npz",
+    "sha256": "91db0c2ec6d5e6d901b5b0ef32813c8788d2d11303b9c6a30f594b4c9cb34825",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_1",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/012_083ab4feeaad.npz",
+    "sha256": "2036b3322052e049fca9903bd4c0dccfd9849947d1460b8196af068057097050",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars3_20",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/013_ddfd50368fff.npz",
+    "sha256": "a710681ea1837be8d761e3d50e62c242af62bf799fa9fdf841f40e54aad9beea",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_2",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/014_d76127e22662.npz",
+    "sha256": "23b20111396dfac32b1836b5d21ad6912aa3c6cd635297c7d1056446a4d582f1",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars2_2",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/015_eea10d8fe5d9.npz",
+    "sha256": "729ac5201e94f397e55d54076d22217ea3a699f940f326014a2637cff5b6c2a5",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_21",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/016_8fa8c206a0a3.npz",
+    "sha256": "0451a31dbb66b0acd4de085160a6a1a0924c67daabb44c44d157e8652bb0b0f6",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_7",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/017_e12a7943a0b1.npz",
+    "sha256": "75c86431c4e23ab95ea31ebbb2853317e8a9c034bb5583854cf5916c0959a40f",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars6_13",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/018_307289704f81.npz",
+    "sha256": "2b244ac915cc098aae3d612aa0888f72d86b1e3f3a7949fc2023ea6637f84f58",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars5_5",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/019_a86d17f2e286.npz",
+    "sha256": "a2f2d5e1e2a58f3f7865a29aaa0037837f7800f7567c06af599484789590605b",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars2_25",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/020_c176d943b43f.npz",
+    "sha256": "b8f58f2fff63b95b2f67e24e504dee71a6d74a13ce57730835361e96eb79e306",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars7_4",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/021_675e450bf904.npz",
+    "sha256": "e72187bf5c95f850a2736055b8997049d7a972945c115de77ea044baa2663458",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars5_14",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/022_d80309a1f374.npz",
+    "sha256": "f0169e609d6883b5e1257b20343796caffc512204d307219828430c42253907b",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars3_19",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/023_74f05df76c33.npz",
+    "sha256": "4007c48d408b531269cd5571822c996f247633d41c99b6e71796c8d8ec2e53e7",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars6_7",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/024_ac2296b76ea7.npz",
+    "sha256": "687db1031daa6c6cd2ef58161eaf9e2e79b00bdc64acc86a910b8d0a98c1133a",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars3_25",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/025_3c8994ee428b.npz",
+    "sha256": "ad87b323aab196a2fc65c2a12b9735bd7ffd6d0e96faeaa748cc0de3c6a4b6a3",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars2_15",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/026_b07547c48b57.npz",
+    "sha256": "e7b7f41aa6007044fa8385417637cb6eb7b3efe5e69a922eb36517357863f955",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars5_7",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/027_7fc1e2647404.npz",
+    "sha256": "4734073ae1760d6ace0e1a8c8bf94f937791365d8d8fbea8a42c80d55e3d1c90",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars3_4",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/028_2f6fa4b80385.npz",
+    "sha256": "70803f5b919729d6f97d98b4406b42a22aa615543b78daa0b9cd871c6a616195",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars3_6",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/029_ca32c8e439d2.npz",
+    "sha256": "2c96c2586f0e9af13666b7cdbbd66c9999cfb3f154d8b4b8229268427b41e1ad",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_24",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/030_268f303b70b5.npz",
+    "sha256": "0bd6a2ea7507b5b9b772f0970ba7b2bcaf7cfb7f341330da008486895b1dbfe7",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_25",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/031_851338e0b78a.npz",
+    "sha256": "78264f544a8a08457e88c51a90b12d752f37fa66b2bf936a2f4d0763c0099055",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars5_15",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/032_0aa923bf498f.npz",
+    "sha256": "a25d84dac88066327f6b1437b13034e6d492eabb77f6a819403da342e626b074",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars6_1",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/033_9bd03c3023b5.npz",
+    "sha256": "c0c5599d00ab53c9ecf2a86c9d11f073d814ee046a00804b46cfa04a1d0e05c1",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars6_21",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/034_8a62ef8c782f.npz",
+    "sha256": "30a69b73be47148b52dbfcb54d6f7116d9d6333ea7ffd98ee1c967ff999dcb45",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars3_12",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/035_3d6b25115f51.npz",
+    "sha256": "04de8f0186c306c2e93a7d858a5174a9ca8bff571636e163762d14a33b78e19d",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars7_25",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/036_036cea7d49a2.npz",
+    "sha256": "1ed3ba452f5be391d2502c2e34a95cb0e30f2184fa5dec3617e8a15a744b9c45",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars5_11",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/037_016a4ab2ce16.npz",
+    "sha256": "a9bf23b60f9eef4216271e0c2d2767e40dd8d9eb71e409498c7efce1e2cefb91",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_14",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/038_66c3613c366e.npz",
+    "sha256": "e584b36734297dcbce9d793ac040a1b6fcf1fd2bb33038d198f5b12f51980ce0",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars2_17",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/039_2dd81bf19e9c.npz",
+    "sha256": "bead86dbaa3e60d5d73dedcf9574dd0761c2de28d2af8ce36f7fa8c1cc31bfd7",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_10",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/040_98e581a3a97c.npz",
+    "sha256": "83737fca784c0d4b6313191e214492faae3aa6b85a482235c68dc161314372e2",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars6_15",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/041_d6251de5db86.npz",
+    "sha256": "f038b5716a5a02d3d5e984f86f7db43abfd9d8630e03c46904e0f717c448444b",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars7_20",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/042_33337aaf5456.npz",
+    "sha256": "358fd9c3d2626701cfd5ec5f2fcfbf9457099d76506f6a60a68ae7339f02d172",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_13",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/043_3c787b59dc93.npz",
+    "sha256": "3e9b783bcd831c99049babdceb0fc1e28c872fb2718f32a17ab0cd009cb0ef63",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars3_9",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/044_6b1d7f8e9214.npz",
+    "sha256": "3df754df21a95f83ab904ba0c94fbe38e181304aeba1381d1147b30fc55bdabc",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars2_4",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/045_2d71ea03ed6c.npz",
+    "sha256": "5948d9126f47f5b79b2b127962113f8a6b7513d17b387adc72a69b1e0eb6708e",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars6_16",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/046_0343e58cb065.npz",
+    "sha256": "3402a7485a38c0ce85e49609ba720c05c1f0d34c827deadac78dfdeac8f37213",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_6",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/047_70283eeabf68.npz",
+    "sha256": "0e014280a8928a652495d0df7c282593a4b47c4d96e74a77e111ee8444cf9fff",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars5_2",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/048_01cf4d2c9853.npz",
+    "sha256": "e653126fe72d11479714e3d7e408db845baa320fc47ebba01473a06719370ba2",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_17",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/049_0dad3e55e2a5.npz",
+    "sha256": "87719865bc2452270700e4321d0bb839f8a19d2ad19357fe189ef33a550d7bc1",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_18",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/050_87f9ca6e4309.npz",
+    "sha256": "63e2aa555b32eba8006e2d15b50fafe97eb5362b82f3429fd4a2892605b67753",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars2_11",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/051_9b5be87a3a54.npz",
+    "sha256": "9b8e2349ca49715e8b1bc2c530a721dbfc790f7083693e1ccd52eb17faade15b",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_3",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/052_c726de7e7932.npz",
+    "sha256": "96b2b896d9dafcc70a2a45d515d37816fd077bfbadaefe0d981967e2624d5c64",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars2_3",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/053_92130deff609.npz",
+    "sha256": "b0af2cc3f4a355acef6a523be9bde19dfad18763e0d25433794b6f0ab80ddb66",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars5_22",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/054_83b56acb435a.npz",
+    "sha256": "58c1416640150f01c1d8a71efbe625c39c16f937475b034a5d256541cc9ed67b",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars3_15",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/055_a37a5affe307.npz",
+    "sha256": "719c0c1cf119cc6fc26e12b129b3c365962d1c81818d14d982e76010b7377eb7",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars3_10",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/056_3aa2b2127a7c.npz",
+    "sha256": "713e3f64e6652e5ad2330336c0e1cbcb2af6d2f7eb1cce37d06e8ffbb98c812b",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars5_13",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/057_c170089aed17.npz",
+    "sha256": "b1b1072e4cfd2af53da835d23d68d9e34a4afc25b58488fafecb6f962b902df8",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars3_18",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/058_1587a63a61b6.npz",
+    "sha256": "ec71cbf0d9e10e35705fa0d7e7df769c56e954817fc06f4bb597ed6df865f1e3",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars7_10",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/059_29102879cb96.npz",
+    "sha256": "c7be22419084ff59898778cf30786a9920b415d31ac348d86fce17fcb6bec859",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars6_22",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/060_f645f8f01cea.npz",
+    "sha256": "e7ec8cae1b8b69b2f4655b062d448876db3bcca9633d2148d5a823fb90589d83",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars7_18",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/061_bd750145c217.npz",
+    "sha256": "1c0ce6a2983caaeb947e68e3239cf9bfec3b84af5f1d670f5c004f2ff026a8e4",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars5_25",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/062_c54bcb2accdc.npz",
+    "sha256": "efd895574852aa08b7d02df4ef9b7911884650a6ece11f5b37c7ee73d821d6e6",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars6_14",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/063_c74f31a1f7c6.npz",
+    "sha256": "16c49c9c4a3831c3145cc5be060dd3665fc738ee07ca56a66e57a3c03ef67e4f",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_15",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/064_1dec14a4ecac.npz",
+    "sha256": "b53b3cbe86840ef65241fcbd70ac922660ddf02de0785e23004ac87b7b83c8bb",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars5_4",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/065_a9261cba6c9d.npz",
+    "sha256": "599ad6d7039840c09be5f16df6791c64ba552ba6298aa37e1dd16c453d726f6d",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars6_8",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/066_bdf0c30645f5.npz",
+    "sha256": "90ade439841a1a13e35ea4f78e701038d7800eefe30de8abaac478092a228667",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars3_22",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/067_21fa55c5da61.npz",
+    "sha256": "e2734c139ca377f3e8d4e199592ac5c53e6b4501c05cb0265b930e5d86e1ef66",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_20",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/068_92fa081bc002.npz",
+    "sha256": "9b8e8bc44027ffb402999ae086d0f8b41757fbfdf2c7427ed470774edbd98fa4",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars2_24",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/069_4f662ff192b5.npz",
+    "sha256": "cd8d8caf39feda98d83b4a9f0182b258c0cdb41589d9a52e689cae2061d80a65",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars7_3",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/070_b5757283f001.npz",
+    "sha256": "cb2314358f614f94951913c38937cac68a5e340f6975505a8084a89f492e201c",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars5_18",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/071_24311b912d2f.npz",
+    "sha256": "2ccbb3ae20c0e92385741127a3cbc9ac05e8a51694a4fc6e48f6e4d6ce2285f2",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars2_21",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/072_5a8980dd9ae3.npz",
+    "sha256": "457624eb4e82195d81391ff11e15af06bd6797f07f7aa243de22b3387d917ff5",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_23",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/073_130859668d35.npz",
+    "sha256": "7dfad85d2dfe1cac30f308d634ef4869c094c7ede4ea7664bb5047192c968acd",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars3_1",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/074_9abe1b09972f.npz",
+    "sha256": "477ce61ff6ad42110179682c97841fb51aeb44181d321049c2733d0e497ac662",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  },
+  {
+    "case_id": "Livermore2_Vars4_19",
+    "domain": "symbolic_search",
+    "file": "splits/symbolic_search/075_591640eb29d6.npz",
+    "sha256": "1eb4e59ac197e344ba5424b00597e332d49b16fffc3b866775c2103a961a0445",
+    "points_per_split": 10000,
+    "historical_single_seed_audit_data": true
+  }
+]

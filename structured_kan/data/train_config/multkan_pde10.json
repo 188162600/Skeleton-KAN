@@ -1,0 +1,198 @@
+{
+  "schema": "structured-kan.pde-training.v1",
+  "method": "multkan",
+  "source": {
+    "path": "data/equation_set/domain300/selected/domain300_with_splits.json",
+    "sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+    "equations": 300
+  },
+  "problems": {
+    "path": "data/equation_set/pde10/problems.json",
+    "sha256": "5db719b9e0be253dbb5ab8695902fd08d64bb4a400885f02ee379102d335ce18"
+  },
+  "seeds": [
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430
+  ],
+  "points_per_split": 10000,
+  "boundary_points": 2000,
+  "initial_points": 2000,
+  "outer_steps": 50,
+  "max_inner_iterations": 20,
+  "history_size": 100,
+  "line_search": "strong-Wolfe",
+  "loss": "0.01*PDE + Dirichlet + initial-value + derivative-condition (each mean squared error divided by boundary/initial output scale squared)",
+  "normalization": "input: train interior; output: train boundary and initial values only",
+  "interior_solution_in_training": false,
+  "selection": "one configuration per PDE minimizing mean log validation NMSE across ten seeds; validation uses exact interior solutions",
+  "report_floor": 1e-10,
+  "compile_mode": "reduce-overhead",
+  "workers": 1,
+  "save_models": true,
+  "output": "data/results/multkan_pde10",
+  "architectures": [
+    {
+      "id": "MKAN01",
+      "first_hidden": "q_add",
+      "second_hidden": "none",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN02",
+      "first_hidden": "q_add",
+      "second_hidden": "2_add",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN03",
+      "first_hidden": "q_add",
+      "second_hidden": "1_mult",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN04",
+      "first_hidden": "q_add_1_mult",
+      "second_hidden": "none",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN05",
+      "first_hidden": "q_add_1_mult",
+      "second_hidden": "2_add",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN06",
+      "first_hidden": "q_add_1_mult",
+      "second_hidden": "1_mult",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN07",
+      "first_hidden": "q_plus_1_add_1_mult",
+      "second_hidden": "none",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN08",
+      "first_hidden": "q_plus_1_add_1_mult",
+      "second_hidden": "2_add",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN09",
+      "first_hidden": "q_plus_1_add_1_mult",
+      "second_hidden": "1_mult",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN10",
+      "first_hidden": "q_add",
+      "second_hidden": "none",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN11",
+      "first_hidden": "q_add",
+      "second_hidden": "2_add",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN12",
+      "first_hidden": "q_add",
+      "second_hidden": "1_mult",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN13",
+      "first_hidden": "q_add_1_mult",
+      "second_hidden": "none",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN14",
+      "first_hidden": "q_add_1_mult",
+      "second_hidden": "2_add",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN15",
+      "first_hidden": "q_add_1_mult",
+      "second_hidden": "1_mult",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN16",
+      "first_hidden": "q_plus_1_add_1_mult",
+      "second_hidden": "none",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN17",
+      "first_hidden": "q_plus_1_add_1_mult",
+      "second_hidden": "2_add",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN18",
+      "first_hidden": "q_plus_1_add_1_mult",
+      "second_hidden": "1_mult",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    }
+  ],
+  "reference_commit": "ecde4ec3274d3bef1ad737479cf126aed38ab530",
+  "architecture_source": "https://github.com/KindXiaoming/pykan",
+  "sweep_source": "user: H1=[ceil(d/2),0],[ceil(d/2),1],[ceil(d/2)+1,1]; H2=None,[2,0],[0,1]; G=10,30",
+  "initialization": "native PyKAN seeded float64 CPU initialization, then CUDA; no target-fitting initialization",
+  "basis": "cubic B-spline plus SiLU, both per-edge scales trainable",
+  "grid_policy": "fixed uniform [-1,1], extended by cubic order; no grid updates",
+  "symbolic_enabled": false,
+  "affine_trainable": false,
+  "freeze_disabled_symbolic": true,
+  "execution_note": "Two equation-disjoint shards, five PDEs per host; full ten-seed tensor batches, full collocation sets; exact forward AD with real-FX lowering.",
+  "release_note": "Anonymous review copy; metadata-only paths and dependent SHA-256 references updated."
+}

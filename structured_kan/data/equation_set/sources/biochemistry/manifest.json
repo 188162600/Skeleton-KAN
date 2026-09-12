@@ -1,0 +1,294 @@
+{
+  "pinned_commit": "6a09daf46af1bb89e4857436b623a7b8720863ad",
+  "scope": "20 evaluation biology source SBML/SED-ML only; no sampled data",
+  "files": [
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000744/Hu2019.xml",
+      "sha256": "6fdabc7536542fd9d10c2050010207f7ec1d57099bf935a278010b21aeab0044",
+      "cache_path": "BIOMD0000000744/Hu2019.xml",
+      "bytes": 107349
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000744/Hu2019.sedml",
+      "sha256": "bec55d35eff69cda0f2c76e37d9fbd78957921f03f40f590b3138f2602dfbabe",
+      "cache_path": "BIOMD0000000744/Hu2019.sedml",
+      "bytes": 24266
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000699/BIOMD0000000699_url.xml",
+      "sha256": "2154870f587366b4ca853609f411d225eefeea115ea20293b80a74b75f121625",
+      "cache_path": "BIOMD0000000699/BIOMD0000000699_url.xml",
+      "bytes": 267718
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000699/MODEL1202090002_Fig5 i.sedml",
+      "sha256": "59fe97084633adff90cc4f292613f28395c8b9c6553ae0b980f4d429eb0d184c",
+      "cache_path": "BIOMD0000000699/MODEL1202090002_Fig5 i.sedml",
+      "bytes": 60199
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000622/BIOMD0000000622_url.xml",
+      "sha256": "17fc9e119aac69ee2129e83f7a6d8e2b9b88cd8eeeebf1c880a06d5c099f49fb",
+      "cache_path": "BIOMD0000000622/BIOMD0000000622_url.xml",
+      "bytes": 60826
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000622/NguyenLK2011_High_Free_Bmi1_Levels.sedml",
+      "sha256": "7ebc280ebe1c12a345d2784963f8d5e2bcd01e34fda712c47e717aace48036e6",
+      "cache_path": "BIOMD0000000622/NguyenLK2011_High_Free_Bmi1_Levels.sedml",
+      "bytes": 18114
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000934/Linke2017.xml",
+      "sha256": "7946984aac8ee1bde0b786a50e720687e32d51e92636a2dfb5015d5478cd94e8",
+      "cache_path": "BIOMD0000000934/Linke2017.xml",
+      "bytes": 82754
+    },
+    {
+      "kind": "sedml",
+      "upstream_path": "final/BIOMD0000000934/Linke2017f1b.sedml",
+      "sha256": "5369fdeaa43c1c2603326ea5abd209d926537658b26c75320ae783c1ba41a2d1",
+      "cache_path": "BIOMD0000000934/Linke2017f1b.sedml",
+      "bytes": 35510
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000934/Linke2017_figure1c.sedml",
+      "sha256": "6362d6a48971e92f0622f25a4141eb1d3e9c50ccf78a3b78cb8191771dec9b56",
+      "cache_path": "BIOMD0000000934/Linke2017_figure1c.sedml",
+      "bytes": 35509
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000859/Larbat2016.3.xml",
+      "sha256": "4f436b6e2c0eac5299c84826f99aba24687818c27302066dc84d5f1a685f3172",
+      "cache_path": "BIOMD0000000859/Larbat2016.3.xml",
+      "bytes": 122029
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000859/Larbat2016.3.sedml",
+      "sha256": "cff736371c200fb0e95ffb96574cc48f872b33acd312b63567f42c6ad1e9151c",
+      "cache_path": "BIOMD0000000859/Larbat2016.3.sedml",
+      "bytes": 47413
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000724/Theinmozhi_2018.xml",
+      "sha256": "f18738faa858a44724cf321d856fb46616bc5069b9ff4077567c1e85aaf4666b",
+      "cache_path": "BIOMD0000000724/Theinmozhi_2018.xml",
+      "bytes": 185402
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000724/Theinmozhi_2018.sedml",
+      "sha256": "1a255aaa992e95deed41fb05666deb5e52d5405ec00da2abc8a07f8a315e293d",
+      "cache_path": "BIOMD0000000724/Theinmozhi_2018.sedml",
+      "bytes": 66725
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000834/Verma2016.xml",
+      "sha256": "3017cdddfddf0594cd8cc3d1f2ee00a64e95327f7c65d7d9258196987d90ef2d",
+      "cache_path": "BIOMD0000000834/Verma2016.xml",
+      "bytes": 346468
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000834/Verma2016.sedml",
+      "sha256": "d33adf9b24c20824e94eee0d4f619169ba7f8bfa59e872d7513de686fc0f0dbd",
+      "cache_path": "BIOMD0000000834/Verma2016.sedml",
+      "bytes": 149040
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000922/Turner2015_ELP.xml",
+      "sha256": "9fc145ffaea39f7a8cd15be792e8d6e23760e2fdfae8a879371764d16648782b",
+      "cache_path": "BIOMD0000000922/Turner2015_ELP.xml",
+      "bytes": 27074
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000922/Turner2015_ELP.sedml",
+      "sha256": "18433cd233c74ebafe88ca98b1dc3943e3e607b59ede1b43dff56a02874bcfdf",
+      "cache_path": "BIOMD0000000922/Turner2015_ELP.sedml",
+      "bytes": 11096
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000811/He2017.xml",
+      "sha256": "f7b8eba6ae8c2274582acd111c68a815ebfeed8d7eab7a79b773062e8fb0575c",
+      "cache_path": "BIOMD0000000811/He2017.xml",
+      "bytes": 114511
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000811/He2017.sedml",
+      "sha256": "148012eca453ce20c6889134824ea706a37b196f583a4b36318175c76595cf78",
+      "cache_path": "BIOMD0000000811/He2017.sedml",
+      "bytes": 50149
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000768/Eftimie2010.xml",
+      "sha256": "bf8c09d2ea3e7b028087e84d69f064e49146dab93266c0db11323e0c26967160",
+      "cache_path": "BIOMD0000000768/Eftimie2010.xml",
+      "bytes": 96994
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000768/Eftimie2010.sedml",
+      "sha256": "414a1d95172e7547b4e2f34c3315ab1d16ed5eb3e5925a1af442f1319b8e8330",
+      "cache_path": "BIOMD0000000768/Eftimie2010.sedml",
+      "bytes": 23580
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000981/Wan2020.xml",
+      "sha256": "0228ed945c129afcad1c7887834196dce8c9a396824cb09d1cfad2dd05d81ac4",
+      "cache_path": "BIOMD0000000981/Wan2020.xml",
+      "bytes": 82647
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000981/Wan2020.sedml",
+      "sha256": "2aa6580973c6e41117b47d1814ab4a735d725f61a16778215355203ea1f21004",
+      "cache_path": "BIOMD0000000981/Wan2020.sedml",
+      "bytes": 28011
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000596/Philipson2015.xml",
+      "sha256": "aaac576f95700b99e8180a8b16a087b5cea272c67a6f1f39823d196e176d4009",
+      "cache_path": "BIOMD0000000596/Philipson2015.xml",
+      "bytes": 404356
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000596/Philipson2015.sedml",
+      "sha256": "e097a48f15350bd7ab4024a7983690a5c9d202d12ce4b6e4a8ca6d44e306f46e",
+      "cache_path": "BIOMD0000000596/Philipson2015.sedml",
+      "bytes": 29175
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000729/Goldbeter1996.xml",
+      "sha256": "aa37f728accc0940a915b2982ec8b19b3b7d4d7b659b7824ec8540a77d4933aa",
+      "cache_path": "BIOMD0000000729/Goldbeter1996.xml",
+      "bytes": 49317
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000729/Goldbeter1996.sedml",
+      "sha256": "e5f069b0482637d6e481f160717d3bfdd61d0b092ddd25349b09059b6e32a4bd",
+      "cache_path": "BIOMD0000000729/Goldbeter1996.sedml",
+      "bytes": 16607
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000937/Ferrel2011_V3.xml",
+      "sha256": "f5a7c8b32ce8af0b4e7060dc8369db2e683a6ff76d424320d2248da02b57d38e",
+      "cache_path": "BIOMD0000000937/Ferrel2011_V3.xml",
+      "bytes": 36232
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000937/Ferrel2011_V3.sedml",
+      "sha256": "fe908282bd2ffb7c4dc36cffb09b1be49918bf2238e9b69d81a0e64e3ca47ee1",
+      "cache_path": "BIOMD0000000937/Ferrel2011_V3.sedml",
+      "bytes": 14728
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000568/BIOMD0000000568_url.xml",
+      "sha256": "108034973657b641cc7b21a604c3e93026c2bcdbbd444629b266fa33d01cb418",
+      "cache_path": "BIOMD0000000568/BIOMD0000000568_url.xml",
+      "bytes": 245444
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000568/Mueller2015.sedml",
+      "sha256": "60cfb2a69c71e1ffc1eb17f30c5eebc0d0d13d1755400d21e04c03d092b71405",
+      "cache_path": "BIOMD0000000568/Mueller2015.sedml",
+      "bytes": 103153
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000849/Berg2017.xml",
+      "sha256": "76b7c3195b980d8d0faa4df384e6f6654a56894190240aef24c7228fb2a604ba",
+      "cache_path": "BIOMD0000000849/Berg2017.xml",
+      "bytes": 312123
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000849/Berg2017.sedml",
+      "sha256": "a8347c7274f3e3b88e2d76d9a6975dafa99d27f9ac4181f98f8dbded77a2b3c2",
+      "cache_path": "BIOMD0000000849/Berg2017.sedml",
+      "bytes": 62102
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000703/BIOMD0000000703_url.xml",
+      "sha256": "d8721d95761e69c8424053c98f015934868768e696770d83b6baf11cd8a05559",
+      "cache_path": "BIOMD0000000703/BIOMD0000000703_url.xml",
+      "bytes": 138782
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000703/Diedrichs2018.sedml",
+      "sha256": "9bc0be04bd017ad6458a4d8506c5405184bcdf770eb2967a0a2b168daeeb344a",
+      "cache_path": "BIOMD0000000703/Diedrichs2018.sedml",
+      "bytes": 41389
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000784/Lopez2014.xml",
+      "sha256": "923ecbf6cd791e2bdc2b27e7926827e6f67d870578725cecfb45804f69be8494",
+      "cache_path": "BIOMD0000000784/Lopez2014.xml",
+      "bytes": 41636
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000784/Lopez2014.sedml",
+      "sha256": "7bc176fd42ef51009154e78efa66877df7b698caaf7f3ec8468eb8f6d0dbbfce",
+      "cache_path": "BIOMD0000000784/Lopez2014.sedml",
+      "bytes": 17967
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000954/Pandey2018_wildtype.xml",
+      "sha256": "cedd8f37ec2e732ef87855b12390b83855a5fda7a7a9eb426b52edea130aad31",
+      "cache_path": "BIOMD0000000954/Pandey2018_wildtype.xml",
+      "bytes": 237622
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000954/Pandey2018_Figure2A.sedml",
+      "sha256": "1537fbed34be625d9b1f2d18e415e99df939a7a1cf6ac2e32b1ea0b562ada8e0",
+      "cache_path": "BIOMD0000000954/Pandey2018_Figure2A.sedml",
+      "bytes": 68775
+    },
+    {
+      "kind": "sbml",
+      "upstream_path": "final/BIOMD0000000468/BIOMD0000000468_url.xml",
+      "sha256": "e1d8e43b2cd8f373ff3646acf852c0cb59adbdf75c6bbe705ff3eac4734d0028",
+      "cache_path": "BIOMD0000000468/BIOMD0000000468_url.xml",
+      "bytes": 428702
+    },
+    {
+      "kind": "legacy_sedml",
+      "upstream_path": "final/BIOMD0000000468/Integratedmodel_noshearstress.sedml",
+      "sha256": "b880384ed138eaf42ca49e637fe8c5ed3927a4b97b15755a2dabfe59c1c8bdd9",
+      "cache_path": "BIOMD0000000468/Integratedmodel_noshearstress.sedml",
+      "bytes": 101566
+    }
+  ],
+  "bytes": 4393060
+}

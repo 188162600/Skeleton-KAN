@@ -1,0 +1,390 @@
+{
+  "schema": "structured-kan.pde10.v1",
+  "scope": "Ten explicitly specified analytical PDE boundary/initial-value problems, not unmodified instances of all cited benchmark suites",
+  "problems": [
+    {
+      "id": "advection",
+      "name": "Linear advection",
+      "coordinates": [
+        "x",
+        "t"
+      ],
+      "bounds": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "time_axis": 1,
+      "dirichlet_faces": [
+        [
+          0,
+          0
+        ]
+      ],
+      "pde": "u_t+u_x=0",
+      "exact": "sin(pi*(x-t))",
+      "boundary": "exact inflow trace at x=-1",
+      "initial": "sin(pi*x)"
+    },
+    {
+      "id": "burgers",
+      "name": "Viscous Burgers traveling front",
+      "coordinates": [
+        "x",
+        "t"
+      ],
+      "bounds": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "time_axis": 1,
+      "dirichlet_faces": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pde": "u_t+u*u_x=0.1*u_xx",
+      "exact": "0.5-0.5*tanh(2.5*(x-0.5*t))",
+      "boundary": "exact traces at both endpoints",
+      "initial": "exact trace at t=0"
+    },
+    {
+      "id": "fisher_kpp",
+      "name": "Fisher-KPP traveling front",
+      "coordinates": [
+        "x",
+        "t"
+      ],
+      "bounds": [
+        [
+          -2,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "time_axis": 1,
+      "dirichlet_faces": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pde": "u_t=0.1*u_xx+u*(1-u)",
+      "exact": "(1+exp(x/sqrt(0.6)-5*t/6))^(-2)",
+      "boundary": "exact traces at both endpoints",
+      "initial": "exact trace at t=0"
+    },
+    {
+      "id": "anisotropic_heat",
+      "name": "Anisotropic heat",
+      "coordinates": [
+        "x",
+        "y",
+        "t"
+      ],
+      "bounds": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "time_axis": 2,
+      "dirichlet_faces": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pde": "u_t=0.1*u_xx+0.2*u_yy",
+      "exact": "exp(-0.9*pi^2*t)*sin(pi*x)*sin(2*pi*y)",
+      "boundary": "zero spatial Dirichlet",
+      "initial": "sin(pi*x)*sin(2*pi*y)"
+    },
+    {
+      "id": "manufactured_heat",
+      "name": "Variable-coefficient manufactured heat",
+      "coordinates": [
+        "x",
+        "y",
+        "t"
+      ],
+      "bounds": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "time_axis": 2,
+      "dirichlet_faces": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pde": "u_t=(1+x^2+y^2)*(u_xx+u_yy)+s",
+      "forcing": "s=(pi^2*(1+x^2+y^2)*(x^2+y^2)-1)*exp(-t)*sin(pi*x*y)",
+      "exact": "exp(-t)*sin(pi*x*y)",
+      "boundary": "exact spatial traces",
+      "initial": "sin(pi*x*y)"
+    },
+    {
+      "id": "wave",
+      "name": "Two-mode wave",
+      "coordinates": [
+        "x",
+        "t"
+      ],
+      "bounds": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "time_axis": 1,
+      "dirichlet_faces": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "derivative_condition": {
+        "face_axis": 1,
+        "side": 0,
+        "derivative_axis": 1
+      },
+      "pde": "u_tt=4*u_xx",
+      "exact": "sin(pi*x)*cos(2*pi*t)+0.5*sin(4*pi*x)*cos(8*pi*t)",
+      "boundary": "zero Dirichlet",
+      "initial": "u(x,0)=sin(pi*x)+0.5*sin(4*pi*x); u_t(x,0)=0"
+    },
+    {
+      "id": "laplace",
+      "name": "Square Laplace",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "bounds": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "dirichlet_faces": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pde": "u_xx+u_yy=0",
+      "exact": "sin(pi*x)*sinh(pi*y)/sinh(pi)",
+      "boundary": "top sin(pi*x); other sides zero"
+    },
+    {
+      "id": "helmholtz",
+      "name": "Helmholtz, k=4pi",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "bounds": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "dirichlet_faces": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "pde": "-u_xx-u_yy-(4*pi)^2*u=s",
+      "forcing": "s=(4*pi)^2*sin(4*pi*x)*sin(4*pi*y)",
+      "exact": "sin(4*pi*x)*sin(4*pi*y)",
+      "boundary": "zero Dirichlet"
+    },
+    {
+      "id": "allen_cahn",
+      "name": "Allen-Cahn traveling front",
+      "coordinates": [
+        "x",
+        "t"
+      ],
+      "bounds": [
+        [
+          -2,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "time_axis": 1,
+      "dirichlet_faces": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "pde": "u_t=0.1*u_xx+u-u^3",
+      "exact": "(1+exp(sqrt(5)*x-1.5*t))^(-1)",
+      "boundary": "exact endpoint traces",
+      "initial": "exact trace at t=0"
+    },
+    {
+      "id": "kdv",
+      "name": "KdV one-soliton",
+      "coordinates": [
+        "x",
+        "t"
+      ],
+      "bounds": [
+        [
+          -5,
+          5
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "time_axis": 1,
+      "dirichlet_faces": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "derivative_condition": {
+        "face_axis": 0,
+        "side": 1,
+        "derivative_axis": 0
+      },
+      "pde": "u_t+6*u*u_x+u_xxx=0",
+      "exact": "0.5*sech(0.5*(x-t))^2",
+      "boundary": "exact u at x=-5,5; exact u_x at x=5",
+      "initial": "0.5*sech(0.5*x)^2"
+    }
+  ],
+  "references": {
+    "training_loss": "https://kindxiaoming.github.io/pykan/Example/Example_6_PDE_interpretation.html",
+    "advection_burgers_fisher": "https://arxiv.org/abs/2210.07182",
+    "heat_examples": "https://github.com/i207M/PINNacle/blob/main/src/pde/heat.py",
+    "wave_example": "https://github.com/i207M/PINNacle/blob/main/src/pde/wave.py",
+    "helmholtz_example": "https://deepxde.readthedocs.io/en/latest/demos/pinn_forward/helmholtz.2d.dirichlet.html",
+    "kdv": "https://eqworld.ipmnet.ru/en/solutions/npde/npde5101.pdf"
+  }
+}

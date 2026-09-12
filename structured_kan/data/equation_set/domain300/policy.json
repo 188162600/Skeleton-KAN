@@ -1,0 +1,13 @@
+{
+  "version": "quality320-audit-v1",
+  "points": 30000,
+  "seed": 421,
+  "source_cap": 1,
+  "target": 80,
+  "required_surplus": 81,
+  "no_rejection_sampling": true,
+  "dimension_gt_10": "soft selection preference only",
+  "training": false,
+  "support_scope": "source boxes or discrete 30000-point source trajectories; no claim of generalization off trajectory",
+  "acceptance": "finite, valid sampled original/reduced domains, nondegenerate, no severe tail or singular-margin warnings; source boxes additionally require conservative domain enclosure; simulator agreement NMSE<1e-10 where available"
+}

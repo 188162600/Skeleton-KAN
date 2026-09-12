@@ -1,0 +1,6 @@
+-r ../dataset/requirements-locked.txt
+# Imports required by the pinned native PyKAN package (even numeric-only mode).
+pandas==2.2.3
+matplotlib==3.10.0
+PyYAML==6.0.2
+tqdm==4.67.1

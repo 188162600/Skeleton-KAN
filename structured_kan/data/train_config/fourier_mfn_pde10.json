@@ -1,0 +1,157 @@
+{
+  "schema": "structured-kan.pde-training.v1",
+  "method": "fourier_mfn",
+  "source": {
+    "path": "data/equation_set/domain300/selected/domain300_with_splits.json",
+    "sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+    "equations": 300
+  },
+  "problems": {
+    "path": "data/equation_set/pde10/problems.json",
+    "sha256": "5db719b9e0be253dbb5ab8695902fd08d64bb4a400885f02ee379102d335ce18"
+  },
+  "seeds": [
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430
+  ],
+  "points_per_split": 10000,
+  "boundary_points": 2000,
+  "initial_points": 2000,
+  "outer_steps": 50,
+  "max_inner_iterations": 20,
+  "history_size": 100,
+  "line_search": "strong-Wolfe",
+  "loss": "0.01*PDE + Dirichlet + initial-value + derivative-condition (each mean squared error divided by boundary/initial output scale squared)",
+  "normalization": "input: train interior; output: train boundary and initial values only",
+  "interior_solution_in_training": false,
+  "selection": "one configuration per PDE minimizing mean log validation NMSE across ten seeds; validation uses exact interior solutions",
+  "report_floor": 1e-10,
+  "compile_mode": "reduce-overhead",
+  "workers": 1,
+  "save_models": true,
+  "output": "data/results/fourier_mfn_pde10",
+  "architectures": [
+    {
+      "id": "MFN01",
+      "product_layers": 1,
+      "hidden_width": 32,
+      "input_scale": 1
+    },
+    {
+      "id": "MFN02",
+      "product_layers": 1,
+      "hidden_width": 32,
+      "input_scale": 4
+    },
+    {
+      "id": "MFN03",
+      "product_layers": 1,
+      "hidden_width": 64,
+      "input_scale": 1
+    },
+    {
+      "id": "MFN04",
+      "product_layers": 1,
+      "hidden_width": 64,
+      "input_scale": 4
+    },
+    {
+      "id": "MFN05",
+      "product_layers": 1,
+      "hidden_width": 128,
+      "input_scale": 1
+    },
+    {
+      "id": "MFN06",
+      "product_layers": 1,
+      "hidden_width": 128,
+      "input_scale": 4
+    },
+    {
+      "id": "MFN07",
+      "product_layers": 2,
+      "hidden_width": 32,
+      "input_scale": 1
+    },
+    {
+      "id": "MFN08",
+      "product_layers": 2,
+      "hidden_width": 32,
+      "input_scale": 4
+    },
+    {
+      "id": "MFN09",
+      "product_layers": 2,
+      "hidden_width": 64,
+      "input_scale": 1
+    },
+    {
+      "id": "MFN10",
+      "product_layers": 2,
+      "hidden_width": 64,
+      "input_scale": 4
+    },
+    {
+      "id": "MFN11",
+      "product_layers": 2,
+      "hidden_width": 128,
+      "input_scale": 1
+    },
+    {
+      "id": "MFN12",
+      "product_layers": 2,
+      "hidden_width": 128,
+      "input_scale": 4
+    },
+    {
+      "id": "MFN13",
+      "product_layers": 4,
+      "hidden_width": 32,
+      "input_scale": 1
+    },
+    {
+      "id": "MFN14",
+      "product_layers": 4,
+      "hidden_width": 32,
+      "input_scale": 4
+    },
+    {
+      "id": "MFN15",
+      "product_layers": 4,
+      "hidden_width": 64,
+      "input_scale": 1
+    },
+    {
+      "id": "MFN16",
+      "product_layers": 4,
+      "hidden_width": 64,
+      "input_scale": 4
+    },
+    {
+      "id": "MFN17",
+      "product_layers": 4,
+      "hidden_width": 128,
+      "input_scale": 1
+    },
+    {
+      "id": "MFN18",
+      "product_layers": 4,
+      "hidden_width": 128,
+      "input_scale": 4
+    }
+  ],
+  "reference_commit": "58c3c4dd5908bce9d5c3b077926cb588cc6052da",
+  "architecture_source": "https://github.com/boschresearch/multiplicative-filter-networks",
+  "sweep_source": "historical Fourier-MFN widths/frequency scales; user-corrected product depths 1,2,4",
+  "initialization": "seeded float64 official FourierNet initialization; weight_scale=1, bias=true, output_act=false",
+  "execution_note": "Two equation-disjoint shards, five PDEs per host; full ten-seed tensor batches, full collocation sets; exact forward AD with real-FX lowering.",
+  "release_note": "Anonymous review copy; metadata-only paths and dependent SHA-256 references updated."
+}

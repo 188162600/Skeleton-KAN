@@ -1,0 +1,96 @@
+{
+  "dataset_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+  "rows": 300,
+  "global_exact_classes": 285,
+  "within_domain_unique": {
+    "physics": 75,
+    "mathematics": 75,
+    "biochemistry": 75,
+    "symbolic_search": 75
+  },
+  "cross_domain_shared_class_counts": {
+    "biochemistry": {
+      "biochemistry": 75,
+      "mathematics": 8,
+      "physics": 6,
+      "symbolic_search": 0
+    },
+    "mathematics": {
+      "biochemistry": 8,
+      "mathematics": 75,
+      "physics": 2,
+      "symbolic_search": 1
+    },
+    "physics": {
+      "biochemistry": 6,
+      "mathematics": 2,
+      "physics": 75,
+      "symbolic_search": 0
+    },
+    "symbolic_search": {
+      "biochemistry": 0,
+      "mathematics": 1,
+      "physics": 0,
+      "symbolic_search": 75
+    }
+  },
+  "cross_domain_equivalences": {
+    "afg:787b8e9c7edc692de045f7e90988cee4:0": [
+      "physics:Feynman040:I.39.10",
+      "mathematics:PanXuZhou.2",
+      "biochemistry:BIOMD0000000697:Degradation_Cdk2_CycErem"
+    ],
+    "afg:f7170000738fba4bc6a7642258317bfb:0": [
+      "physics:Feynman085:II.38.14",
+      "biochemistry:BIOMD0000000596:NFkB_a1"
+    ],
+    "afg:b77ef74383e43170a1c5f8fdf5177f39:0": [
+      "physics:Feynman016:I.14.4",
+      "mathematics:Bouali2.2",
+      "biochemistry:BIOMD0000000999:reaction27"
+    ],
+    "afg:7f57eabb559c5c723238d3d06f728a25:0": [
+      "physics:Feynman060:I.10.9",
+      "biochemistry:BIOMD0000000730:Ca_synthesis_through_E2F"
+    ],
+    "afg:878e8356e42e7b77d2b264fa8b1b59b5:0": [
+      "physics:Feynman075:II.34.2a",
+      "biochemistry:BIOMD0000000791:tumor_immune"
+    ],
+    "afg:17d147f1d031ce9f6a88f4588d1bac19:0": [
+      "physics:Feynman083:II.37.1",
+      "biochemistry:BIOMD0000000711:Binding_of_Antibody__A__and_Virus__V"
+    ],
+    "afg:25b1c93c0227e57d483a5b3d047ae624:0": [
+      "mathematics:HyperBao.2",
+      "biochemistry:BIOMD0000000699:R14"
+    ],
+    "afg:cd1c83d83c1a0be9df861640ed168edd:0": [
+      "mathematics:HyperPang.2",
+      "symbolic_search:Livermore2_Vars4_12"
+    ],
+    "afg:44b1c8e78924fe06ae3b729780db3e22:0": [
+      "mathematics:SprottD.3",
+      "biochemistry:BIOMD0000000627:AK_neurons"
+    ],
+    "afg:857409204fdaeb9ff0f4d39bf9764325:0": [
+      "mathematics:SprottJ.3",
+      "biochemistry:BIOMD0000000922:reaction_for_L"
+    ],
+    "afg:987074d1f501e4a80143c79f3223a169:0": [
+      "mathematics:CoevolvingPredatorPrey.2",
+      "biochemistry:BIOMD0000001058:Activation_of_SBF_by_Cln"
+    ],
+    "afg:49717effad0013dd8b68df0e3a577fab:0": [
+      "mathematics:SaltonSea.1",
+      "biochemistry:BIOMD0000000622:R9"
+    ],
+    "afg:eed56ac4aa228bed09d0220f793191e3:0": [
+      "mathematics:Blasius.2",
+      "biochemistry:BIOMD0000000913:Increase_in_IL_2_concentration"
+    ]
+  },
+  "within_domain_constraints_pass": true,
+  "joint_cross_domain_deduplication_required": false,
+  "meaning": "Affine/permutation-equivalent laws, not necessarily byte-identical formulas or shared sampling supports."
+}

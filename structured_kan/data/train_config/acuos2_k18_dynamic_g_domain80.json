@@ -1,0 +1,74 @@
+{
+  "schema": "structured-kan.domain300-training.v1",
+  "method": "acuos2",
+  "subset": {
+    "path": "data/equation_set/eval80/subset80_with_splits.json",
+    "sha256": "b9d4f10454fbe98e8cd329cf09a7795b7b1680db15a9f18f773aea3fff61d513"
+  },
+  "parent": {
+    "path": "data/equation_set/domain300/selected/domain300_with_splits.json",
+    "sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f"
+  },
+  "catalogues": {
+    "symbolic_search": {
+      "path": "data/catalogues/rebuilt_20260908/catalogue_rebuild_1788894591/acuos2_symbolic_search_k18.json",
+      "sha256": "d055d37a2e80aba7391f21aec42cc55eff2d04adfc10329caa3f1c68ac4760a7",
+      "source": "data/equation_set/folds/heldout_symbolic_search/training225.json",
+      "source_sha256": "6bff91b7c95c993e2584a2cd883d2f1c6399c6f7f4b096a8fe0d7c9ca92960ca"
+    },
+    "physics": {
+      "path": "data/catalogues/rebuilt_20260908/catalogue_rebuild_1788894591/acuos2_physics_k18.json",
+      "sha256": "6c2fbfdd6115a39537371964b9a1fc861fad6df10776bb099d856bfd2972f978",
+      "source": "data/equation_set/folds/heldout_physics/training225.json",
+      "source_sha256": "841b28df66f84dd7a911cdd2e9aab6d6beaac76d79ab97c7345ee2549d148fe0"
+    },
+    "mathematics": {
+      "path": "data/catalogues/rebuilt_20260908/catalogue_rebuild_1788894591/acuos2_mathematics_k18.json",
+      "sha256": "2f1f21cea77eebf42a339080fe5bfcf653633ceb6a5db71bc2f618dd3fa83321",
+      "source": "data/equation_set/folds/heldout_mathematics/training225.json",
+      "source_sha256": "5d8573ab53daf03a7bd2834a5fbaf5cce0d61ae451f1d3300c9204935861ec61"
+    },
+    "biochemistry": {
+      "path": "data/catalogues/rebuilt_20260908/catalogue_rebuild_1788894591/acuos2_biochemistry_k18.json",
+      "sha256": "61144467639613c2cb3c01f2370d12e6319aa7524733504192ca230474081927",
+      "source": "data/equation_set/folds/heldout_biochemistry/training225.json",
+      "source_sha256": "cda62259641396407bd3dbf5021025b45a4ea443606925d6dbb13cc69f0c994f"
+    }
+  },
+  "data_domains": [
+    "symbolic_search",
+    "physics",
+    "mathematics",
+    "biochemistry"
+  ],
+  "seeds": [
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430
+  ],
+  "points_per_split": 10000,
+  "outer_steps": 50,
+  "max_inner_iterations": 20,
+  "history_size": 100,
+  "line_search": "strong-Wolfe",
+  "normalization": "train-only-standardization",
+  "width_rule": "0.2*G**(2/3)",
+  "G_rule": "source-only route-aligned complexity, nearest 3/9/15",
+  "initialization_noise": 0.001,
+  "route_off_diagonal": 0.0,
+  "output_phi": true,
+  "compile_mode": "reduce-overhead",
+  "workers": 2,
+  "selection": "single builder per equation, mean log validation NMSE over ten seeds",
+  "report_floor": 1e-10,
+  "save_models": true,
+  "output": "data/results/acuos2_k18_dynamic_g_domain80",
+  "release_note": "Anonymous review copy; metadata-only paths and dependent SHA-256 references updated."
+}

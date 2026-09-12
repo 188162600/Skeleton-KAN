@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "structured-kan"
+version = "0.1.0"
+description = "Explicit sum/product compositions with incoming Gaussian unary maps"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.0"]
+
+[project.optional-dependencies]
+construction = ["numpy", "scipy", "sympy", "networkx", "scikit-learn", "apted==1.0.3", "POT==0.9.6.post1", "maude==1.6.0", "matplotlib", "python-dateutil"]
+sampling = ["numpy==2.2.6", "scipy==1.15.3", "sympy==1.14.0", "scikit-learn==1.6.1", "numba==0.61.2", "libroadrunner==2.8.0"]
+
+[tool.setuptools]
+packages = ["structured_kan", "structured_kan.model", "structured_kan.structure_builder", "structured_kan.dataset", "structured_kan.optimizer", "structured_kan.scripts"]
+package-dir = {structured_kan = "."}
+
+[tool.setuptools.package-data]
+structured_kan = ["configs/*.json"]
+"structured_kan.structure_builder" = ["*provenance.json", "requirements-locked.txt", "vendor/**/*"]
+"structured_kan.dataset" = ["requirements-locked.txt"]

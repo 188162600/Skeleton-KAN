@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository and the accompanying manuscript."
+type: software
+title: "Skeleton-KAN: Transferring Interpretable Arithmetic Skeletons Across Scientific Equations"
+authors:
+  - family-names: Liu
+    given-names: Boyan
+    affiliation: "School of Computer Science, University of Sheffield"
+    email: "BLiu61@sheffield.ac.uk"
+version: 1.0.0
+date-released: 2026-09-12
+url: "https://github.com/188162600/Skeleton-KAN"
+license: MIT
+repository-code: "https://github.com/188162600/Skeleton-KAN"
+

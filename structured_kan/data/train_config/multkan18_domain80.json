@@ -1,0 +1,198 @@
+{
+  "schema": "structured-kan.multkan-domain80.v1",
+  "method": "multkan",
+  "subset": {
+    "path": "data/equation_set/eval80/subset80_with_splits.json",
+    "sha256": "b9d4f10454fbe98e8cd329cf09a7795b7b1680db15a9f18f773aea3fff61d513"
+  },
+  "parent": {
+    "path": "data/equation_set/domain300/selected/domain300_with_splits.json",
+    "sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f"
+  },
+  "data_domains": [
+    "symbolic_search",
+    "physics",
+    "mathematics",
+    "biochemistry"
+  ],
+  "seeds": [
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430
+  ],
+  "points_per_split": 10000,
+  "outer_steps": 50,
+  "max_inner_iterations": 20,
+  "history_size": 100,
+  "line_search": "strong-Wolfe",
+  "normalization": "train-only-standardization",
+  "initialization": "native PyKAN seeded float64 CPU initialization, then CUDA; no target-fitting initialization",
+  "reference_commit": "ecde4ec3274d3bef1ad737479cf126aed38ab530",
+  "architecture_source": "https://github.com/KindXiaoming/pykan",
+  "sweep_source": "user: H1=[ceil(d/2),0],[ceil(d/2),1],[ceil(d/2)+1,1]; H2=None,[2,0],[0,1]; G=10,30",
+  "basis": "cubic B-spline plus SiLU, both per-edge scales trainable",
+  "grid_policy": "fixed uniform [-1,1], extended by cubic order; no grid updates",
+  "symbolic_enabled": false,
+  "affine_trainable": false,
+  "freeze_disabled_symbolic": true,
+  "compile_mode": "reduce-overhead",
+  "workers": 2,
+  "save_models": true,
+  "selection": "one architecture per equation by mean log validation NMSE across ten seeds; test report-only",
+  "report_floor": 1e-10,
+  "output": "data/results/multkan18_domain80",
+  "architectures": [
+    {
+      "id": "MKAN01",
+      "first_hidden": "q_add",
+      "second_hidden": "none",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN02",
+      "first_hidden": "q_add",
+      "second_hidden": "2_add",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN03",
+      "first_hidden": "q_add",
+      "second_hidden": "1_mult",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN04",
+      "first_hidden": "q_add_1_mult",
+      "second_hidden": "none",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN05",
+      "first_hidden": "q_add_1_mult",
+      "second_hidden": "2_add",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN06",
+      "first_hidden": "q_add_1_mult",
+      "second_hidden": "1_mult",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN07",
+      "first_hidden": "q_plus_1_add_1_mult",
+      "second_hidden": "none",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN08",
+      "first_hidden": "q_plus_1_add_1_mult",
+      "second_hidden": "2_add",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN09",
+      "first_hidden": "q_plus_1_add_1_mult",
+      "second_hidden": "1_mult",
+      "grid": 10,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN10",
+      "first_hidden": "q_add",
+      "second_hidden": "none",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN11",
+      "first_hidden": "q_add",
+      "second_hidden": "2_add",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN12",
+      "first_hidden": "q_add",
+      "second_hidden": "1_mult",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN13",
+      "first_hidden": "q_add_1_mult",
+      "second_hidden": "none",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN14",
+      "first_hidden": "q_add_1_mult",
+      "second_hidden": "2_add",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN15",
+      "first_hidden": "q_add_1_mult",
+      "second_hidden": "1_mult",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN16",
+      "first_hidden": "q_plus_1_add_1_mult",
+      "second_hidden": "none",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN17",
+      "first_hidden": "q_plus_1_add_1_mult",
+      "second_hidden": "2_add",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    },
+    {
+      "id": "MKAN18",
+      "first_hidden": "q_plus_1_add_1_mult",
+      "second_hidden": "1_mult",
+      "grid": 30,
+      "spline_order": 3,
+      "multiplication_arity": 2
+    }
+  ],
+  "release_note": "Anonymous review copy; metadata-only paths and dependent SHA-256 references updated."
+}

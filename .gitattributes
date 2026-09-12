@@ -1,0 +1,3 @@
+* -text
+*.pdf binary
+# Every release hash is byte-based; prevent checkout-time newline conversion.

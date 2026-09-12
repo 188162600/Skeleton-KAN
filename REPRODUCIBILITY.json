@@ -1,0 +1,28 @@
+{
+  "transfer_configurations": [
+    "v2_private_affine_shared_phi_dynamic_g_domain80_shard0.json",
+    "v2_private_affine_shared_phi_dynamic_g_domain80_shard1.json",
+    "ted_k18_dynamic_g_domain80.json",
+    "fgw_sum_k18_dynamic_g_domain80.json",
+    "acuos2_k18_dynamic_g_domain80.json",
+    "mlp18_domain80.json",
+    "fourier_mfn18_domain80.json",
+    "multkan18_domain80.json",
+    "smpf_coordinate_domain80_shard0.json",
+    "smpf_coordinate_domain80_shard1.json",
+    "smpf_coordinate_domain80_shard2.json"
+  ],
+  "pde_configurations": [
+    "v2_private_affine_shared_phi_pde10.json",
+    "ted_pde10.json",
+    "fgw_sum_pde10.json",
+    "acuos2_pde10.json",
+    "mlp_pde10.json",
+    "fourier_mfn_pde10.json",
+    "multkan_pde10.json",
+    "smpf_coordinate_pde10.json"
+  ],
+  "schema": "skeleton-kan.public-reproduction.v1",
+  "source_release_sha256": "16d188988b3bd3d934b55c877a6d7aeb9b5dbd2878c8bc7171615463959e5d32",
+  "note": "Frozen scientific records retained; operating-system restrictions removed in the public release."
+}

@@ -1,0 +1,26 @@
+{
+  "candidate_rows": 4137,
+  "audited_candidates": 4137,
+  "domains": {
+    "physics": {
+      "accepted": 102,
+      "review_required": 17
+    },
+    "mathematics": {
+      "accepted": 338,
+      "unresolved": 1,
+      "review_required": 6
+    },
+    "biochemistry": {
+      "review_required": 1154,
+      "accepted": 2106,
+      "rejected": 159,
+      "unresolved": 132
+    },
+    "symbolic_search": {
+      "accepted": 115,
+      "review_required": 7
+    }
+  },
+  "selected_320": false
+}

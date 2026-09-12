@@ -1,0 +1,1935 @@
+{
+  "schema": "pinned-source-setup.v1",
+  "note": "Raw files pinned by full commit and SHA-256; official ACUOS2 archive pinned by SHA-256. Local edits restore the exact benchmark snapshot. Notices are not stripped.",
+  "sources": [
+    {
+      "id": "acuos2-303f83322c02fce0",
+      "url": "http://safe-tools.dsic.upv.es/acuos2/download/source-benchmarks.zip",
+      "sha256": "d9214e03f135dc0798d198bbfea48b4b4fdab6d0e51322b13d74b3b402d311e6",
+      "bytes": 366189
+    },
+    {
+      "id": "bio-04f3fe654b217842",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000596/Philipson2015.xml",
+      "sha256": "aaac576f95700b99e8180a8b16a087b5cea272c67a6f1f39823d196e176d4009",
+      "bytes": 404356
+    },
+    {
+      "id": "bio-241cb13037ea7ad6",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000784/Lopez2014.xml",
+      "sha256": "923ecbf6cd791e2bdc2b27e7926827e6f67d870578725cecfb45804f69be8494",
+      "bytes": 41636
+    },
+    {
+      "id": "bio-2d94555afe630580",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000568/Mueller2015.sedml",
+      "sha256": "60cfb2a69c71e1ffc1eb17f30c5eebc0d0d13d1755400d21e04c03d092b71405",
+      "bytes": 103153
+    },
+    {
+      "id": "bio-3084b7f88be79b28",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000699/MODEL1202090002_Fig5%20i.sedml",
+      "sha256": "59fe97084633adff90cc4f292613f28395c8b9c6553ae0b980f4d429eb0d184c",
+      "bytes": 60199
+    },
+    {
+      "id": "bio-3829afda60b96e34",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000811/He2017.sedml",
+      "sha256": "148012eca453ce20c6889134824ea706a37b196f583a4b36318175c76595cf78",
+      "bytes": 50149
+    },
+    {
+      "id": "bio-415c88424af963cd",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000934/Linke2017f1b.sedml",
+      "sha256": "5369fdeaa43c1c2603326ea5abd209d926537658b26c75320ae783c1ba41a2d1",
+      "bytes": 35510
+    },
+    {
+      "id": "bio-42ebebfc691bfca4",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000724/Theinmozhi_2018.sedml",
+      "sha256": "1a255aaa992e95deed41fb05666deb5e52d5405ec00da2abc8a07f8a315e293d",
+      "bytes": 66725
+    },
+    {
+      "id": "bio-524f69612ae6c88e",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000954/Pandey2018_wildtype.xml",
+      "sha256": "cedd8f37ec2e732ef87855b12390b83855a5fda7a7a9eb426b52edea130aad31",
+      "bytes": 237622
+    },
+    {
+      "id": "bio-796af0b0c0fe8f91",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000744/Hu2019.sedml",
+      "sha256": "bec55d35eff69cda0f2c76e37d9fbd78957921f03f40f590b3138f2602dfbabe",
+      "bytes": 24266
+    },
+    {
+      "id": "bio-7d8f27b1b46d0b86",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000729/Goldbeter1996.sedml",
+      "sha256": "e5f069b0482637d6e481f160717d3bfdd61d0b092ddd25349b09059b6e32a4bd",
+      "bytes": 16607
+    },
+    {
+      "id": "bio-81b09cfd241cf87a",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000937/Ferrel2011_V3.sedml",
+      "sha256": "fe908282bd2ffb7c4dc36cffb09b1be49918bf2238e9b69d81a0e64e3ca47ee1",
+      "bytes": 14728
+    },
+    {
+      "id": "bio-82cbf8570c80f898",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000699/BIOMD0000000699_url.xml",
+      "sha256": "2154870f587366b4ca853609f411d225eefeea115ea20293b80a74b75f121625",
+      "bytes": 267718
+    },
+    {
+      "id": "bio-978e4fef02f1de6a",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000849/Berg2017.sedml",
+      "sha256": "a8347c7274f3e3b88e2d76d9a6975dafa99d27f9ac4181f98f8dbded77a2b3c2",
+      "bytes": 62102
+    },
+    {
+      "id": "bio-98422c1eb8be7bf8",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000937/Ferrel2011_V3.xml",
+      "sha256": "f5a7c8b32ce8af0b4e7060dc8369db2e683a6ff76d424320d2248da02b57d38e",
+      "bytes": 36232
+    },
+    {
+      "id": "bio-98cba247ebc7b112",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000724/Theinmozhi_2018.xml",
+      "sha256": "f18738faa858a44724cf321d856fb46616bc5069b9ff4077567c1e85aaf4666b",
+      "bytes": 185402
+    },
+    {
+      "id": "bio-aba85ec9e3a27172",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000859/Larbat2016.3.sedml",
+      "sha256": "cff736371c200fb0e95ffb96574cc48f872b33acd312b63567f42c6ad1e9151c",
+      "bytes": 47413
+    },
+    {
+      "id": "bio-ac56694107f7fe2b",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000859/Larbat2016.3.xml",
+      "sha256": "4f436b6e2c0eac5299c84826f99aba24687818c27302066dc84d5f1a685f3172",
+      "bytes": 122029
+    },
+    {
+      "id": "bio-ae1271b1952dbef6",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000622/NguyenLK2011_High_Free_Bmi1_Levels.sedml",
+      "sha256": "7ebc280ebe1c12a345d2784963f8d5e2bcd01e34fda712c47e717aace48036e6",
+      "bytes": 18114
+    },
+    {
+      "id": "bio-afb9e4741eadcb0b",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000981/Wan2020.sedml",
+      "sha256": "2aa6580973c6e41117b47d1814ab4a735d725f61a16778215355203ea1f21004",
+      "bytes": 28011
+    },
+    {
+      "id": "bio-b61f87bd8c2fcc71",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000729/Goldbeter1996.xml",
+      "sha256": "aa37f728accc0940a915b2982ec8b19b3b7d4d7b659b7824ec8540a77d4933aa",
+      "bytes": 49317
+    },
+    {
+      "id": "bio-baf614ab3a3ac852",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000834/Verma2016.xml",
+      "sha256": "3017cdddfddf0594cd8cc3d1f2ee00a64e95327f7c65d7d9258196987d90ef2d",
+      "bytes": 346468
+    },
+    {
+      "id": "bio-bc2eb2ac449ed1d7",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000849/Berg2017.xml",
+      "sha256": "76b7c3195b980d8d0faa4df384e6f6654a56894190240aef24c7228fb2a604ba",
+      "bytes": 312123
+    },
+    {
+      "id": "bio-be77caf3117edc70",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000568/BIOMD0000000568_url.xml",
+      "sha256": "108034973657b641cc7b21a604c3e93026c2bcdbbd444629b266fa33d01cb418",
+      "bytes": 245444
+    },
+    {
+      "id": "bio-c179eca8d00a9f81",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000596/Philipson2015.sedml",
+      "sha256": "e097a48f15350bd7ab4024a7983690a5c9d202d12ce4b6e4a8ca6d44e306f46e",
+      "bytes": 29175
+    },
+    {
+      "id": "bio-c2bcc043a29c4016",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000922/Turner2015_ELP.xml",
+      "sha256": "9fc145ffaea39f7a8cd15be792e8d6e23760e2fdfae8a879371764d16648782b",
+      "bytes": 27074
+    },
+    {
+      "id": "bio-c3b724d15b4e4dc3",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000784/Lopez2014.sedml",
+      "sha256": "7bc176fd42ef51009154e78efa66877df7b698caaf7f3ec8468eb8f6d0dbbfce",
+      "bytes": 17967
+    },
+    {
+      "id": "bio-c45b52df8148fb51",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000834/Verma2016.sedml",
+      "sha256": "d33adf9b24c20824e94eee0d4f619169ba7f8bfa59e872d7513de686fc0f0dbd",
+      "bytes": 149040
+    },
+    {
+      "id": "bio-c5af079d6d6b0be5",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000703/Diedrichs2018.sedml",
+      "sha256": "9bc0be04bd017ad6458a4d8506c5405184bcdf770eb2967a0a2b168daeeb344a",
+      "bytes": 41389
+    },
+    {
+      "id": "bio-c92b1734b310336e",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000934/Linke2017_figure1c.sedml",
+      "sha256": "6362d6a48971e92f0622f25a4141eb1d3e9c50ccf78a3b78cb8191771dec9b56",
+      "bytes": 35509
+    },
+    {
+      "id": "bio-c960c0372c61961d",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000744/Hu2019.xml",
+      "sha256": "6fdabc7536542fd9d10c2050010207f7ec1d57099bf935a278010b21aeab0044",
+      "bytes": 107349
+    },
+    {
+      "id": "bio-c9c26d8bfe0b2c5a",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000922/Turner2015_ELP.sedml",
+      "sha256": "18433cd233c74ebafe88ca98b1dc3943e3e607b59ede1b43dff56a02874bcfdf",
+      "bytes": 11096
+    },
+    {
+      "id": "bio-cfc88bea199c87d9",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000468/Integratedmodel_noshearstress.sedml",
+      "sha256": "b880384ed138eaf42ca49e637fe8c5ed3927a4b97b15755a2dabfe59c1c8bdd9",
+      "bytes": 101566
+    },
+    {
+      "id": "bio-d3413d3c32c40bba",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000981/Wan2020.xml",
+      "sha256": "0228ed945c129afcad1c7887834196dce8c9a396824cb09d1cfad2dd05d81ac4",
+      "bytes": 82647
+    },
+    {
+      "id": "bio-d58c12068ba81b38",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000934/Linke2017.xml",
+      "sha256": "7946984aac8ee1bde0b786a50e720687e32d51e92636a2dfb5015d5478cd94e8",
+      "bytes": 82754
+    },
+    {
+      "id": "bio-e7af47ed71b99364",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000954/Pandey2018_Figure2A.sedml",
+      "sha256": "1537fbed34be625d9b1f2d18e415e99df939a7a1cf6ac2e32b1ea0b562ada8e0",
+      "bytes": 68775
+    },
+    {
+      "id": "bio-e922a0791e644138",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000811/He2017.xml",
+      "sha256": "f7b8eba6ae8c2274582acd111c68a815ebfeed8d7eab7a79b773062e8fb0575c",
+      "bytes": 114511
+    },
+    {
+      "id": "bio-f1301a1d9eb0d78f",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000622/BIOMD0000000622_url.xml",
+      "sha256": "17fc9e119aac69ee2129e83f7a6d8e2b9b88cd8eeeebf1c880a06d5c099f49fb",
+      "bytes": 60826
+    },
+    {
+      "id": "bio-f160972279c4f0e3",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000703/BIOMD0000000703_url.xml",
+      "sha256": "d8721d95761e69c8424053c98f015934868768e696770d83b6baf11cd8a05559",
+      "bytes": 138782
+    },
+    {
+      "id": "bio-f25647f70bfab2ef",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000468/BIOMD0000000468_url.xml",
+      "sha256": "e1d8e43b2cd8f373ff3646acf852c0cb59adbdf75c6bbe705ff3eac4734d0028",
+      "bytes": 428702
+    },
+    {
+      "id": "bio-f5c60c85c3da35d7",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000768/Eftimie2010.xml",
+      "sha256": "bf8c09d2ea3e7b028087e84d69f064e49146dab93266c0db11323e0c26967160",
+      "bytes": 96994
+    },
+    {
+      "id": "bio-f8a306a539970c83",
+      "url": "https://raw.githubusercontent.com/sys-bio/temp-biomodels/6a09daf46af1bb89e4857436b623a7b8720863ad/final/BIOMD0000000768/Eftimie2010.sedml",
+      "sha256": "414a1d95172e7547b4e2f34c3315ab1d16ed5eb3e5925a1af442f1319b8e8330",
+      "bytes": 23580
+    },
+    {
+      "id": "dysts-038db8c175c02cc0",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/dysts/maps.py",
+      "sha256": "7b8b789087fb315eadaa247d7f4048b381130c114d1a9b711ea82f9fed7fc9cf",
+      "bytes": 7053
+    },
+    {
+      "id": "dysts-153c9831f1056941",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/dysts/sampling.py",
+      "sha256": "73ffa8cf83cb3b24c84fc540e0e8aa5691a64fdf5068614d434f9f4c0a67729a",
+      "bytes": 7931
+    },
+    {
+      "id": "dysts-1593f4d25654fd98",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/dysts/utils/utils.py",
+      "sha256": "aea2b756f1864b6f682d50bebc04af1615ea8d4de4bea35b51f1728181087405",
+      "bytes": 12829
+    },
+    {
+      "id": "dysts-278567fa6f218e0d",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/pyproject.toml",
+      "sha256": "b80cb81be6973c3ffa8514e9684bd473c12004dcb5f819661888aa30574e00fc",
+      "bytes": 758
+    },
+    {
+      "id": "dysts-3d189c6c1e99d9e4",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/dysts/data/discrete_maps.json",
+      "sha256": "6d6d42382b6a8d08e4e1c8cfa35ac1e9e99a9ef919dbb4885f4a1bbaac275682",
+      "bytes": 7524
+    },
+    {
+      "id": "dysts-499fc804830acdac",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/dysts/metrics.py",
+      "sha256": "829d6905ee0a8bd2e0b31ab42346336f15a388c3d1843185617aa3c76266ecf9",
+      "bytes": 33788
+    },
+    {
+      "id": "dysts-4eaafe4dcc48bd35",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/LICENSE.md",
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+      "bytes": 11356
+    },
+    {
+      "id": "dysts-5d8aa12a48634a3b",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/dysts/analysis.py",
+      "sha256": "6ac7c843861a8f61d4ce68b246ba989c30db32b7fc331cea6e42e3ad63b0fe28",
+      "bytes": 44617
+    },
+    {
+      "id": "dysts-62433999f04ecdfa",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/dysts/coupling.py",
+      "sha256": "b1653c7c5993af993cceb237c18ed0684b16dff91f38232f54e697faec52483c",
+      "bytes": 19680
+    },
+    {
+      "id": "dysts-7baf6cda6eb03e6f",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/dysts/__init__.py",
+      "sha256": "04febd75fb91d444a735ec409ca95fdb372e4dbb125b7b6110e6eded7a048a68",
+      "bytes": 850
+    },
+    {
+      "id": "dysts-9b324ee9d0d13d6f",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/dysts/events.py",
+      "sha256": "cd542b3319d0f6e92a1ca7828344cabb09562cd122d7626122a6d3131f169893",
+      "bytes": 2344
+    },
+    {
+      "id": "dysts-abe6c23b05057219",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/dysts/base.py",
+      "sha256": "cb1f00578ac41a0d79e56e49feb2d0f8ba2fe0e6fa304d3c3dcdb938f12d3a5f",
+      "bytes": 30945
+    },
+    {
+      "id": "dysts-b814b4780ffd2f7f",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/dysts/data/chaotic_attractors_prev.json",
+      "sha256": "cb9bb58313b6cb2e22c5816672a5c7cac1b3ebb2682239f9811b9d65334c70f2",
+      "bytes": 161484
+    },
+    {
+      "id": "dysts-c649421b570d8c43",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/dysts/utils/native_utils.py",
+      "sha256": "770dad0f6e16ad29c412bc66ebcc1b86d394286c0eb66fe97b613d12f119cdbf",
+      "bytes": 4176
+    },
+    {
+      "id": "dysts-c82113b4acdb7f30",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/dysts/utils/integration_utils.py",
+      "sha256": "e1ca642d67985cc9e9f3fc387d135b8d938ca2ff0935f9279bb8c735aa78fb8f",
+      "bytes": 10751
+    },
+    {
+      "id": "dysts-cbf69e365b0230c6",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/dysts/systems.py",
+      "sha256": "c2a4326905429059caa56f86a0940fadc81a3f0d413237c39620f688f6b92962",
+      "bytes": 10773
+    },
+    {
+      "id": "dysts-d38c74852fb565fc",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/dysts/flows.py",
+      "sha256": "14fd8d0897308b1b55d3194201c1a81903367e51943aad9d95604d6fa01c45d7",
+      "bytes": 67094
+    },
+    {
+      "id": "dysts-ea48c529c93d5668",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/dysts/utils/__init__.py",
+      "sha256": "6855002511790441047220334018f6f67f9f505681f0f72d512fa84a4f7aac1e",
+      "bytes": 1772
+    },
+    {
+      "id": "dysts-ed83543fb2379c2f",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/README.md",
+      "sha256": "992036283efc716f1cead85b299e3472ee92c6c627b35c15416b21f2d1eabf05",
+      "bytes": 6487
+    },
+    {
+      "id": "dysts-f5d35e8f5942a3d2",
+      "url": "https://raw.githubusercontent.com/williamgilpin/dysts/2a03f1ae7b0680b0470458783dcb4664660e131a/dysts/data/chaotic_attractors.json",
+      "sha256": "d0777a4bbd67408b16f26fdb1b88c94232cc52dd9caa9cd696a5ebd6690c5f1f",
+      "bytes": 179644
+    },
+    {
+      "id": "fgw-00871230824d0c3d",
+      "url": "https://raw.githubusercontent.com/tvayer/FGW/3d2128a5e4e2cb8ed8a272295feff13641a36cef/lib/optim.py",
+      "sha256": "80848762639195a1f82621c31b55342c1971ab794d92692c4a099338d4009ab3",
+      "bytes": 8225
+    },
+    {
+      "id": "fgw-6ac4d1a33ca5379e",
+      "url": "https://raw.githubusercontent.com/tvayer/FGW/3d2128a5e4e2cb8ed8a272295feff13641a36cef/lib/utils.py",
+      "sha256": "6b5ae3dd89c5624f65751bd3537aeb3e3e5247298c48af46ad14d76e13637e95",
+      "bytes": 5409
+    },
+    {
+      "id": "fgw-947369fc36793fed",
+      "url": "https://raw.githubusercontent.com/tvayer/FGW/3d2128a5e4e2cb8ed8a272295feff13641a36cef/lib/graph.py",
+      "sha256": "258d7534a51742ad6634d54e80b64d4783ccb1fc0e0bfcc611eed24f0f005c31",
+      "bytes": 13893
+    },
+    {
+      "id": "fgw-aa3447fea7290c9b",
+      "url": "https://raw.githubusercontent.com/tvayer/FGW/3d2128a5e4e2cb8ed8a272295feff13641a36cef/lib/ot_distances.py",
+      "sha256": "27553f764eac08de5232c953ece83634dab7e61ddf9bebc634c52700b00a6fbe",
+      "bytes": 6304
+    },
+    {
+      "id": "fgw-af1f656dde3f1517",
+      "url": "https://raw.githubusercontent.com/tvayer/FGW/3d2128a5e4e2cb8ed8a272295feff13641a36cef/README.md",
+      "sha256": "0cc97075615d25e41c1704cda1a530ccb8fa75a78d81fecfda0eb530e9c039c0",
+      "bytes": 4293
+    },
+    {
+      "id": "fgw-b291e348328b3941",
+      "url": "https://raw.githubusercontent.com/tvayer/FGW/3d2128a5e4e2cb8ed8a272295feff13641a36cef/lib/FGW.py",
+      "sha256": "d1def5e57c90b3083b20980c07f7c1852ef970779aa52c7b8debe1e2f5f1b445",
+      "bytes": 17758
+    },
+    {
+      "id": "fgw-c38a7933238bf996",
+      "url": "https://raw.githubusercontent.com/tvayer/FGW/3d2128a5e4e2cb8ed8a272295feff13641a36cef/lib/fgwclustering.py",
+      "sha256": "1757e19963352886d1d203094253d51fb848ecfaf547db3ddbcd708ba87c9ad7",
+      "bytes": 18226
+    },
+    {
+      "id": "fgw-e61434dba284eb70",
+      "url": "https://raw.githubusercontent.com/tvayer/FGW/3d2128a5e4e2cb8ed8a272295feff13641a36cef/lib/bregman.py",
+      "sha256": "9d465b582c15bcec7549c96ef2d05a0d1e9c3457536be8a9fed014912b08a331",
+      "bytes": 34665
+    },
+    {
+      "id": "mfn-6d8e85196b1667f7",
+      "url": "https://raw.githubusercontent.com/boschresearch/multiplicative-filter-networks/58c3c4dd5908bce9d5c3b077926cb588cc6052da/mfn/mfn.py",
+      "sha256": "af386b627670596b4ecd36c3b65e74a9c3730b554f849e5423fefe114a88e8e0",
+      "bytes": 3812
+    },
+    {
+      "id": "mfn-74dc5e8e2352a106",
+      "url": "https://raw.githubusercontent.com/boschresearch/multiplicative-filter-networks/58c3c4dd5908bce9d5c3b077926cb588cc6052da/LICENSE",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+      "bytes": 34523
+    },
+    {
+      "id": "pykan-0483fb02d8901727",
+      "url": "https://raw.githubusercontent.com/KindXiaoming/pykan/ecde4ec3274d3bef1ad737479cf126aed38ab530/kan/Symbolic_KANLayer.py",
+      "sha256": "5a12730b920c2295c8fcaeda61a98ead64caeee724c5576c33d378a0b64c3b72",
+      "bytes": 9897
+    },
+    {
+      "id": "pykan-101f897c76153cc9",
+      "url": "https://raw.githubusercontent.com/KindXiaoming/pykan/ecde4ec3274d3bef1ad737479cf126aed38ab530/kan/compiler.py",
+      "sha256": "83863df7f79e53615689a366a7bb3afae01359907180d1d185d8dc7c9f6ec6c6",
+      "bytes": 18616
+    },
+    {
+      "id": "pykan-11cb7f2b3e5e5a8d",
+      "url": "https://raw.githubusercontent.com/KindXiaoming/pykan/ecde4ec3274d3bef1ad737479cf126aed38ab530/LICENSE",
+      "sha256": "0495c35b21781aba2ab67a781a2f69b87e1a2e0ec0d880b73291e60be712c707",
+      "bytes": 1067
+    },
+    {
+      "id": "pykan-231f6bec2dafacb2",
+      "url": "https://raw.githubusercontent.com/KindXiaoming/pykan/ecde4ec3274d3bef1ad737479cf126aed38ab530/kan/feynman.py",
+      "sha256": "122b1febd2b8f6ce02e9494f122e4b9cd2bfa794d42502c12b1329fac5b46bdc",
+      "bytes": 33687
+    },
+    {
+      "id": "pykan-27e1c44fd82ab9a3",
+      "url": "https://raw.githubusercontent.com/KindXiaoming/pykan/ecde4ec3274d3bef1ad737479cf126aed38ab530/kan/LBFGS.py",
+      "sha256": "536e273fa037aed68050628744021f3baaf167fdeba94ba7904257b259576bae",
+      "bytes": 17643
+    },
+    {
+      "id": "pykan-2adb5a85306df5f4",
+      "url": "https://raw.githubusercontent.com/KindXiaoming/pykan/ecde4ec3274d3bef1ad737479cf126aed38ab530/kan/KANLayer.py",
+      "sha256": "fd1a408b0ee0a8b83eefcde193b30f7323c52172a72e21280e15430cc6742b8d",
+      "bytes": 14137
+    },
+    {
+      "id": "pykan-30dae5021a88fc34",
+      "url": "https://raw.githubusercontent.com/KindXiaoming/pykan/ecde4ec3274d3bef1ad737479cf126aed38ab530/kan/__init__.py",
+      "sha256": "94f8cc7d2bf7270e9f452704310903719d5080ddb4423a969ac2cc3caf5d3115",
+      "bytes": 85
+    },
+    {
+      "id": "pykan-545166e9ae10ef0f",
+      "url": "https://raw.githubusercontent.com/KindXiaoming/pykan/ecde4ec3274d3bef1ad737479cf126aed38ab530/kan/MLP.py",
+      "sha256": "af22f34ae06bb069521d12f09d0642363f91bbd0705c96281cd900c17d7837ae",
+      "bytes": 12804
+    },
+    {
+      "id": "pykan-5a80856ae14bb639",
+      "url": "https://raw.githubusercontent.com/KindXiaoming/pykan/ecde4ec3274d3bef1ad737479cf126aed38ab530/kan/experiment.py",
+      "sha256": "a88692e8afb8a0e9f88ba357ee3c38757d4e0feee02f7a5166aa7c96a08d10fc",
+      "bytes": 1706
+    },
+    {
+      "id": "pykan-b53015ef94eab9eb",
+      "url": "https://raw.githubusercontent.com/KindXiaoming/pykan/ecde4ec3274d3bef1ad737479cf126aed38ab530/kan/utils.py",
+      "sha256": "37adfac3f1d6d87fedf8b3a689c8c7cc3e199d782fd72b87f85787ac8d8a22c9",
+      "bytes": 21838
+    },
+    {
+      "id": "pykan-c70c5ceace4ae70d",
+      "url": "https://raw.githubusercontent.com/KindXiaoming/pykan/ecde4ec3274d3bef1ad737479cf126aed38ab530/kan/MultKAN.py",
+      "sha256": "944401e80e00ae886427acaed6d59d3f0d6ab08e3fbffaf1f8b9db07e7d818e4",
+      "bytes": 110529
+    },
+    {
+      "id": "pykan-d42867b690391336",
+      "url": "https://raw.githubusercontent.com/KindXiaoming/pykan/ecde4ec3274d3bef1ad737479cf126aed38ab530/kan/spline.py",
+      "sha256": "16443d4b5e14b7096d585fbd2b32a6f26d142f3b0556428a0ac9845b8563a8a0",
+      "bytes": 4341
+    },
+    {
+      "id": "pykan-fa0b321cf227b403",
+      "url": "https://raw.githubusercontent.com/KindXiaoming/pykan/ecde4ec3274d3bef1ad737479cf126aed38ab530/kan/hypothesis.py",
+      "sha256": "59624555d6f245d48a5364bdb7352b08602bdb34a7642a15bcc0cf2bf6b3f85d",
+      "bytes": 23125
+    }
+  ],
+  "files": [
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000468/BIOMD0000000468_url.xml",
+      "source": "bio-f25647f70bfab2ef",
+      "upstream_sha256": "e1d8e43b2cd8f373ff3646acf852c0cb59adbdf75c6bbe705ff3eac4734d0028",
+      "sha256": "e1d8e43b2cd8f373ff3646acf852c0cb59adbdf75c6bbe705ff3eac4734d0028"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000468/Integratedmodel_noshearstress.sedml",
+      "source": "bio-cfc88bea199c87d9",
+      "upstream_sha256": "b880384ed138eaf42ca49e637fe8c5ed3927a4b97b15755a2dabfe59c1c8bdd9",
+      "sha256": "b880384ed138eaf42ca49e637fe8c5ed3927a4b97b15755a2dabfe59c1c8bdd9"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000568/BIOMD0000000568_url.xml",
+      "source": "bio-be77caf3117edc70",
+      "upstream_sha256": "108034973657b641cc7b21a604c3e93026c2bcdbbd444629b266fa33d01cb418",
+      "sha256": "108034973657b641cc7b21a604c3e93026c2bcdbbd444629b266fa33d01cb418"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000568/Mueller2015.sedml",
+      "source": "bio-2d94555afe630580",
+      "upstream_sha256": "60cfb2a69c71e1ffc1eb17f30c5eebc0d0d13d1755400d21e04c03d092b71405",
+      "sha256": "60cfb2a69c71e1ffc1eb17f30c5eebc0d0d13d1755400d21e04c03d092b71405"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000596/Philipson2015.sedml",
+      "source": "bio-c179eca8d00a9f81",
+      "upstream_sha256": "e097a48f15350bd7ab4024a7983690a5c9d202d12ce4b6e4a8ca6d44e306f46e",
+      "sha256": "e097a48f15350bd7ab4024a7983690a5c9d202d12ce4b6e4a8ca6d44e306f46e"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000596/Philipson2015.xml",
+      "source": "bio-04f3fe654b217842",
+      "upstream_sha256": "aaac576f95700b99e8180a8b16a087b5cea272c67a6f1f39823d196e176d4009",
+      "sha256": "aaac576f95700b99e8180a8b16a087b5cea272c67a6f1f39823d196e176d4009"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000622/BIOMD0000000622_url.xml",
+      "source": "bio-f1301a1d9eb0d78f",
+      "upstream_sha256": "17fc9e119aac69ee2129e83f7a6d8e2b9b88cd8eeeebf1c880a06d5c099f49fb",
+      "sha256": "17fc9e119aac69ee2129e83f7a6d8e2b9b88cd8eeeebf1c880a06d5c099f49fb"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000622/NguyenLK2011_High_Free_Bmi1_Levels.sedml",
+      "source": "bio-ae1271b1952dbef6",
+      "upstream_sha256": "7ebc280ebe1c12a345d2784963f8d5e2bcd01e34fda712c47e717aace48036e6",
+      "sha256": "7ebc280ebe1c12a345d2784963f8d5e2bcd01e34fda712c47e717aace48036e6"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000699/BIOMD0000000699_url.xml",
+      "source": "bio-82cbf8570c80f898",
+      "upstream_sha256": "2154870f587366b4ca853609f411d225eefeea115ea20293b80a74b75f121625",
+      "sha256": "2154870f587366b4ca853609f411d225eefeea115ea20293b80a74b75f121625"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000699/MODEL1202090002_Fig5 i.sedml",
+      "source": "bio-3084b7f88be79b28",
+      "upstream_sha256": "59fe97084633adff90cc4f292613f28395c8b9c6553ae0b980f4d429eb0d184c",
+      "sha256": "59fe97084633adff90cc4f292613f28395c8b9c6553ae0b980f4d429eb0d184c"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000703/BIOMD0000000703_url.xml",
+      "source": "bio-f160972279c4f0e3",
+      "upstream_sha256": "d8721d95761e69c8424053c98f015934868768e696770d83b6baf11cd8a05559",
+      "sha256": "d8721d95761e69c8424053c98f015934868768e696770d83b6baf11cd8a05559"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000703/Diedrichs2018.sedml",
+      "source": "bio-c5af079d6d6b0be5",
+      "upstream_sha256": "9bc0be04bd017ad6458a4d8506c5405184bcdf770eb2967a0a2b168daeeb344a",
+      "sha256": "9bc0be04bd017ad6458a4d8506c5405184bcdf770eb2967a0a2b168daeeb344a"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000724/Theinmozhi_2018.sedml",
+      "source": "bio-42ebebfc691bfca4",
+      "upstream_sha256": "1a255aaa992e95deed41fb05666deb5e52d5405ec00da2abc8a07f8a315e293d",
+      "sha256": "1a255aaa992e95deed41fb05666deb5e52d5405ec00da2abc8a07f8a315e293d"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000724/Theinmozhi_2018.xml",
+      "source": "bio-98cba247ebc7b112",
+      "upstream_sha256": "f18738faa858a44724cf321d856fb46616bc5069b9ff4077567c1e85aaf4666b",
+      "sha256": "f18738faa858a44724cf321d856fb46616bc5069b9ff4077567c1e85aaf4666b"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000729/Goldbeter1996.sedml",
+      "source": "bio-7d8f27b1b46d0b86",
+      "upstream_sha256": "e5f069b0482637d6e481f160717d3bfdd61d0b092ddd25349b09059b6e32a4bd",
+      "sha256": "e5f069b0482637d6e481f160717d3bfdd61d0b092ddd25349b09059b6e32a4bd"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000729/Goldbeter1996.xml",
+      "source": "bio-b61f87bd8c2fcc71",
+      "upstream_sha256": "aa37f728accc0940a915b2982ec8b19b3b7d4d7b659b7824ec8540a77d4933aa",
+      "sha256": "aa37f728accc0940a915b2982ec8b19b3b7d4d7b659b7824ec8540a77d4933aa"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000744/Hu2019.sedml",
+      "source": "bio-796af0b0c0fe8f91",
+      "upstream_sha256": "bec55d35eff69cda0f2c76e37d9fbd78957921f03f40f590b3138f2602dfbabe",
+      "sha256": "bec55d35eff69cda0f2c76e37d9fbd78957921f03f40f590b3138f2602dfbabe"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000744/Hu2019.xml",
+      "source": "bio-c960c0372c61961d",
+      "upstream_sha256": "6fdabc7536542fd9d10c2050010207f7ec1d57099bf935a278010b21aeab0044",
+      "sha256": "6fdabc7536542fd9d10c2050010207f7ec1d57099bf935a278010b21aeab0044"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000768/Eftimie2010.sedml",
+      "source": "bio-f8a306a539970c83",
+      "upstream_sha256": "414a1d95172e7547b4e2f34c3315ab1d16ed5eb3e5925a1af442f1319b8e8330",
+      "sha256": "414a1d95172e7547b4e2f34c3315ab1d16ed5eb3e5925a1af442f1319b8e8330"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000768/Eftimie2010.xml",
+      "source": "bio-f5c60c85c3da35d7",
+      "upstream_sha256": "bf8c09d2ea3e7b028087e84d69f064e49146dab93266c0db11323e0c26967160",
+      "sha256": "bf8c09d2ea3e7b028087e84d69f064e49146dab93266c0db11323e0c26967160"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000784/Lopez2014.sedml",
+      "source": "bio-c3b724d15b4e4dc3",
+      "upstream_sha256": "7bc176fd42ef51009154e78efa66877df7b698caaf7f3ec8468eb8f6d0dbbfce",
+      "sha256": "7bc176fd42ef51009154e78efa66877df7b698caaf7f3ec8468eb8f6d0dbbfce"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000784/Lopez2014.xml",
+      "source": "bio-241cb13037ea7ad6",
+      "upstream_sha256": "923ecbf6cd791e2bdc2b27e7926827e6f67d870578725cecfb45804f69be8494",
+      "sha256": "923ecbf6cd791e2bdc2b27e7926827e6f67d870578725cecfb45804f69be8494"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000811/He2017.sedml",
+      "source": "bio-3829afda60b96e34",
+      "upstream_sha256": "148012eca453ce20c6889134824ea706a37b196f583a4b36318175c76595cf78",
+      "sha256": "148012eca453ce20c6889134824ea706a37b196f583a4b36318175c76595cf78"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000811/He2017.xml",
+      "source": "bio-e922a0791e644138",
+      "upstream_sha256": "f7b8eba6ae8c2274582acd111c68a815ebfeed8d7eab7a79b773062e8fb0575c",
+      "sha256": "f7b8eba6ae8c2274582acd111c68a815ebfeed8d7eab7a79b773062e8fb0575c"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000834/Verma2016.sedml",
+      "source": "bio-c45b52df8148fb51",
+      "upstream_sha256": "d33adf9b24c20824e94eee0d4f619169ba7f8bfa59e872d7513de686fc0f0dbd",
+      "sha256": "d33adf9b24c20824e94eee0d4f619169ba7f8bfa59e872d7513de686fc0f0dbd"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000834/Verma2016.xml",
+      "source": "bio-baf614ab3a3ac852",
+      "upstream_sha256": "3017cdddfddf0594cd8cc3d1f2ee00a64e95327f7c65d7d9258196987d90ef2d",
+      "sha256": "3017cdddfddf0594cd8cc3d1f2ee00a64e95327f7c65d7d9258196987d90ef2d"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000849/Berg2017.sedml",
+      "source": "bio-978e4fef02f1de6a",
+      "upstream_sha256": "a8347c7274f3e3b88e2d76d9a6975dafa99d27f9ac4181f98f8dbded77a2b3c2",
+      "sha256": "a8347c7274f3e3b88e2d76d9a6975dafa99d27f9ac4181f98f8dbded77a2b3c2"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000849/Berg2017.xml",
+      "source": "bio-bc2eb2ac449ed1d7",
+      "upstream_sha256": "76b7c3195b980d8d0faa4df384e6f6654a56894190240aef24c7228fb2a604ba",
+      "sha256": "76b7c3195b980d8d0faa4df384e6f6654a56894190240aef24c7228fb2a604ba"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000859/Larbat2016.3.sedml",
+      "source": "bio-aba85ec9e3a27172",
+      "upstream_sha256": "cff736371c200fb0e95ffb96574cc48f872b33acd312b63567f42c6ad1e9151c",
+      "sha256": "cff736371c200fb0e95ffb96574cc48f872b33acd312b63567f42c6ad1e9151c"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000859/Larbat2016.3.xml",
+      "source": "bio-ac56694107f7fe2b",
+      "upstream_sha256": "4f436b6e2c0eac5299c84826f99aba24687818c27302066dc84d5f1a685f3172",
+      "sha256": "4f436b6e2c0eac5299c84826f99aba24687818c27302066dc84d5f1a685f3172"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000922/Turner2015_ELP.sedml",
+      "source": "bio-c9c26d8bfe0b2c5a",
+      "upstream_sha256": "18433cd233c74ebafe88ca98b1dc3943e3e607b59ede1b43dff56a02874bcfdf",
+      "sha256": "18433cd233c74ebafe88ca98b1dc3943e3e607b59ede1b43dff56a02874bcfdf"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000922/Turner2015_ELP.xml",
+      "source": "bio-c2bcc043a29c4016",
+      "upstream_sha256": "9fc145ffaea39f7a8cd15be792e8d6e23760e2fdfae8a879371764d16648782b",
+      "sha256": "9fc145ffaea39f7a8cd15be792e8d6e23760e2fdfae8a879371764d16648782b"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000934/Linke2017.xml",
+      "source": "bio-d58c12068ba81b38",
+      "upstream_sha256": "7946984aac8ee1bde0b786a50e720687e32d51e92636a2dfb5015d5478cd94e8",
+      "sha256": "7946984aac8ee1bde0b786a50e720687e32d51e92636a2dfb5015d5478cd94e8"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000934/Linke2017_figure1c.sedml",
+      "source": "bio-c92b1734b310336e",
+      "upstream_sha256": "6362d6a48971e92f0622f25a4141eb1d3e9c50ccf78a3b78cb8191771dec9b56",
+      "sha256": "6362d6a48971e92f0622f25a4141eb1d3e9c50ccf78a3b78cb8191771dec9b56"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000934/Linke2017f1b.sedml",
+      "source": "bio-415c88424af963cd",
+      "upstream_sha256": "5369fdeaa43c1c2603326ea5abd209d926537658b26c75320ae783c1ba41a2d1",
+      "sha256": "5369fdeaa43c1c2603326ea5abd209d926537658b26c75320ae783c1ba41a2d1"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000937/Ferrel2011_V3.sedml",
+      "source": "bio-81b09cfd241cf87a",
+      "upstream_sha256": "fe908282bd2ffb7c4dc36cffb09b1be49918bf2238e9b69d81a0e64e3ca47ee1",
+      "sha256": "fe908282bd2ffb7c4dc36cffb09b1be49918bf2238e9b69d81a0e64e3ca47ee1"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000937/Ferrel2011_V3.xml",
+      "source": "bio-98422c1eb8be7bf8",
+      "upstream_sha256": "f5a7c8b32ce8af0b4e7060dc8369db2e683a6ff76d424320d2248da02b57d38e",
+      "sha256": "f5a7c8b32ce8af0b4e7060dc8369db2e683a6ff76d424320d2248da02b57d38e"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000954/Pandey2018_Figure2A.sedml",
+      "source": "bio-e7af47ed71b99364",
+      "upstream_sha256": "1537fbed34be625d9b1f2d18e415e99df939a7a1cf6ac2e32b1ea0b562ada8e0",
+      "sha256": "1537fbed34be625d9b1f2d18e415e99df939a7a1cf6ac2e32b1ea0b562ada8e0"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000954/Pandey2018_wildtype.xml",
+      "source": "bio-524f69612ae6c88e",
+      "upstream_sha256": "cedd8f37ec2e732ef87855b12390b83855a5fda7a7a9eb426b52edea130aad31",
+      "sha256": "cedd8f37ec2e732ef87855b12390b83855a5fda7a7a9eb426b52edea130aad31"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000981/Wan2020.sedml",
+      "source": "bio-afb9e4741eadcb0b",
+      "upstream_sha256": "2aa6580973c6e41117b47d1814ab4a735d725f61a16778215355203ea1f21004",
+      "sha256": "2aa6580973c6e41117b47d1814ab4a735d725f61a16778215355203ea1f21004"
+    },
+    {
+      "path": "structured_kan/data/equation_set/sources/biochemistry/BIOMD0000000981/Wan2020.xml",
+      "source": "bio-d3413d3c32c40bba",
+      "upstream_sha256": "0228ed945c129afcad1c7887834196dce8c9a396824cb09d1cfad2dd05d81ac4",
+      "sha256": "0228ed945c129afcad1c7887834196dce8c9a396824cb09d1cfad2dd05d81ac4"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/README.txt",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "aee6c45512d492f13ae4164aee5951f980959405410f0cf1092400b80a182eb0",
+      "sha256": "aee6c45512d492f13ae4164aee5951f980959405410f0cf1092400b80a182eb0",
+      "member": "README.txt"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/acuos2-source/acuos2.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "b331d0c61695be70ea384e27bfdff5ee663907aeb2d1bdad7fa235748219e76e",
+      "sha256": "b331d0c61695be70ea384e27bfdff5ee663907aeb2d1bdad7fa235748219e76e",
+      "member": "acuos2-source/acuos2.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/acuos2-source/lgg-decompose-a.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "50d434ad9222b025f10f3cb05a742a26ca6f03177f04ffd99e4f5f06f421bcc1",
+      "sha256": "50d434ad9222b025f10f3cb05a742a26ca6f03177f04ffd99e4f5f06f421bcc1",
+      "member": "acuos2-source/lgg-decompose-a.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/acuos2-source/lgg-decompose-ac.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "06903a53f0bfbd84174d6a9ecc1c6d772da6bf09bbb9ce907fb3e35cdd12461e",
+      "sha256": "06903a53f0bfbd84174d6a9ecc1c6d772da6bf09bbb9ce907fb3e35cdd12461e",
+      "member": "acuos2-source/lgg-decompose-ac.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/acuos2-source/lgg-decompose-acu.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "8629c28da25938e214171df7db5e964f06b1c621f6ccc1a6dac7bad0a58761b2",
+      "sha256": "8629c28da25938e214171df7db5e964f06b1c621f6ccc1a6dac7bad0a58761b2",
+      "member": "acuos2-source/lgg-decompose-acu.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/acuos2-source/lgg-decompose-au.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "1bdba2f4c91b6d68a3eb657456a3df8a66b569886cf0488594420964a1cc90fe",
+      "sha256": "1bdba2f4c91b6d68a3eb657456a3df8a66b569886cf0488594420964a1cc90fe",
+      "member": "acuos2-source/lgg-decompose-au.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/acuos2-source/lgg-decompose-c.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "8f96babad729eda0b9fc1f712e60639b84b56948adcbebc602ae5c18e5793978",
+      "sha256": "8f96babad729eda0b9fc1f712e60639b84b56948adcbebc602ae5c18e5793978",
+      "member": "acuos2-source/lgg-decompose-c.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/acuos2-source/lgg-decompose-nax.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "cf6e6bb1d6883ae78f79faa6bfaa4ab93894f4d56206903c2e5457d7631398ec",
+      "sha256": "cf6e6bb1d6883ae78f79faa6bfaa4ab93894f4d56206903c2e5457d7631398ec",
+      "member": "acuos2-source/lgg-decompose-nax.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/acuos2-source/lgg-general.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "e8fde44cb69315ed99a89f4dc18709f442671daaf58aa385037180e12439b943",
+      "sha256": "e8fde44cb69315ed99a89f4dc18709f442671daaf58aa385037180e12439b943",
+      "member": "acuos2-source/lgg-general.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/acuos2-source/lgg-lub-sorts.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "40aa229f52a518e0a84d72577517010804f86ea6de1126d53eab71589e16291c",
+      "sha256": "40aa229f52a518e0a84d72577517010804f86ea6de1126d53eab71589e16291c",
+      "member": "acuos2-source/lgg-lub-sorts.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/acuos2-source/lgg-rules.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "62395635284209228706483c21f1849116bf980bb856471df918ce1a4e4d83bd",
+      "sha256": "62395635284209228706483c21f1849116bf980bb856471df918ce1a4e4d83bd",
+      "member": "acuos2-source/lgg-rules.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/acuos2-source/meta-ext.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "2b043b3d105abf9053f6dcf41ab79990dba3dc667afe129ecdbae489fa37cb92",
+      "sha256": "2b043b3d105abf9053f6dcf41ab79990dba3dc667afe129ecdbae489fa37cb92",
+      "member": "acuos2-source/meta-ext.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/alliance-test-100.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "8e03148d96baad182f47b7e875d2787fae112447bb31eca34829ca8d0f76181d",
+      "sha256": "8e03148d96baad182f47b7e875d2787fae112447bb31eca34829ca8d0f76181d",
+      "member": "benchmarks/alliance-test-100.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/alliance-test-20.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "5803702765a9f3d7dc024095794d9bb81b06dbc0dcf66aed86dead75e4d5081c",
+      "sha256": "5803702765a9f3d7dc024095794d9bb81b06dbc0dcf66aed86dead75e4d5081c",
+      "member": "benchmarks/alliance-test-20.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/alliance.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "b6e6c5e759687e21d40af179528fa7368e7813d65ae0bc96fabbaa37ce98392b",
+      "sha256": "b6e6c5e759687e21d40af179528fa7368e7813d65ae0bc96fabbaa37ce98392b",
+      "member": "benchmarks/alliance.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/ancestors-test-100.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "a61b07020603ef197187907aadc7ff02ecc6944f236e3d0e66510e678e824f9c",
+      "sha256": "a61b07020603ef197187907aadc7ff02ecc6944f236e3d0e66510e678e824f9c",
+      "member": "benchmarks/ancestors-test-100.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/ancestors-test-20.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "7656074e74aad2df1240a09ae57828214eba1634227f720c85327454fa8eca14",
+      "sha256": "7656074e74aad2df1240a09ae57828214eba1634227f720c85327454fa8eca14",
+      "member": "benchmarks/ancestors-test-20.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/ancestors.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "fe6de590f4809e6aada87ced5577e84cba0409e8dda77880fee485fd39333900",
+      "sha256": "fe6de590f4809e6aada87ced5577e84cba0409e8dda77880fee485fd39333900",
+      "member": "benchmarks/ancestors.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/biological-test-100.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "045f673930a7e3e3dd8d909b8ce7e97e12e1acbb9047324297b6b4d6730200c2",
+      "sha256": "045f673930a7e3e3dd8d909b8ce7e97e12e1acbb9047324297b6b4d6730200c2",
+      "member": "benchmarks/biological-test-100.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/biological-test-20.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "b498a7102c18c37cb21fa2683afffe134d4be2423bbdec7a8b00a4da79a22bf0",
+      "sha256": "b498a7102c18c37cb21fa2683afffe134d4be2423bbdec7a8b00a4da79a22bf0",
+      "member": "benchmarks/biological-test-20.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/biological.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "9e14cc4e6ac4084ce0bc6b9ec32c7973816e64ec61a840380d026c8c50acae18",
+      "sha256": "9e14cc4e6ac4084ce0bc6b9ec32c7973816e64ec61a840380d026c8c50acae18",
+      "member": "benchmarks/biological.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/chemical-test-100.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "d0586c5d4b267609ffeaadcf516bc3010e469ad0fce3fd5b898fa9a9f9fb21c5",
+      "sha256": "d0586c5d4b267609ffeaadcf516bc3010e469ad0fce3fd5b898fa9a9f9fb21c5",
+      "member": "benchmarks/chemical-test-100.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/chemical-test-20.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "2a10950804e7fcc0f642f8ffb90bc6753760a55787b24d95e4d297bafe027856",
+      "sha256": "2a10950804e7fcc0f642f8ffb90bc6753760a55787b24d95e4d297bafe027856",
+      "member": "benchmarks/chemical-test-20.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/chemical.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "6af606271d792bba3d891d6e3cf5e744bfbc6255ab93d88abb0e7d1eac17c65f",
+      "sha256": "6af606271d792bba3d891d6e3cf5e744bfbc6255ab93d88abb0e7d1eac17c65f",
+      "member": "benchmarks/chemical.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/children-acu-test-100.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "88e306bd6cfa3349c567fa2d097e73ed35ab67ee39c5024eb3292f0e5b1a621e",
+      "sha256": "88e306bd6cfa3349c567fa2d097e73ed35ab67ee39c5024eb3292f0e5b1a621e",
+      "member": "benchmarks/children-acu-test-100.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/children-acu-test-20.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "1141e07702d2c913c09ffb193ef58420fe5c86382d41ba3996e1ce491d480b0d",
+      "sha256": "1141e07702d2c913c09ffb193ef58420fe5c86382d41ba3996e1ce491d480b0d",
+      "member": "benchmarks/children-acu-test-20.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/children.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "a995ac1537d3b9b5b5300b9f5a67fd0998e62f07db274f02cd2a170ebf247246",
+      "sha256": "a995ac1537d3b9b5b5300b9f5a67fd0998e62f07db274f02cd2a170ebf247246",
+      "member": "benchmarks/children.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/graph-test-100.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "3a844704fd2b47ac644a5f139ff568fa30d0befc8498581cf59b94e9b300a424",
+      "sha256": "3a844704fd2b47ac644a5f139ff568fa30d0befc8498581cf59b94e9b300a424",
+      "member": "benchmarks/graph-test-100.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/graph-test-20.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "237d0ea8775c241eb3e2f153aa34468c87b183850ef8133f4c1dc0eb5e3c9ab4",
+      "sha256": "237d0ea8775c241eb3e2f153aa34468c87b183850ef8133f4c1dc0eb5e3c9ab4",
+      "member": "benchmarks/graph-test-20.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/graph.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "98d9623f2a593103ac02950c05d3024774c209aaea3ab7e36152eeea20ecd809",
+      "sha256": "98d9623f2a593103ac02950c05d3024774c209aaea3ab7e36152eeea20ecd809",
+      "member": "benchmarks/graph.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/incompatible-test-100.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "22e821726b6d153a643f1bfd90ec0971ce132d1391b788b6a9b242ef86569aef",
+      "sha256": "22e821726b6d153a643f1bfd90ec0971ce132d1391b788b6a9b242ef86569aef",
+      "member": "benchmarks/incompatible-test-100.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/incompatible-test-20.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "e1045e88db142b2bdc526a41e3060e2da539c5e95622fcae9f2d884e19dcd9e7",
+      "sha256": "e1045e88db142b2bdc526a41e3060e2da539c5e95622fcae9f2d884e19dcd9e7",
+      "member": "benchmarks/incompatible-test-20.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/incompatible.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "2bb5e393282181af278b31995363fbbed1efbeff643a93deb8119fb33d93e8a1",
+      "sha256": "2bb5e393282181af278b31995363fbbed1efbeff643a93deb8119fb33d93e8a1",
+      "member": "benchmarks/incompatible.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/inheritance.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "c62a79cfe8fb2ad206425aa8be653f02ad841611cecc6a8048eaf1c230dfa744",
+      "sha256": "c62a79cfe8fb2ad206425aa8be653f02ad841611cecc6a8048eaf1c230dfa744",
+      "member": "benchmarks/inheritance.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/mult-inheritance-test-100.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "ad15fdaab4250bf58d96bcb43ff95c969ee83ef3dc4518576f7ec46c3bed10de",
+      "sha256": "ad15fdaab4250bf58d96bcb43ff95c969ee83ef3dc4518576f7ec46c3bed10de",
+      "member": "benchmarks/mult-inheritance-test-100.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/mult-inheritance-test-20.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "77b384015896174763e12c65461e3a2ac16cc2ca9e4282cf54f6376cb9126009",
+      "sha256": "77b384015896174763e12c65461e3a2ac16cc2ca9e4282cf54f6376cb9126009",
+      "member": "benchmarks/mult-inheritance-test-20.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/only-U-20.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "f030321b02a558dd63c73b7ff90076110ad52e29eb87643736e60edb060b735e",
+      "sha256": "f030321b02a558dd63c73b7ff90076110ad52e29eb87643736e60edb060b735e",
+      "member": "benchmarks/only-U-20.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/only-U-50.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "7679b104366f6b22cf612271330863da14791c266db6350983d701721a2f06d9",
+      "sha256": "7679b104366f6b22cf612271330863da14791c266db6350983d701721a2f06d9",
+      "member": "benchmarks/only-U-50.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/onlyu.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "e38f6f52318c4c5ad12df3b78d7dedbf2d40ded223facf3a56cf672d013ef1ca",
+      "sha256": "e38f6f52318c4c5ad12df3b78d7dedbf2d40ded223facf3a56cf672d013ef1ca",
+      "member": "benchmarks/onlyu.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/rutherford-test-100.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "27ea4a843eb6bbbfcc449b14a7fc724e5441b54e47d51b8fa1c5524190192ef8",
+      "sha256": "27ea4a843eb6bbbfcc449b14a7fc724e5441b54e47d51b8fa1c5524190192ef8",
+      "member": "benchmarks/rutherford-test-100.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/rutherford-test-20.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "867b465e12e93be52985aa0c001196cc5fdbd493ed45adeeb1192519778f75db",
+      "sha256": "867b465e12e93be52985aa0c001196cc5fdbd493ed45adeeb1192519778f75db",
+      "member": "benchmarks/rutherford-test-20.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/rutherford.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "ea866efdc470accefb345ed61b82697fa598e4f26c505f880974db62b405df8b",
+      "sha256": "ea866efdc470accefb345ed61b82697fa598e4f26c505f880974db62b405df8b",
+      "member": "benchmarks/rutherford.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/siblings-ac-test-100.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "e57a3b3329ca0a75a1ba39c820f289cc8063b662f1cc5c9aafaba646a48cce73",
+      "sha256": "e57a3b3329ca0a75a1ba39c820f289cc8063b662f1cc5c9aafaba646a48cce73",
+      "member": "benchmarks/siblings-ac-test-100.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/siblings-ac-test-20.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "98fce81d90c6d4862312ccb9233f799aa43de8962e01ffe03be62e9e9074b7ac",
+      "sha256": "98fce81d90c6d4862312ccb9233f799aa43de8962e01ffe03be62e9e9074b7ac",
+      "member": "benchmarks/siblings-ac-test-20.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/siblings.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "60fa7134ccdc9f19f34ba86b54c41d22c3fe66b88526a81ca7b41210c4a26430",
+      "sha256": "60fa7134ccdc9f19f34ba86b54c41d22c3fe66b88526a81ca7b41210c4a26430",
+      "member": "benchmarks/siblings.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/spouses-A-test-100.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "01e7707313afcc0cb83f29619079a0905e979b5b3203bd114e6ff3b6f88b4ba9",
+      "sha256": "01e7707313afcc0cb83f29619079a0905e979b5b3203bd114e6ff3b6f88b4ba9",
+      "member": "benchmarks/spouses-A-test-100.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/spouses-A-test-20.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "6bc902ce812bda095b03842cdb91b911c431efc12faf5df102a74c34585bb95b",
+      "sha256": "6bc902ce812bda095b03842cdb91b911c431efc12faf5df102a74c34585bb95b",
+      "member": "benchmarks/spouses-A-test-20.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/spouses-AU-test-100.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "a24b5fede836940b90aa61d9023d605d8ffc9856ed1f9375e7e11aedd703be4a",
+      "sha256": "a24b5fede836940b90aa61d9023d605d8ffc9856ed1f9375e7e11aedd703be4a",
+      "member": "benchmarks/spouses-AU-test-100.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/spouses-AU-test-20.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "104c31a1c9685de4dbb56ee30086e8037e456aed7d2d95c4434650f3f51b7900",
+      "sha256": "104c31a1c9685de4dbb56ee30086e8037e456aed7d2d95c4434650f3f51b7900",
+      "member": "benchmarks/spouses-AU-test-20.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/spouses-AU.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "384f48d2651bd0ddc3eb91252c39bc834c7e742487992ed557f58d11ae99d6b1",
+      "sha256": "384f48d2651bd0ddc3eb91252c39bc834c7e742487992ed557f58d11ae99d6b1",
+      "member": "benchmarks/spouses-AU.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/synthetic-test-100.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "1b35daac10b8a66f0f69b7a65b5633855ebbac4156f8dcd0119e72e131f6deff",
+      "sha256": "1b35daac10b8a66f0f69b7a65b5633855ebbac4156f8dcd0119e72e131f6deff",
+      "member": "benchmarks/synthetic-test-100.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/synthetic-test-20.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "6b3b67cf6ff0fa5fde285fa865a217700446b793e4dc468392c18859de1c4276",
+      "sha256": "6b3b67cf6ff0fa5fde285fa865a217700446b793e4dc468392c18859de1c4276",
+      "member": "benchmarks/synthetic-test-20.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/synthetic.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "18e8fcfd52a176c7e9909502464388488ab6b1b9ec79ef4f84da9f05128fbf7b",
+      "sha256": "18e8fcfd52a176c7e9909502464388488ab6b1b9ec79ef4f84da9f05128fbf7b",
+      "member": "benchmarks/synthetic.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/twins-c2-100.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "108b25c490cbc14fe3233150a21149c11def8d03a9a42aba582810f0bd3da3ce",
+      "sha256": "108b25c490cbc14fe3233150a21149c11def8d03a9a42aba582810f0bd3da3ce",
+      "member": "benchmarks/twins-c2-100.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/twins-c2-20.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "7bd421a649be0943ccab24449f40a5accfc878a52433703fb591d9d06d7e0cfb",
+      "sha256": "7bd421a649be0943ccab24449f40a5accfc878a52433703fb591d9d06d7e0cfb",
+      "member": "benchmarks/twins-c2-20.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/acuos2_official_d9214e03/benchmarks/twins.maude",
+      "source": "acuos2-303f83322c02fce0",
+      "upstream_sha256": "badf0531486e2474c3ad10ea769257666595887ce87ed0debb8da5af4fc93840",
+      "sha256": "badf0531486e2474c3ad10ea769257666595887ce87ed0debb8da5af4fc93840",
+      "member": "benchmarks/twins.maude"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/fgw_published_3d2128a/README.md",
+      "source": "fgw-af1f656dde3f1517",
+      "upstream_sha256": "0cc97075615d25e41c1704cda1a530ccb8fa75a78d81fecfda0eb530e9c039c0",
+      "sha256": "0cc97075615d25e41c1704cda1a530ccb8fa75a78d81fecfda0eb530e9c039c0"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/fgw_published_3d2128a/lib/FGW.py",
+      "source": "fgw-b291e348328b3941",
+      "upstream_sha256": "d1def5e57c90b3083b20980c07f7c1852ef970779aa52c7b8debe1e2f5f1b445",
+      "sha256": "d1def5e57c90b3083b20980c07f7c1852ef970779aa52c7b8debe1e2f5f1b445"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/fgw_published_3d2128a/lib/bregman.py",
+      "source": "fgw-e61434dba284eb70",
+      "upstream_sha256": "9d465b582c15bcec7549c96ef2d05a0d1e9c3457536be8a9fed014912b08a331",
+      "sha256": "9d465b582c15bcec7549c96ef2d05a0d1e9c3457536be8a9fed014912b08a331"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/fgw_published_3d2128a/lib/fgwclustering.py",
+      "source": "fgw-c38a7933238bf996",
+      "upstream_sha256": "1757e19963352886d1d203094253d51fb848ecfaf547db3ddbcd708ba87c9ad7",
+      "sha256": "1757e19963352886d1d203094253d51fb848ecfaf547db3ddbcd708ba87c9ad7"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/fgw_published_3d2128a/lib/graph.py",
+      "source": "fgw-947369fc36793fed",
+      "upstream_sha256": "258d7534a51742ad6634d54e80b64d4783ccb1fc0e0bfcc611eed24f0f005c31",
+      "sha256": "258d7534a51742ad6634d54e80b64d4783ccb1fc0e0bfcc611eed24f0f005c31"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/fgw_published_3d2128a/lib/optim.py",
+      "source": "fgw-00871230824d0c3d",
+      "upstream_sha256": "80848762639195a1f82621c31b55342c1971ab794d92692c4a099338d4009ab3",
+      "sha256": "80848762639195a1f82621c31b55342c1971ab794d92692c4a099338d4009ab3"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/fgw_published_3d2128a/lib/ot_distances.py",
+      "source": "fgw-aa3447fea7290c9b",
+      "upstream_sha256": "27553f764eac08de5232c953ece83634dab7e61ddf9bebc634c52700b00a6fbe",
+      "sha256": "27553f764eac08de5232c953ece83634dab7e61ddf9bebc634c52700b00a6fbe"
+    },
+    {
+      "path": "structured_kan/structure_builder/vendor/fgw_published_3d2128a/lib/utils.py",
+      "source": "fgw-6ac4d1a33ca5379e",
+      "upstream_sha256": "6b5ae3dd89c5624f65751bd3537aeb3e3e5247298c48af46ad14d76e13637e95",
+      "sha256": "6b5ae3dd89c5624f65751bd3537aeb3e3e5247298c48af46ad14d76e13637e95"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/LICENSE.md",
+      "source": "dysts-4eaafe4dcc48bd35",
+      "upstream_sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/README.md",
+      "source": "dysts-ed83543fb2379c2f",
+      "upstream_sha256": "992036283efc716f1cead85b299e3472ee92c6c627b35c15416b21f2d1eabf05",
+      "sha256": "992036283efc716f1cead85b299e3472ee92c6c627b35c15416b21f2d1eabf05"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/dysts/__init__.py",
+      "source": "dysts-7baf6cda6eb03e6f",
+      "upstream_sha256": "04febd75fb91d444a735ec409ca95fdb372e4dbb125b7b6110e6eded7a048a68",
+      "sha256": "04febd75fb91d444a735ec409ca95fdb372e4dbb125b7b6110e6eded7a048a68"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/dysts/analysis.py",
+      "source": "dysts-5d8aa12a48634a3b",
+      "upstream_sha256": "6ac7c843861a8f61d4ce68b246ba989c30db32b7fc331cea6e42e3ad63b0fe28",
+      "sha256": "6ac7c843861a8f61d4ce68b246ba989c30db32b7fc331cea6e42e3ad63b0fe28"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/dysts/base.py",
+      "source": "dysts-abe6c23b05057219",
+      "upstream_sha256": "cb1f00578ac41a0d79e56e49feb2d0f8ba2fe0e6fa304d3c3dcdb938f12d3a5f",
+      "sha256": "cb1f00578ac41a0d79e56e49feb2d0f8ba2fe0e6fa304d3c3dcdb938f12d3a5f"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/dysts/coupling.py",
+      "source": "dysts-62433999f04ecdfa",
+      "upstream_sha256": "b1653c7c5993af993cceb237c18ed0684b16dff91f38232f54e697faec52483c",
+      "sha256": "b1653c7c5993af993cceb237c18ed0684b16dff91f38232f54e697faec52483c"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/dysts/data/chaotic_attractors.json",
+      "source": "dysts-f5d35e8f5942a3d2",
+      "upstream_sha256": "d0777a4bbd67408b16f26fdb1b88c94232cc52dd9caa9cd696a5ebd6690c5f1f",
+      "sha256": "d0777a4bbd67408b16f26fdb1b88c94232cc52dd9caa9cd696a5ebd6690c5f1f"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/dysts/data/chaotic_attractors_prev.json",
+      "source": "dysts-b814b4780ffd2f7f",
+      "upstream_sha256": "cb9bb58313b6cb2e22c5816672a5c7cac1b3ebb2682239f9811b9d65334c70f2",
+      "sha256": "cb9bb58313b6cb2e22c5816672a5c7cac1b3ebb2682239f9811b9d65334c70f2"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/dysts/data/discrete_maps.json",
+      "source": "dysts-3d189c6c1e99d9e4",
+      "upstream_sha256": "6d6d42382b6a8d08e4e1c8cfa35ac1e9e99a9ef919dbb4885f4a1bbaac275682",
+      "sha256": "6d6d42382b6a8d08e4e1c8cfa35ac1e9e99a9ef919dbb4885f4a1bbaac275682"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/dysts/events.py",
+      "source": "dysts-9b324ee9d0d13d6f",
+      "upstream_sha256": "cd542b3319d0f6e92a1ca7828344cabb09562cd122d7626122a6d3131f169893",
+      "sha256": "cd542b3319d0f6e92a1ca7828344cabb09562cd122d7626122a6d3131f169893"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/dysts/flows.py",
+      "source": "dysts-d38c74852fb565fc",
+      "upstream_sha256": "14fd8d0897308b1b55d3194201c1a81903367e51943aad9d95604d6fa01c45d7",
+      "sha256": "14fd8d0897308b1b55d3194201c1a81903367e51943aad9d95604d6fa01c45d7"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/dysts/maps.py",
+      "source": "dysts-038db8c175c02cc0",
+      "upstream_sha256": "7b8b789087fb315eadaa247d7f4048b381130c114d1a9b711ea82f9fed7fc9cf",
+      "sha256": "7b8b789087fb315eadaa247d7f4048b381130c114d1a9b711ea82f9fed7fc9cf"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/dysts/metrics.py",
+      "source": "dysts-499fc804830acdac",
+      "upstream_sha256": "829d6905ee0a8bd2e0b31ab42346336f15a388c3d1843185617aa3c76266ecf9",
+      "sha256": "829d6905ee0a8bd2e0b31ab42346336f15a388c3d1843185617aa3c76266ecf9"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/dysts/sampling.py",
+      "source": "dysts-153c9831f1056941",
+      "upstream_sha256": "73ffa8cf83cb3b24c84fc540e0e8aa5691a64fdf5068614d434f9f4c0a67729a",
+      "sha256": "73ffa8cf83cb3b24c84fc540e0e8aa5691a64fdf5068614d434f9f4c0a67729a"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/dysts/systems.py",
+      "source": "dysts-cbf69e365b0230c6",
+      "upstream_sha256": "c2a4326905429059caa56f86a0940fadc81a3f0d413237c39620f688f6b92962",
+      "sha256": "c2a4326905429059caa56f86a0940fadc81a3f0d413237c39620f688f6b92962"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/dysts/utils/__init__.py",
+      "source": "dysts-ea48c529c93d5668",
+      "upstream_sha256": "6855002511790441047220334018f6f67f9f505681f0f72d512fa84a4f7aac1e",
+      "sha256": "6855002511790441047220334018f6f67f9f505681f0f72d512fa84a4f7aac1e"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/dysts/utils/integration_utils.py",
+      "source": "dysts-c82113b4acdb7f30",
+      "upstream_sha256": "e1ca642d67985cc9e9f3fc387d135b8d938ca2ff0935f9279bb8c735aa78fb8f",
+      "sha256": "e1ca642d67985cc9e9f3fc387d135b8d938ca2ff0935f9279bb8c735aa78fb8f"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/dysts/utils/native_utils.py",
+      "source": "dysts-c649421b570d8c43",
+      "upstream_sha256": "770dad0f6e16ad29c412bc66ebcc1b86d394286c0eb66fe97b613d12f119cdbf",
+      "sha256": "770dad0f6e16ad29c412bc66ebcc1b86d394286c0eb66fe97b613d12f119cdbf"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/dysts/utils/utils.py",
+      "source": "dysts-1593f4d25654fd98",
+      "upstream_sha256": "aea2b756f1864b6f682d50bebc04af1615ea8d4de4bea35b51f1728181087405",
+      "sha256": "aea2b756f1864b6f682d50bebc04af1615ea8d4de4bea35b51f1728181087405"
+    },
+    {
+      "path": "structured_kan/vendor/dysts-official-20260827/dysts-master/pyproject.toml",
+      "source": "dysts-278567fa6f218e0d",
+      "upstream_sha256": "b80cb81be6973c3ffa8514e9684bd473c12004dcb5f819661888aa30574e00fc",
+      "sha256": "b80cb81be6973c3ffa8514e9684bd473c12004dcb5f819661888aa30574e00fc"
+    },
+    {
+      "path": "structured_kan/vendor/fourier_mfn_official/LICENSE",
+      "source": "mfn-74dc5e8e2352a106",
+      "upstream_sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    {
+      "path": "structured_kan/vendor/fourier_mfn_official/mfn.py",
+      "source": "mfn-6d8e85196b1667f7",
+      "upstream_sha256": "af386b627670596b4ecd36c3b65e74a9c3730b554f849e5423fefe114a88e8e0",
+      "sha256": "af386b627670596b4ecd36c3b65e74a9c3730b554f849e5423fefe114a88e8e0"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_optimized/LICENSE",
+      "source": "pykan-11cb7f2b3e5e5a8d",
+      "upstream_sha256": "0495c35b21781aba2ab67a781a2f69b87e1a2e0ec0d880b73291e60be712c707",
+      "sha256": "0495c35b21781aba2ab67a781a2f69b87e1a2e0ec0d880b73291e60be712c707"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_optimized/kan/KANLayer.py",
+      "source": "pykan-2adb5a85306df5f4",
+      "upstream_sha256": "fd1a408b0ee0a8b83eefcde193b30f7323c52172a72e21280e15430cc6742b8d",
+      "sha256": "bd34dd1f70b7a6a8933aca3d4cd85d739647192bb5a053b0eef752311403839c",
+      "edits": [
+        [
+          116,
+          116,
+          [
+            "        self.grid_is_uniform = True\n"
+          ]
+        ],
+        [
+          123,
+          123,
+          [
+            "\n",
+            "    def _save_to_state_dict(self, destination, prefix, keep_vars):\n",
+            "        \"\"\"Keep official PyKAN's [input, output, basis] checkpoint schema.\"\"\"\n",
+            "        super()._save_to_state_dict(destination, prefix, keep_vars)\n",
+            "        key = prefix + 'coef'\n",
+            "        destination[key] = destination[key].permute(0, 2, 1).contiguous()\n",
+            "\n",
+            "    def _load_from_state_dict(\n",
+            "        self, state_dict, prefix, local_metadata, strict,\n",
+            "        missing_keys, unexpected_keys, error_msgs\n",
+            "    ):\n",
+            "        \"\"\"Convert official-layout coefficients to the native fast layout.\"\"\"\n",
+            "        key = prefix + 'coef'\n",
+            "        value = state_dict.get(key)\n",
+            "        expected = tuple(self.coef.shape)\n",
+            "        legacy = (expected[0], expected[2], expected[1])\n",
+            "        if value is not None and tuple(value.shape) == legacy and legacy != expected:\n",
+            "            state_dict = state_dict.copy()\n",
+            "            state_dict[key] = value.permute(0, 2, 1).contiguous()\n",
+            "        super()._load_from_state_dict(\n",
+            "            state_dict, prefix, local_metadata, strict,\n",
+            "            missing_keys, unexpected_keys, error_msgs\n",
+            "        )\n"
+          ]
+        ],
+        [
+          167,
+          167,
+          [
+            "\n",
+            "    def forward_fast(self, x):\n",
+            "        \"\"\"Numerical forward without materializing inspection activations.\n",
+            "\n",
+            "        ``MultKAN(save_act=False, symbolic_enabled=False)`` consumes only the\n",
+            "        summed numerical output from this layer.  The standard forward still\n",
+            "        builds ``preacts``, ``postacts``, and ``postspline`` (including three\n",
+            "        clones/permutations) even though they are immediately discarded.  This\n",
+            "        path deliberately keeps the same spline, affine, mask, and reduction\n",
+            "        operations while omitting only those unused inspection tensors.\n",
+            "        \"\"\"\n",
+            "        base = self.base_fun(x)\n",
+            "        y = coef2curve_local(\n",
+            "            x_eval=x,\n",
+            "            grid=self.grid,\n",
+            "            coef=self.coef,\n",
+            "            k=self.k,\n",
+            "            uniform_grid=self.grid_is_uniform,\n",
+            "        )\n",
+            "        y = self.scale_base[None,:,:] * base[:,:,None] + self.scale_sp[None,:,:] * y\n",
+            "        y = self.mask[None,:,:] * y\n",
+            "        return torch.sum(y, dim=1)\n"
+          ]
+        ],
+        [
+          214,
+          214,
+          [
+            "        self.grid_is_uniform = self.grid_eps == 1.0\n"
+          ]
+        ],
+        [
+          271,
+          272,
+          [
+            "            sp2_coef = curve2coef(sp2.grid[:,sp2.k:-sp2.k].permute(1,0).expand(-1,self.in_dim), x_pos.permute(1,0).unsqueeze(dim=2), sp2.grid[:,:], k=1).permute(2,1,0)\n"
+          ]
+        ],
+        [
+          291,
+          291,
+          [
+            "        self.grid_is_uniform = False\n"
+          ]
+        ],
+        [
+          317,
+          318,
+          [
+            "        spb.coef.data = self.coef[in_id][:,:,out_id]\n"
+          ]
+        ],
+        [
+          356,
+          356,
+          [
+            "                elif mode == 'coef_out':\n",
+            "                    data[:,:,i1], data[:,:,i2] = data[:,:,i2].clone(), data[:,:,i1].clone()\n"
+          ]
+        ],
+        [
+          359,
+          360,
+          [
+            "            swap_(self.coef.data, i1, i2, mode='coef_out' if mode == 'out' else mode)\n"
+          ]
+        ],
+        [
+          363,
+          364,
+          []
+        ]
+      ],
+      "newline": "lf"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_optimized/kan/LBFGS.py",
+      "source": "pykan-27e1c44fd82ab9a3",
+      "upstream_sha256": "536e273fa037aed68050628744021f3baaf167fdeba94ba7904257b259576bae",
+      "sha256": "536e273fa037aed68050628744021f3baaf167fdeba94ba7904257b259576bae"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_optimized/kan/MLP.py",
+      "source": "pykan-545166e9ae10ef0f",
+      "upstream_sha256": "af22f34ae06bb069521d12f09d0642363f91bbd0705c96281cd900c17d7837ae",
+      "sha256": "af22f34ae06bb069521d12f09d0642363f91bbd0705c96281cd900c17d7837ae"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_optimized/kan/MultKAN.py",
+      "source": "pykan-c70c5ceace4ae70d",
+      "upstream_sha256": "944401e80e00ae886427acaed6d59d3f0d6ab08e3fbffaf1f8b9db07e7d818e4",
+      "sha256": "09c50f05127873772bf8ec69b2dee71c41bc614326f65dc1608a74ef1df49557",
+      "edits": [
+        [
+          286,
+          287,
+          [
+            "        # Upstream creates this tensor on the CPU after ``self.to(device)``.\n",
+            "        # Keeping it as a non-persistent buffer avoids an implicit CPU->CUDA\n",
+            "        # index transfer on every numerical forward while preserving old\n",
+            "        # checkpoint schemas.\n",
+            "        self.register_buffer(\n",
+            "            'input_id',\n",
+            "            torch.arange(self.width_in[0], device=device),\n",
+            "            persistent=False,\n",
+            "        )\n",
+            "        self.input_id_is_identity = True\n"
+          ]
+        ],
+        [
+          747,
+          747,
+          [
+            "    def _forward_numerical_fast(self, x):\n",
+            "        \"\"\"Pure numerical path used when activation/symbolic data are disabled.\"\"\"\n",
+            "        if not self.input_id_is_identity:\n",
+            "            x = x[:,self.input_id]\n",
+            "        assert x.shape[1] == self.width_in[0]\n",
+            "\n",
+            "        for l in range(self.depth):\n",
+            "            x = self.act_fun[l].forward_fast(x)\n",
+            "\n",
+            "            # subnode affine transform\n",
+            "            x = self.subnode_scale[l][None,:] * x + self.subnode_bias[l][None,:]\n",
+            "\n",
+            "            # multiplication; retain upstream's operation ordering exactly\n",
+            "            dim_sum = self.width[l+1][0]\n",
+            "            dim_mult = self.width[l+1][1]\n",
+            "            if self.mult_homo == True:\n",
+            "                for i in range(self.mult_arity-1):\n",
+            "                    if i == 0:\n",
+            "                        x_mult = x[:,dim_sum::self.mult_arity] * x[:,dim_sum+1::self.mult_arity]\n",
+            "                    else:\n",
+            "                        x_mult = x_mult * x[:,dim_sum+i+1::self.mult_arity]\n",
+            "            else:\n",
+            "                for j in range(dim_mult):\n",
+            "                    acml_id = dim_sum + np.sum(self.mult_arity[l+1][:j])\n",
+            "                    for i in range(self.mult_arity[l+1][j]-1):\n",
+            "                        if i == 0:\n",
+            "                            x_mult_j = x[:,[acml_id]] * x[:,[acml_id+1]]\n",
+            "                        else:\n",
+            "                            x_mult_j = x_mult_j * x[:,[acml_id+i+1]]\n",
+            "                    if j == 0:\n",
+            "                        x_mult = x_mult_j\n",
+            "                    else:\n",
+            "                        x_mult = torch.cat([x_mult, x_mult_j], dim=1)\n",
+            "\n",
+            "            if dim_mult > 0:\n",
+            "                x = torch.cat([x[:,:dim_sum], x_mult], dim=1)\n",
+            "\n",
+            "            # node affine transform\n",
+            "            x = self.node_scale[l][None,:] * x + self.node_bias[l][None,:]\n",
+            "\n",
+            "        return x\n",
+            "\n"
+          ]
+        ],
+        [
+          781,
+          781,
+          [
+            "        if not self.save_act and not self.symbolic_enabled:\n",
+            "            return self._forward_numerical_fast(x)\n",
+            "\n"
+          ]
+        ],
+        [
+          1370,
+          1372,
+          [
+            "            coeff_l1 = torch.sum(torch.mean(torch.abs(self.act_fun[i].coef), dim=2))\n",
+            "            coeff_diff_l1 = torch.sum(torch.mean(torch.abs(torch.diff(self.act_fun[i].coef, dim=1)), dim=2))\n"
+          ]
+        ],
+        [
+          1877,
+          1877,
+          [
+            "        model2.input_id_is_identity = False\n"
+          ]
+        ]
+      ],
+      "newline": "lf"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_optimized/kan/Symbolic_KANLayer.py",
+      "source": "pykan-0483fb02d8901727",
+      "upstream_sha256": "5a12730b920c2295c8fcaeda61a98ead64caeee724c5576c33d378a0b64c3b72",
+      "sha256": "5a12730b920c2295c8fcaeda61a98ead64caeee724c5576c33d378a0b64c3b72"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_optimized/kan/__init__.py",
+      "source": "pykan-30dae5021a88fc34",
+      "upstream_sha256": "94f8cc7d2bf7270e9f452704310903719d5080ddb4423a969ac2cc3caf5d3115",
+      "sha256": "94f8cc7d2bf7270e9f452704310903719d5080ddb4423a969ac2cc3caf5d3115"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_optimized/kan/compiler.py",
+      "source": "pykan-101f897c76153cc9",
+      "upstream_sha256": "83863df7f79e53615689a366a7bb3afae01359907180d1d185d8dc7c9f6ec6c6",
+      "sha256": "75b23cd811d200efef7b3f13395bb42566f4544e48e9d808e26bfd728d85f03d",
+      "edits": [
+        [
+          3,
+          4,
+          [
+            "from .MultKAN import MultKAN\n"
+          ]
+        ],
+        [
+          497,
+          498,
+          [
+            "sf2kan = kanpiler = expr2kan\n"
+          ]
+        ]
+      ],
+      "newline": "lf"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_optimized/kan/experiment.py",
+      "source": "pykan-5a80856ae14bb639",
+      "upstream_sha256": "a88692e8afb8a0e9f88ba357ee3c38757d4e0feee02f7a5166aa7c96a08d10fc",
+      "sha256": "a88692e8afb8a0e9f88ba357ee3c38757d4e0feee02f7a5166aa7c96a08d10fc"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_optimized/kan/feynman.py",
+      "source": "pykan-231f6bec2dafacb2",
+      "upstream_sha256": "122b1febd2b8f6ce02e9494f122e4b9cd2bfa794d42502c12b1329fac5b46bdc",
+      "sha256": "122b1febd2b8f6ce02e9494f122e4b9cd2bfa794d42502c12b1329fac5b46bdc"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_optimized/kan/hypothesis.py",
+      "source": "pykan-fa0b321cf227b403",
+      "upstream_sha256": "59624555d6f245d48a5364bdb7352b08602bdb34a7642a15bcc0cf2bf6b3f85d",
+      "sha256": "4da1ed7efc8d9af924935dc5c640617ec95f06776f9daa2a84fc3b62207e528e",
+      "edits": [
+        [
+          7,
+          8,
+          [
+            "from .utils import batch_jacobian, batch_hessian\n"
+          ]
+        ],
+        [
+          694,
+          695,
+          [
+            "    return cossim\n"
+          ]
+        ]
+      ],
+      "newline": "lf"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_optimized/kan/spline.py",
+      "source": "pykan-d42867b690391336",
+      "upstream_sha256": "16443d4b5e14b7096d585fbd2b32a6f26d142f3b0556428a0ac9845b8563a8a0",
+      "sha256": "c8c752f66fcbafa525b917294e7deda51ee9c8d654c94376ed033d996f55946c",
+      "edits": [
+        [
+          61,
+          62,
+          [
+            "            shape (in_dim, G+k, out_dim)\n"
+          ]
+        ],
+        [
+          75,
+          76,
+          [
+            "    y_eval = torch.einsum('ijk,jkl->ijl', b_splines, coef.to(b_splines.device))\n"
+          ]
+        ],
+        [
+          78,
+          78,
+          [
+            "\n",
+            "\n",
+            "def _generic_local_basis(values, spans, grid, k):\n",
+            "    \"\"\"Compact Cox--de Boor recurrence for non-cubic/adaptive cases.\"\"\"\n",
+            "    in_dim, batch = values.shape\n",
+            "    grid_size = grid.shape[1]\n",
+            "    offsets = torch.arange(2 * k + 1, device=values.device)\n",
+            "    candidates = spans[:, :, None] - k + offsets[None, None, :]\n",
+            "    valid_span = (spans >= 0) & (spans < grid_size - 1)\n",
+            "    basis = (\n",
+            "        (offsets[None, None, :] == k) & valid_span[:, :, None]\n",
+            "    ).to(dtype=values.dtype)\n",
+            "    knot_offsets = torch.arange(2 * k + 2, device=values.device)\n",
+            "    knot_indices = spans[:, :, None] - k + knot_offsets[None, None, :]\n",
+            "    valid_knots = (knot_indices >= 0) & (knot_indices < grid_size)\n",
+            "    expanded_grid = grid[:, None, :].expand(in_dim, batch, grid_size)\n",
+            "    gathered_knots = torch.gather(\n",
+            "        expanded_grid, 2, knot_indices.clamp(0, grid_size - 1)\n",
+            "    )\n",
+            "    u = values[:, :, None]\n",
+            "    for degree in range(1, k + 1):\n",
+            "        count = 2 * k + 1 - degree\n",
+            "        # Out-of-support gathers clamp multiple invalid knots to an endpoint.\n",
+            "        # Masking after 0/0 hides forward NaNs but not their backward gradients.\n",
+            "        # These terms are zero in the native global recurrence; make their\n",
+            "        # denominators safe before division, then discard the invalid terms.\n",
+            "        left_denominator = (\n",
+            "            gathered_knots[:, :, degree : degree + count]\n",
+            "            - gathered_knots[:, :, :count]\n",
+            "        )\n",
+            "        right_denominator = (\n",
+            "            gathered_knots[:, :, degree + 1 : degree + 1 + count]\n",
+            "            - gathered_knots[:, :, 1 : count + 1]\n",
+            "        )\n",
+            "        left = (\n",
+            "            (u - gathered_knots[:, :, :count])\n",
+            "            / torch.where(left_denominator != 0, left_denominator, 1.0)\n",
+            "            * basis[:, :, :count]\n",
+            "        )\n",
+            "        right = (\n",
+            "            (gathered_knots[:, :, degree + 1 : degree + 1 + count] - u)\n",
+            "            / torch.where(right_denominator != 0, right_denominator, 1.0)\n",
+            "            * basis[:, :, 1 : count + 1]\n",
+            "        )\n",
+            "        valid = (\n",
+            "            valid_knots[:, :, :count]\n",
+            "            & valid_knots[:, :, degree : degree + count]\n",
+            "            & valid_knots[:, :, 1 : count + 1]\n",
+            "            & valid_knots[:, :, degree + 1 : degree + 1 + count]\n",
+            "        )\n",
+            "        basis = torch.where(valid, left + right, 0.0)\n",
+            "    return basis, candidates[:, :, : k + 1]\n",
+            "\n",
+            "\n",
+            "def coef2curve_local(x_eval, grid, coef, k, uniform_grid=False):\n",
+            "    \"\"\"Evaluate only the ``k + 1`` B-splines active at each sample.\"\"\"\n",
+            "    batch, in_dim = x_eval.shape\n",
+            "    grid_size = grid.shape[1]\n",
+            "    coefficient_count = grid_size - k - 1\n",
+            "    values_transposed = x_eval.transpose(0, 1)\n",
+            "    if uniform_grid:\n",
+            "        spacing = (grid[:, 1] - grid[:, 0])[:, None]\n",
+            "        spans = torch.floor(\n",
+            "            (values_transposed - grid[:, 0, None]) / spacing\n",
+            "        ).to(dtype=torch.long)\n",
+            "    else:\n",
+            "        spans = torch.searchsorted(\n",
+            "            grid.contiguous(), values_transposed.contiguous(), right=True\n",
+            "        ) - 1\n",
+            "\n",
+            "    basis, coefficient_indices = _generic_local_basis(\n",
+            "        values_transposed, spans, grid, k\n",
+            "    )\n",
+            "    valid_coefficients = (\n",
+            "        (coefficient_indices >= 0)\n",
+            "        & (coefficient_indices < coefficient_count)\n",
+            "    )\n",
+            "    coefficient_indices = coefficient_indices.clamp(0, coefficient_count - 1)\n",
+            "    output_dim = coef.shape[2]\n",
+            "    coefficients_by_basis = coef.reshape(\n",
+            "        in_dim * coefficient_count, output_dim\n",
+            "    )\n",
+            "    input_offsets = (\n",
+            "        torch.arange(in_dim, device=x_eval.device)[:, None, None]\n",
+            "        * coefficient_count\n",
+            "    )\n",
+            "    flat_indices = (coefficient_indices + input_offsets).reshape(-1)\n",
+            "    selected = coefficients_by_basis.index_select(0, flat_indices).reshape(\n",
+            "        in_dim, batch, k + 1, output_dim\n",
+            "    )\n",
+            "    selected = selected * valid_coefficients[:, :, :, None]\n",
+            "    return torch.sum(basis[:, :, :, None] * selected, dim=2).permute(1, 0, 2)\n"
+          ]
+        ],
+        [
+          100,
+          101,
+          [
+            "            shape (in_dim, G+k, out_dim)\n"
+          ]
+        ],
+        [
+          130,
+          131,
+          [
+            "    # Store the frequently traversed output dimension contiguously.  Upstream\n",
+            "    # PyKAN returns [input, output, basis], which forces the numerical fast\n",
+            "    # path to repair the layout on every evaluation.\n",
+            "    return coef.permute(0, 2, 1).contiguous()\n"
+          ]
+        ],
+        [
+          143,
+          144,
+          [
+            "    return grid\n"
+          ]
+        ]
+      ],
+      "newline": "lf"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_optimized/kan/utils.py",
+      "source": "pykan-b53015ef94eab9eb",
+      "upstream_sha256": "37adfac3f1d6d87fedf8b3a689c8c7cc3e199d782fd72b87f85787ac8d8a22c9",
+      "sha256": "37adfac3f1d6d87fedf8b3a689c8c7cc3e199d782fd72b87f85787ac8d8a22c9"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_upstream/LICENSE",
+      "source": "pykan-11cb7f2b3e5e5a8d",
+      "upstream_sha256": "0495c35b21781aba2ab67a781a2f69b87e1a2e0ec0d880b73291e60be712c707",
+      "sha256": "0495c35b21781aba2ab67a781a2f69b87e1a2e0ec0d880b73291e60be712c707"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_upstream/kan/KANLayer.py",
+      "source": "pykan-2adb5a85306df5f4",
+      "upstream_sha256": "fd1a408b0ee0a8b83eefcde193b30f7323c52172a72e21280e15430cc6742b8d",
+      "sha256": "fd1a408b0ee0a8b83eefcde193b30f7323c52172a72e21280e15430cc6742b8d"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_upstream/kan/LBFGS.py",
+      "source": "pykan-27e1c44fd82ab9a3",
+      "upstream_sha256": "536e273fa037aed68050628744021f3baaf167fdeba94ba7904257b259576bae",
+      "sha256": "536e273fa037aed68050628744021f3baaf167fdeba94ba7904257b259576bae"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_upstream/kan/MLP.py",
+      "source": "pykan-545166e9ae10ef0f",
+      "upstream_sha256": "af22f34ae06bb069521d12f09d0642363f91bbd0705c96281cd900c17d7837ae",
+      "sha256": "af22f34ae06bb069521d12f09d0642363f91bbd0705c96281cd900c17d7837ae"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_upstream/kan/MultKAN.py",
+      "source": "pykan-c70c5ceace4ae70d",
+      "upstream_sha256": "944401e80e00ae886427acaed6d59d3f0d6ab08e3fbffaf1f8b9db07e7d818e4",
+      "sha256": "944401e80e00ae886427acaed6d59d3f0d6ab08e3fbffaf1f8b9db07e7d818e4"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_upstream/kan/Symbolic_KANLayer.py",
+      "source": "pykan-0483fb02d8901727",
+      "upstream_sha256": "5a12730b920c2295c8fcaeda61a98ead64caeee724c5576c33d378a0b64c3b72",
+      "sha256": "5a12730b920c2295c8fcaeda61a98ead64caeee724c5576c33d378a0b64c3b72"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_upstream/kan/__init__.py",
+      "source": "pykan-30dae5021a88fc34",
+      "upstream_sha256": "94f8cc7d2bf7270e9f452704310903719d5080ddb4423a969ac2cc3caf5d3115",
+      "sha256": "94f8cc7d2bf7270e9f452704310903719d5080ddb4423a969ac2cc3caf5d3115"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_upstream/kan/compiler.py",
+      "source": "pykan-101f897c76153cc9",
+      "upstream_sha256": "83863df7f79e53615689a366a7bb3afae01359907180d1d185d8dc7c9f6ec6c6",
+      "sha256": "75b23cd811d200efef7b3f13395bb42566f4544e48e9d808e26bfd728d85f03d",
+      "edits": [
+        [
+          3,
+          4,
+          [
+            "from .MultKAN import MultKAN\n"
+          ]
+        ],
+        [
+          497,
+          498,
+          [
+            "sf2kan = kanpiler = expr2kan\n"
+          ]
+        ]
+      ],
+      "newline": "lf"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_upstream/kan/experiment.py",
+      "source": "pykan-5a80856ae14bb639",
+      "upstream_sha256": "a88692e8afb8a0e9f88ba357ee3c38757d4e0feee02f7a5166aa7c96a08d10fc",
+      "sha256": "a88692e8afb8a0e9f88ba357ee3c38757d4e0feee02f7a5166aa7c96a08d10fc"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_upstream/kan/feynman.py",
+      "source": "pykan-231f6bec2dafacb2",
+      "upstream_sha256": "122b1febd2b8f6ce02e9494f122e4b9cd2bfa794d42502c12b1329fac5b46bdc",
+      "sha256": "122b1febd2b8f6ce02e9494f122e4b9cd2bfa794d42502c12b1329fac5b46bdc"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_upstream/kan/hypothesis.py",
+      "source": "pykan-fa0b321cf227b403",
+      "upstream_sha256": "59624555d6f245d48a5364bdb7352b08602bdb34a7642a15bcc0cf2bf6b3f85d",
+      "sha256": "4da1ed7efc8d9af924935dc5c640617ec95f06776f9daa2a84fc3b62207e528e",
+      "edits": [
+        [
+          7,
+          8,
+          [
+            "from .utils import batch_jacobian, batch_hessian\n"
+          ]
+        ],
+        [
+          694,
+          695,
+          [
+            "    return cossim\n"
+          ]
+        ]
+      ],
+      "newline": "lf"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_upstream/kan/spline.py",
+      "source": "pykan-d42867b690391336",
+      "upstream_sha256": "16443d4b5e14b7096d585fbd2b32a6f26d142f3b0556428a0ac9845b8563a8a0",
+      "sha256": "397e2ad43be2b096565df3cf9c3edc5ed6fbcb8d4daabfcdf144cf0408a1cb8f",
+      "edits": [
+        [
+          117,
+          119,
+          [
+            "    except RuntimeError as primary_error:\n",
+            "        # The default CUDA driver assumes full rank and upstream silently\n",
+            "        # swallowed failures, leaving ``coef`` undefined.  Refinement grids can\n",
+            "        # legitimately produce rank-deficient interpolation systems, so retry\n",
+            "        # the same least-squares problem with the rank-revealing CPU SVD driver.\n",
+            "        try:\n",
+            "            coef = torch.linalg.lstsq(\n",
+            "                mat.detach().cpu(), y_eval.detach().cpu(), driver='gelsd'\n",
+            "            ).solution[:,:,:,0].to(device)\n",
+            "        except RuntimeError as fallback_error:\n",
+            "            raise RuntimeError(\n",
+            "                'curve2coef least-squares failed with both the default and '\n",
+            "                'rank-revealing drivers'\n",
+            "            ) from fallback_error\n"
+          ]
+        ],
+        [
+          143,
+          144,
+          [
+            "    return grid\n"
+          ]
+        ]
+      ],
+      "newline": "lf"
+    },
+    {
+      "path": "structured_kan/vendor/pykan_upstream/kan/utils.py",
+      "source": "pykan-b53015ef94eab9eb",
+      "upstream_sha256": "37adfac3f1d6d87fedf8b3a689c8c7cc3e199d782fd72b87f85787ac8d8a22c9",
+      "sha256": "37adfac3f1d6d87fedf8b3a689c8c7cc3e199d782fd72b87f85787ac8d8a22c9"
+    }
+  ]
+}

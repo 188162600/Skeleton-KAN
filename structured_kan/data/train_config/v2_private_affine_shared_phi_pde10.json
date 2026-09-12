@@ -1,0 +1,53 @@
+{
+  "schema": "structured-kan.pde-training.v1",
+  "method": "v2",
+  "catalogue_sha256": "d061918431ec6d93eb3e4bbddd55bd1f39d9bdd0a93c65bc12f2adad919fe42e",
+  "construction_sha256": "4869d2318a3fbace9830e4ffcf5b0f257ceb422a06f57cc174c4558905352cd7",
+  "source": {
+    "path": "data/equation_set/domain300/selected/domain300_with_splits.json",
+    "sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+    "equations": 300
+  },
+  "problems": {
+    "path": "data/equation_set/pde10/problems.json",
+    "sha256": "5db719b9e0be253dbb5ab8695902fd08d64bb4a400885f02ee379102d335ce18"
+  },
+  "catalogue": "data/catalogues/pde10/v2_source300_k18_dynamic_g.json",
+  "construction": "data/catalogues/construction/v2_source300.json",
+  "seeds": [
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430
+  ],
+  "points_per_split": 10000,
+  "boundary_points": 2000,
+  "initial_points": 2000,
+  "outer_steps": 50,
+  "max_inner_iterations": 20,
+  "history_size": 100,
+  "line_search": "strong-Wolfe",
+  "loss": "0.01*PDE + Dirichlet + initial-value + derivative-condition (each mean squared error divided by boundary/initial output scale squared)",
+  "normalization": "input: train interior; output: train boundary and initial values only",
+  "interior_solution_in_training": false,
+  "selection": "one configuration per PDE minimizing mean log validation NMSE across ten seeds; validation uses exact interior solutions",
+  "report_floor": 1e-10,
+  "width_rule": "0.2*G**(2/3)",
+  "G_rule": "source-only route-aligned average complexity, nearest 3/9/15",
+  "initialization_noise": 0.001,
+  "route_off_diagonal": 0,
+  "output_phi": true,
+  "compile_mode": "reduce-overhead",
+  "workers": 2,
+  "save_models": true,
+  "output": "data/results/v2_private_affine_shared_phi_pde10",
+  "phi_sharing_policy": "source-role-compatible-G-and-prior-v1",
+  "materialization": "private-affine-shared-phi-v1",
+  "release_note": "Anonymous review copy; metadata-only paths and dependent SHA-256 references updated."
+}

@@ -1,0 +1,157 @@
+{
+  "schema": "structured-kan.fourier-mfn-domain80.v1",
+  "method": "fourier_mfn",
+  "subset": {
+    "path": "data/equation_set/eval80/subset80_with_splits.json",
+    "sha256": "b9d4f10454fbe98e8cd329cf09a7795b7b1680db15a9f18f773aea3fff61d513"
+  },
+  "parent": {
+    "path": "data/equation_set/domain300/selected/domain300_with_splits.json",
+    "sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f"
+  },
+  "data_domains": [
+    "symbolic_search",
+    "physics",
+    "mathematics",
+    "biochemistry"
+  ],
+  "seeds": [
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430
+  ],
+  "points_per_split": 10000,
+  "outer_steps": 50,
+  "max_inner_iterations": 20,
+  "history_size": 100,
+  "line_search": "strong-Wolfe",
+  "normalization": "train-only-standardization",
+  "initialization": "seeded float64 official FourierNet initialization; weight_scale=1, bias=true, output_act=false",
+  "reference_commit": "58c3c4dd5908bce9d5c3b077926cb588cc6052da",
+  "architecture_source": "https://github.com/boschresearch/multiplicative-filter-networks",
+  "sweep_source": "historical Fourier-MFN widths/frequency scales; user-corrected product depths 1,2,4",
+  "compile_mode": "reduce-overhead",
+  "workers": 2,
+  "save_models": true,
+  "selection": "one architecture per equation by mean log validation NMSE across ten seeds; test report-only",
+  "report_floor": 1e-10,
+  "output": "data/results/fourier_mfn18_domain80",
+  "architectures": [
+    {
+      "id": "MFN01",
+      "product_layers": 1,
+      "hidden_width": 32,
+      "input_scale": 1.0
+    },
+    {
+      "id": "MFN02",
+      "product_layers": 1,
+      "hidden_width": 32,
+      "input_scale": 4.0
+    },
+    {
+      "id": "MFN03",
+      "product_layers": 1,
+      "hidden_width": 64,
+      "input_scale": 1.0
+    },
+    {
+      "id": "MFN04",
+      "product_layers": 1,
+      "hidden_width": 64,
+      "input_scale": 4.0
+    },
+    {
+      "id": "MFN05",
+      "product_layers": 1,
+      "hidden_width": 128,
+      "input_scale": 1.0
+    },
+    {
+      "id": "MFN06",
+      "product_layers": 1,
+      "hidden_width": 128,
+      "input_scale": 4.0
+    },
+    {
+      "id": "MFN07",
+      "product_layers": 2,
+      "hidden_width": 32,
+      "input_scale": 1.0
+    },
+    {
+      "id": "MFN08",
+      "product_layers": 2,
+      "hidden_width": 32,
+      "input_scale": 4.0
+    },
+    {
+      "id": "MFN09",
+      "product_layers": 2,
+      "hidden_width": 64,
+      "input_scale": 1.0
+    },
+    {
+      "id": "MFN10",
+      "product_layers": 2,
+      "hidden_width": 64,
+      "input_scale": 4.0
+    },
+    {
+      "id": "MFN11",
+      "product_layers": 2,
+      "hidden_width": 128,
+      "input_scale": 1.0
+    },
+    {
+      "id": "MFN12",
+      "product_layers": 2,
+      "hidden_width": 128,
+      "input_scale": 4.0
+    },
+    {
+      "id": "MFN13",
+      "product_layers": 4,
+      "hidden_width": 32,
+      "input_scale": 1.0
+    },
+    {
+      "id": "MFN14",
+      "product_layers": 4,
+      "hidden_width": 32,
+      "input_scale": 4.0
+    },
+    {
+      "id": "MFN15",
+      "product_layers": 4,
+      "hidden_width": 64,
+      "input_scale": 1.0
+    },
+    {
+      "id": "MFN16",
+      "product_layers": 4,
+      "hidden_width": 64,
+      "input_scale": 4.0
+    },
+    {
+      "id": "MFN17",
+      "product_layers": 4,
+      "hidden_width": 128,
+      "input_scale": 1.0
+    },
+    {
+      "id": "MFN18",
+      "product_layers": 4,
+      "hidden_width": 128,
+      "input_scale": 4.0
+    }
+  ],
+  "release_note": "Anonymous review copy; metadata-only paths and dependent SHA-256 references updated."
+}

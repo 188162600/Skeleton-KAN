@@ -1,0 +1,8 @@
+# Remote source-native numerical sampler environment, Python 3.12.
+# Torch is provided separately by the selected CUDA environment.
+numpy==2.2.6
+scipy==1.15.3
+sympy==1.14.0
+scikit-learn==1.6.1
+numba==0.61.2
+libroadrunner==2.8.0

@@ -1,0 +1,157 @@
+{
+  "schema": "structured-kan.pde-training.v1",
+  "method": "mlp",
+  "source": {
+    "path": "data/equation_set/domain300/selected/domain300_with_splits.json",
+    "sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+    "equations": 300
+  },
+  "problems": {
+    "path": "data/equation_set/pde10/problems.json",
+    "sha256": "5db719b9e0be253dbb5ab8695902fd08d64bb4a400885f02ee379102d335ce18"
+  },
+  "seeds": [
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430
+  ],
+  "points_per_split": 10000,
+  "boundary_points": 2000,
+  "initial_points": 2000,
+  "outer_steps": 50,
+  "max_inner_iterations": 20,
+  "history_size": 100,
+  "line_search": "strong-Wolfe",
+  "loss": "0.01*PDE + Dirichlet + initial-value + derivative-condition (each mean squared error divided by boundary/initial output scale squared)",
+  "normalization": "input: train interior; output: train boundary and initial values only",
+  "interior_solution_in_training": false,
+  "selection": "one configuration per PDE minimizing mean log validation NMSE across ten seeds; validation uses exact interior solutions",
+  "report_floor": 1e-10,
+  "width_rule": "0.2*G**(2/3)",
+  "G_rule": "source-only route-aligned average complexity, nearest 3/9/15",
+  "initialization_noise": 0.001,
+  "route_off_diagonal": 0,
+  "output_phi": true,
+  "compile_mode": "reduce-overhead",
+  "workers": 2,
+  "save_models": true,
+  "output": "data/results/mlp_pde10",
+  "architectures": [
+    {
+      "id": "MLP01",
+      "hidden_layers": 1,
+      "hidden_width": 32,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP02",
+      "hidden_layers": 1,
+      "hidden_width": 32,
+      "activation": "silu"
+    },
+    {
+      "id": "MLP03",
+      "hidden_layers": 1,
+      "hidden_width": 64,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP04",
+      "hidden_layers": 1,
+      "hidden_width": 64,
+      "activation": "silu"
+    },
+    {
+      "id": "MLP05",
+      "hidden_layers": 1,
+      "hidden_width": 128,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP06",
+      "hidden_layers": 1,
+      "hidden_width": 128,
+      "activation": "silu"
+    },
+    {
+      "id": "MLP07",
+      "hidden_layers": 2,
+      "hidden_width": 32,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP08",
+      "hidden_layers": 2,
+      "hidden_width": 32,
+      "activation": "silu"
+    },
+    {
+      "id": "MLP09",
+      "hidden_layers": 2,
+      "hidden_width": 64,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP10",
+      "hidden_layers": 2,
+      "hidden_width": 64,
+      "activation": "silu"
+    },
+    {
+      "id": "MLP11",
+      "hidden_layers": 2,
+      "hidden_width": 128,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP12",
+      "hidden_layers": 2,
+      "hidden_width": 128,
+      "activation": "silu"
+    },
+    {
+      "id": "MLP13",
+      "hidden_layers": 4,
+      "hidden_width": 32,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP14",
+      "hidden_layers": 4,
+      "hidden_width": 32,
+      "activation": "silu"
+    },
+    {
+      "id": "MLP15",
+      "hidden_layers": 4,
+      "hidden_width": 64,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP16",
+      "hidden_layers": 4,
+      "hidden_width": 64,
+      "activation": "silu"
+    },
+    {
+      "id": "MLP17",
+      "hidden_layers": 4,
+      "hidden_width": 128,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP18",
+      "hidden_layers": 4,
+      "hidden_width": 128,
+      "activation": "silu"
+    }
+  ],
+  "release_note": "Anonymous review copy; metadata-only paths and dependent SHA-256 references updated."
+}

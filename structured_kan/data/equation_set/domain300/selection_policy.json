@@ -1,0 +1,61 @@
+{
+  "version": "domain-selection-v3.2-surplus-first-75",
+  "status": "selection_authorized_after_quality_audit",
+  "seed": 421,
+  "target_per_domain": 75,
+  "preselection_gate": {
+    "minimum_accepted_multidimensional_unique_classes": 76,
+    "minimum_simultaneous_cap_one_matching": 76,
+    "general_rule": "both counts must be strictly greater than target_per_domain",
+    "candidate_receipt_frozen_before_selection": true,
+    "audit_entire_candidate_subset_not_only_selected_panel": true,
+    "existing_80_case_panels_are": "regression and audit inputs, not sufficient candidate pools"
+  },
+  "domains": [
+    "physics",
+    "mathematics",
+    "biochemistry",
+    "symbolic_search"
+  ],
+  "population": "named bounded approved executable subset; no automatic broad-pool expansion",
+  "quality_required": "accepted with per-equation support and domain-validity receipt",
+  "hard_constraints": {
+    "minimum_actual_input_dimension": 2,
+    "maximum_cases_per_source_model": 1,
+    "maximum_cases_per_equivalence_class_within_domain": 1,
+    "exact_selected_count_required": true
+  },
+  "lexicographic_objectives": [
+    "minimize_count_input_dimension_gt_10",
+    "minimize_total_input_dimension_excess_over_10",
+    "minimize_global_unary_histogram_L1_deviation_from_unique_source_classes",
+    "minimize_edge_excess_over_unary_stratum_Q75",
+    "minimize_distance_to_unary_stratum_median_edges",
+    "deterministic_sha256_seed_and_source_id_tie_break"
+  ],
+  "unary_strata": {
+    "quantile_probabilities": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "quantile_method": "inverse empirical CDF: sorted_values[ceil(p*n)-1]",
+    "ties": "equal unary counts stay together; equality belongs to lower bin",
+    "empty_or_repeated_bins": "collapse; retain at most five nonempty strata",
+    "edge_Q75": "inverse empirical CDF within unary stratum",
+    "edge_median": "middle value or average of two middle values"
+  },
+  "unary_histogram_targets": "N*n_k/C over accepted multidimensional unique classes; no independent rounding",
+  "tie_break": "lexicographically smallest sorted SHA256 list of UTF-8 421|domain|source_model_id|equation_id",
+  "upper_dimension_hard_filter": null,
+  "upper_edge_hard_filter": null,
+  "numeric_absolute_magnitude_hard_filter": null,
+  "infeasible_action": "do not select without a usable surplus; report capacity and request a named source extension or smaller common N with a surplus",
+  "forbidden_selection_information": [
+    "neural_accuracy",
+    "catalogue_mismatch",
+    "catalogue_unused",
+    "target_transfer_performance"
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "schema": "structured-kan.mlp-domain80.v1",
+  "method": "mlp",
+  "subset": {
+    "path": "data/equation_set/eval80/subset80_with_splits.json",
+    "sha256": "b9d4f10454fbe98e8cd329cf09a7795b7b1680db15a9f18f773aea3fff61d513"
+  },
+  "parent": {
+    "path": "data/equation_set/domain300/selected/domain300_with_splits.json",
+    "sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f"
+  },
+  "data_domains": [
+    "symbolic_search",
+    "physics",
+    "mathematics",
+    "biochemistry"
+  ],
+  "seeds": [
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430
+  ],
+  "points_per_split": 10000,
+  "outer_steps": 50,
+  "max_inner_iterations": 20,
+  "history_size": 100,
+  "line_search": "strong-Wolfe",
+  "normalization": "train-only-standardization",
+  "initialization": "independent seeded float64 Xavier-uniform weights, zero biases",
+  "compile_mode": "reduce-overhead",
+  "workers": 2,
+  "save_models": true,
+  "selection": "one architecture per equation by mean log validation NMSE across ten seeds; test report-only",
+  "report_floor": 1e-10,
+  "output": "data/results/mlp18_domain80",
+  "architectures": [
+    {
+      "id": "MLP01",
+      "hidden_layers": 1,
+      "hidden_width": 32,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP02",
+      "hidden_layers": 1,
+      "hidden_width": 32,
+      "activation": "silu"
+    },
+    {
+      "id": "MLP03",
+      "hidden_layers": 1,
+      "hidden_width": 64,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP04",
+      "hidden_layers": 1,
+      "hidden_width": 64,
+      "activation": "silu"
+    },
+    {
+      "id": "MLP05",
+      "hidden_layers": 1,
+      "hidden_width": 128,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP06",
+      "hidden_layers": 1,
+      "hidden_width": 128,
+      "activation": "silu"
+    },
+    {
+      "id": "MLP07",
+      "hidden_layers": 2,
+      "hidden_width": 32,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP08",
+      "hidden_layers": 2,
+      "hidden_width": 32,
+      "activation": "silu"
+    },
+    {
+      "id": "MLP09",
+      "hidden_layers": 2,
+      "hidden_width": 64,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP10",
+      "hidden_layers": 2,
+      "hidden_width": 64,
+      "activation": "silu"
+    },
+    {
+      "id": "MLP11",
+      "hidden_layers": 2,
+      "hidden_width": 128,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP12",
+      "hidden_layers": 2,
+      "hidden_width": 128,
+      "activation": "silu"
+    },
+    {
+      "id": "MLP13",
+      "hidden_layers": 4,
+      "hidden_width": 32,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP14",
+      "hidden_layers": 4,
+      "hidden_width": 32,
+      "activation": "silu"
+    },
+    {
+      "id": "MLP15",
+      "hidden_layers": 4,
+      "hidden_width": 64,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP16",
+      "hidden_layers": 4,
+      "hidden_width": 64,
+      "activation": "silu"
+    },
+    {
+      "id": "MLP17",
+      "hidden_layers": 4,
+      "hidden_width": 128,
+      "activation": "tanh"
+    },
+    {
+      "id": "MLP18",
+      "hidden_layers": 4,
+      "hidden_width": 128,
+      "activation": "silu"
+    }
+  ],
+  "release_note": "Anonymous review copy; metadata-only paths and dependent SHA-256 references updated."
+}

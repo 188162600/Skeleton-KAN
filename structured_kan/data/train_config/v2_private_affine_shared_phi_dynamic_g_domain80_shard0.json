@@ -1,0 +1,82 @@
+{
+  "schema": "structured-kan.domain300-training.v1",
+  "method": "v2",
+  "subset": {
+    "path": "data/equation_set/eval80/subset80_with_splits.json",
+    "sha256": "b9d4f10454fbe98e8cd329cf09a7795b7b1680db15a9f18f773aea3fff61d513"
+  },
+  "parent": {
+    "path": "data/equation_set/domain300/selected/domain300_with_splits.json",
+    "sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f"
+  },
+  "catalogues": {
+    "symbolic_search": {
+      "path": "data/catalogues/rebuilt_20260908/catalogue_rebuild_1788895196/v2_symbolic_search_k18.json",
+      "sha256": "4a80a428520f49b169b672493da8212a07ba168517688114366ec4129c66dc16",
+      "source": "data/equation_set/folds/heldout_symbolic_search/training225.json",
+      "source_sha256": "6bff91b7c95c993e2584a2cd883d2f1c6399c6f7f4b096a8fe0d7c9ca92960ca"
+    },
+    "physics": {
+      "path": "data/catalogues/rebuilt_20260908/catalogue_rebuild_1788895196/v2_physics_k18.json",
+      "sha256": "91dd5a62b2b9ac46bebd7cb0557d93d2d3d2f983037c772329642c915fc1e837",
+      "source": "data/equation_set/folds/heldout_physics/training225.json",
+      "source_sha256": "841b28df66f84dd7a911cdd2e9aab6d6beaac76d79ab97c7345ee2549d148fe0"
+    },
+    "mathematics": {
+      "path": "data/catalogues/rebuilt_20260908/catalogue_rebuild_1788895196/v2_mathematics_k18.json",
+      "sha256": "c5647959cf08f732ea4a7cfd62baa2146addd082b4806f7357c879cb1172f1c4",
+      "source": "data/equation_set/folds/heldout_mathematics/training225.json",
+      "source_sha256": "5d8573ab53daf03a7bd2834a5fbaf5cce0d61ae451f1d3300c9204935861ec61"
+    },
+    "biochemistry": {
+      "path": "data/catalogues/rebuilt_20260908/catalogue_rebuild_1788895196/v2_biochemistry_k18.json",
+      "sha256": "0ed2c79b617b9cc052afebec041ef3a1b7a97b44e3775e43fc31edf3467ae24d",
+      "source": "data/equation_set/folds/heldout_biochemistry/training225.json",
+      "source_sha256": "cda62259641396407bd3dbf5021025b45a4ea443606925d6dbb13cc69f0c994f"
+    }
+  },
+  "data_domains": [
+    "symbolic_search",
+    "physics",
+    "mathematics",
+    "biochemistry"
+  ],
+  "seeds": [
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430
+  ],
+  "points_per_split": 10000,
+  "outer_steps": 50,
+  "max_inner_iterations": 20,
+  "history_size": 100,
+  "line_search": "strong-Wolfe",
+  "normalization": "train-only-standardization",
+  "width_rule": "0.2*G**(2/3)",
+  "G_rule": "source-only occurrence complexity, nearest3/9/15; tie phi only for equal source role/G/initial prior",
+  "initialization_noise": 0.001,
+  "route_off_diagonal": 0,
+  "output_phi": true,
+  "compile_mode": "reduce-overhead",
+  "workers": 2,
+  "selection": "single builder per equation, mean log validation NMSE over ten seeds",
+  "report_floor": 1e-10,
+  "save_models": true,
+  "output": "data/results/v2_private_affine_shared_phi_dynamic_g_domain80_shard0",
+  "materialization": "private-affine-shared-phi-v1",
+  "initialization": "source-frozen active/neutral priors; seeded0.001 noise once per distinct trainable tensor",
+  "phi_sharing_policy": "source-role-compatible-G-and-prior-v1",
+  "equation_partition": {
+    "index": 0,
+    "count": 2,
+    "policy": "within-domain-round-robin"
+  },
+  "release_note": "Anonymous review copy; metadata-only paths and dependent SHA-256 references updated."
+}

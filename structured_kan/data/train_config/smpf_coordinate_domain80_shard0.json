@@ -1,0 +1,221 @@
+{
+  "schema": "structured-kan.smpf-structure-domain80.v1",
+  "method": "smpf_structure",
+  "subset": {
+    "path": "data/equation_set/eval80/subset80_with_splits.json",
+    "sha256": "b9d4f10454fbe98e8cd329cf09a7795b7b1680db15a9f18f773aea3fff61d513"
+  },
+  "parent": {
+    "path": "data/equation_set/domain300/selected/domain300_with_splits.json",
+    "sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f"
+  },
+  "data_domains": [
+    "symbolic_search",
+    "physics",
+    "mathematics",
+    "biochemistry"
+  ],
+  "seeds": [
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430
+  ],
+  "points_per_split": 10000,
+  "outer_steps": 50,
+  "max_inner_iterations": 20,
+  "history_size": 100,
+  "line_search": "strong-Wolfe",
+  "normalization": "train-only-standardization",
+  "initialization": "fixed coordinate leaves; train-only calibrated frozen grids; seeded0.001 perturbations of unary-map parameters only",
+  "compile_mode": "reduce-overhead",
+  "workers": 2,
+  "save_models": true,
+  "selection": "one architecture per equation by mean log validation NMSE across ten seeds; test report-only",
+  "report_floor": 0,
+  "output": "data/results/smpf_coordinate_domain80_shard0",
+  "architectures": [
+    {
+      "id": "SMPF01",
+      "hidden_sums": 2,
+      "route_fraction_numerator": 1,
+      "route_fraction_denominator": 3,
+      "G": 10,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    },
+    {
+      "id": "SMPF02",
+      "hidden_sums": 2,
+      "route_fraction_numerator": 2,
+      "route_fraction_denominator": 3,
+      "G": 10,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    },
+    {
+      "id": "SMPF03",
+      "hidden_sums": 2,
+      "route_fraction_numerator": 3,
+      "route_fraction_denominator": 3,
+      "G": 10,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    },
+    {
+      "id": "SMPF04",
+      "hidden_sums": 4,
+      "route_fraction_numerator": 1,
+      "route_fraction_denominator": 3,
+      "G": 10,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    },
+    {
+      "id": "SMPF05",
+      "hidden_sums": 4,
+      "route_fraction_numerator": 2,
+      "route_fraction_denominator": 3,
+      "G": 10,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    },
+    {
+      "id": "SMPF06",
+      "hidden_sums": 4,
+      "route_fraction_numerator": 3,
+      "route_fraction_denominator": 3,
+      "G": 10,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    },
+    {
+      "id": "SMPF07",
+      "hidden_sums": 8,
+      "route_fraction_numerator": 1,
+      "route_fraction_denominator": 3,
+      "G": 10,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    },
+    {
+      "id": "SMPF08",
+      "hidden_sums": 8,
+      "route_fraction_numerator": 2,
+      "route_fraction_denominator": 3,
+      "G": 10,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    },
+    {
+      "id": "SMPF09",
+      "hidden_sums": 8,
+      "route_fraction_numerator": 3,
+      "route_fraction_denominator": 3,
+      "G": 10,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    },
+    {
+      "id": "SMPF10",
+      "hidden_sums": 2,
+      "route_fraction_numerator": 1,
+      "route_fraction_denominator": 3,
+      "G": 30,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    },
+    {
+      "id": "SMPF11",
+      "hidden_sums": 2,
+      "route_fraction_numerator": 2,
+      "route_fraction_denominator": 3,
+      "G": 30,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    },
+    {
+      "id": "SMPF12",
+      "hidden_sums": 2,
+      "route_fraction_numerator": 3,
+      "route_fraction_denominator": 3,
+      "G": 30,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    },
+    {
+      "id": "SMPF13",
+      "hidden_sums": 4,
+      "route_fraction_numerator": 1,
+      "route_fraction_denominator": 3,
+      "G": 30,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    },
+    {
+      "id": "SMPF14",
+      "hidden_sums": 4,
+      "route_fraction_numerator": 2,
+      "route_fraction_denominator": 3,
+      "G": 30,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    },
+    {
+      "id": "SMPF15",
+      "hidden_sums": 4,
+      "route_fraction_numerator": 3,
+      "route_fraction_denominator": 3,
+      "G": 30,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    },
+    {
+      "id": "SMPF16",
+      "hidden_sums": 8,
+      "route_fraction_numerator": 1,
+      "route_fraction_denominator": 3,
+      "G": 30,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    },
+    {
+      "id": "SMPF17",
+      "hidden_sums": 8,
+      "route_fraction_numerator": 2,
+      "route_fraction_denominator": 3,
+      "G": 30,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    },
+    {
+      "id": "SMPF18",
+      "hidden_sums": 8,
+      "route_fraction_numerator": 3,
+      "route_fraction_denominator": 3,
+      "G": 30,
+      "topology_seed": 20260910,
+      "input_mode": "coordinate"
+    }
+  ],
+  "template": {
+    "path": "data/catalogues/smpf_structure/smpf_coordinate_L248_fraction123_G10_30.json",
+    "sha256": "b2485584c2de619f47f9dad40d32b60e2752e90c71fc156c46bca32a0135b03e"
+  },
+  "width_rule": "0.2*G**(2/3)",
+  "initialization_noise": 0.001,
+  "output_phi": false,
+  "equation_partition": {
+    "policy": "within-domain-round-robin",
+    "count": 3,
+    "index": 0
+  },
+  "input_mode": "coordinate",
+  "release_note": "Anonymous review copy; metadata-only paths and dependent SHA-256 references updated."
+}

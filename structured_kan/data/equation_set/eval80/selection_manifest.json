@@ -1,0 +1,673 @@
+{
+  "protocol": "domain300-global-unary-five-anchors-subset80-v1",
+  "seed": 421,
+  "parent_dataset": "quality_domain300_v1_20260905",
+  "parent_metadata_sha256": "767fd7a405b17dc17ad1fe6b935604192fac54a3adc6c7fd7db23386f7565c5f",
+  "parent_freeze_sha256": "a6a162bff24b343d60b9f1535591963ba558a291a6dfa3eefac499adcb8a905d",
+  "selector_sha256": "aa7d373609c55e2caf98154877ea03d18edeef54367bbf4d84328e84709e46e1",
+  "selection_field": "global_non_affine_univariates",
+  "unary_definition": "All non-affine unary maps on raw, state and output edges; not only pre-interaction maps; frozen constant-aware descriptors.",
+  "percentiles": [
+    10,
+    30,
+    50,
+    70,
+    90
+  ],
+  "slots_per_percentile": 4,
+  "quantile_method": "linear/type7; exact integer scaling by100",
+  "objective": "minimum total absolute unary-count distance across20 distinct equations per domain",
+  "tie_break": "exact lexicographic feasible completion by SHA256(seed|domain|case_id|percentile|slot), seed421",
+  "no_model_or_catalogue_scores": true,
+  "no_new_eligibility_filters": true,
+  "parent_descriptors_reverified": 300,
+  "original_metadata_preserved": true,
+  "equations": 80,
+  "per_domain": 20,
+  "globally_unique_classes": 80,
+  "cross_domain_duplicate_groups": [],
+  "selected_cases_with_equivalent_other_domain_sources": [],
+  "subset_metadata_sha256": "b9d4f10454fbe98e8cd329cf09a7795b7b1680db15a9f18f773aea3fff61d513",
+  "selected_ids_sha256": "06339d25346ac41df06c7519523dad5b321fac589059739a129dac970ee2d3d7",
+  "split_reuse": "Same frozen parent NPZ files, SHA256, ranges and 10000/10000/10000 points; no regeneration or training.",
+  "domain_details": {
+    "physics": {
+      "anchors": {
+        "10": 1.0,
+        "30": 2.0,
+        "50": 3.0,
+        "70": 4.0,
+        "90": 4.0
+      },
+      "total_absolute_unary_deviation": 0.0,
+      "selected_per_anchor": {
+        "10": 4,
+        "30": 4,
+        "50": 4,
+        "70": 4,
+        "90": 4
+      },
+      "assignment_primary_objective_certified": true,
+      "population": {
+        "global_non_affine_univariates": {
+          "mean": 2.72,
+          "median": 3,
+          "minimum": 0,
+          "maximum": 7,
+          "p05": 1.0,
+          "p95": 5.3,
+          "histogram": {
+            "0": 3,
+            "1": 17,
+            "2": 15,
+            "3": 16,
+            "4": 17,
+            "5": 3,
+            "6": 2,
+            "7": 2
+          }
+        },
+        "variables": {
+          "mean": 3.96,
+          "median": 4,
+          "minimum": 2,
+          "maximum": 9,
+          "p05": 2.0,
+          "p95": 6.0,
+          "histogram": {
+            "2": 7,
+            "3": 24,
+            "4": 21,
+            "5": 15,
+            "6": 6,
+            "7": 1,
+            "9": 1
+          }
+        },
+        "interaction_nodes": {
+          "mean": 1.6666666666666667,
+          "median": 2,
+          "minimum": 1,
+          "maximum": 4,
+          "p05": 1.0,
+          "p95": 3.0,
+          "histogram": {
+            "1": 37,
+            "2": 29,
+            "3": 6,
+            "4": 3
+          }
+        },
+        "realized_univariate_edges": {
+          "mean": 5.946666666666666,
+          "median": 6,
+          "minimum": 3,
+          "maximum": 13,
+          "p05": 3.0,
+          "p95": 9.3,
+          "histogram": {
+            "3": 6,
+            "4": 13,
+            "5": 18,
+            "6": 12,
+            "7": 9,
+            "8": 10,
+            "9": 3,
+            "10": 2,
+            "11": 1,
+            "13": 1
+          }
+        }
+      },
+      "selected": {
+        "global_non_affine_univariates": {
+          "mean": 2.8,
+          "median": 3.0,
+          "minimum": 1,
+          "maximum": 4,
+          "p05": 1.0,
+          "p95": 4.0,
+          "histogram": {
+            "1": 4,
+            "2": 4,
+            "3": 4,
+            "4": 8
+          }
+        },
+        "variables": {
+          "mean": 4.05,
+          "median": 4.0,
+          "minimum": 2,
+          "maximum": 9,
+          "p05": 2.95,
+          "p95": 6.15,
+          "histogram": {
+            "2": 1,
+            "3": 8,
+            "4": 5,
+            "5": 4,
+            "6": 1,
+            "9": 1
+          }
+        },
+        "interaction_nodes": {
+          "mean": 1.65,
+          "median": 2.0,
+          "minimum": 1,
+          "maximum": 3,
+          "p05": 1.0,
+          "p95": 2.05,
+          "histogram": {
+            "1": 8,
+            "2": 11,
+            "3": 1
+          }
+        },
+        "realized_univariate_edges": {
+          "mean": 5.7,
+          "median": 5.5,
+          "minimum": 3,
+          "maximum": 9,
+          "p05": 3.95,
+          "p95": 8.05,
+          "histogram": {
+            "3": 1,
+            "4": 5,
+            "5": 4,
+            "6": 3,
+            "7": 4,
+            "8": 2,
+            "9": 1
+          }
+        }
+      },
+      "population_count": 75,
+      "selected_count": 20,
+      "within_domain_unique_classes": 20,
+      "source_models": 20,
+      "metadata_equal_to_parent": true,
+      "input_order_invariant": true
+    },
+    "mathematics": {
+      "anchors": {
+        "10": 0.0,
+        "30": 1.0,
+        "50": 1.0,
+        "70": 2.0,
+        "90": 4.0
+      },
+      "total_absolute_unary_deviation": 1.0,
+      "selected_per_anchor": {
+        "10": 4,
+        "30": 4,
+        "50": 4,
+        "70": 4,
+        "90": 4
+      },
+      "assignment_primary_objective_certified": true,
+      "population": {
+        "global_non_affine_univariates": {
+          "mean": 1.88,
+          "median": 1,
+          "minimum": 0,
+          "maximum": 9,
+          "p05": 0.0,
+          "p95": 6.0,
+          "histogram": {
+            "0": 12,
+            "1": 29,
+            "2": 19,
+            "3": 5,
+            "4": 3,
+            "5": 1,
+            "6": 3,
+            "7": 1,
+            "8": 1,
+            "9": 1
+          }
+        },
+        "variables": {
+          "mean": 2.546666666666667,
+          "median": 2,
+          "minimum": 2,
+          "maximum": 4,
+          "p05": 2.0,
+          "p95": 3.3,
+          "histogram": {
+            "2": 38,
+            "3": 33,
+            "4": 4
+          }
+        },
+        "interaction_nodes": {
+          "mean": 1.8133333333333332,
+          "median": 2,
+          "minimum": 1,
+          "maximum": 7,
+          "p05": 1.0,
+          "p95": 4.3,
+          "histogram": {
+            "1": 37,
+            "2": 28,
+            "3": 3,
+            "4": 3,
+            "5": 3,
+            "7": 1
+          }
+        },
+        "realized_univariate_edges": {
+          "mean": 5.133333333333334,
+          "median": 5,
+          "minimum": 2,
+          "maximum": 18,
+          "p05": 3.0,
+          "p95": 11.6,
+          "histogram": {
+            "2": 2,
+            "3": 26,
+            "4": 9,
+            "5": 15,
+            "6": 13,
+            "7": 2,
+            "8": 1,
+            "9": 1,
+            "10": 1,
+            "11": 1,
+            "13": 1,
+            "15": 1,
+            "16": 1,
+            "18": 1
+          }
+        }
+      },
+      "selected": {
+        "global_non_affine_univariates": {
+          "mean": 1.55,
+          "median": 1.0,
+          "minimum": 0,
+          "maximum": 4,
+          "p05": 0.0,
+          "p95": 4.0,
+          "histogram": {
+            "0": 4,
+            "1": 8,
+            "2": 4,
+            "3": 1,
+            "4": 3
+          }
+        },
+        "variables": {
+          "mean": 2.5,
+          "median": 2.0,
+          "minimum": 2,
+          "maximum": 4,
+          "p05": 2.0,
+          "p95": 3.05,
+          "histogram": {
+            "2": 11,
+            "3": 8,
+            "4": 1
+          }
+        },
+        "interaction_nodes": {
+          "mean": 1.6,
+          "median": 1.5,
+          "minimum": 1,
+          "maximum": 4,
+          "p05": 1.0,
+          "p95": 2.1,
+          "histogram": {
+            "1": 10,
+            "2": 9,
+            "4": 1
+          }
+        },
+        "realized_univariate_edges": {
+          "mean": 4.55,
+          "median": 4.5,
+          "minimum": 2,
+          "maximum": 9,
+          "p05": 2.95,
+          "p95": 6.15,
+          "histogram": {
+            "2": 1,
+            "3": 6,
+            "4": 3,
+            "5": 4,
+            "6": 5,
+            "9": 1
+          }
+        }
+      },
+      "population_count": 75,
+      "selected_count": 20,
+      "within_domain_unique_classes": 20,
+      "source_models": 20,
+      "metadata_equal_to_parent": true,
+      "input_order_invariant": true
+    },
+    "biochemistry": {
+      "anchors": {
+        "10": 0.0,
+        "30": 1.0,
+        "50": 1.0,
+        "70": 2.0,
+        "90": 4.0
+      },
+      "total_absolute_unary_deviation": 0.0,
+      "selected_per_anchor": {
+        "10": 4,
+        "30": 4,
+        "50": 4,
+        "70": 4,
+        "90": 4
+      },
+      "assignment_primary_objective_certified": true,
+      "population": {
+        "global_non_affine_univariates": {
+          "mean": 1.92,
+          "median": 1,
+          "minimum": 0,
+          "maximum": 9,
+          "p05": 0.0,
+          "p95": 5.0,
+          "histogram": {
+            "0": 11,
+            "1": 27,
+            "2": 16,
+            "3": 11,
+            "4": 5,
+            "5": 2,
+            "6": 1,
+            "7": 1,
+            "9": 1
+          }
+        },
+        "variables": {
+          "mean": 2.9066666666666667,
+          "median": 3,
+          "minimum": 2,
+          "maximum": 8,
+          "p05": 2.0,
+          "p95": 5.0,
+          "histogram": {
+            "2": 30,
+            "3": 32,
+            "4": 8,
+            "5": 2,
+            "6": 2,
+            "8": 1
+          }
+        },
+        "interaction_nodes": {
+          "mean": 1.4533333333333334,
+          "median": 1,
+          "minimum": 1,
+          "maximum": 8,
+          "p05": 1.0,
+          "p95": 3.0,
+          "histogram": {
+            "1": 54,
+            "2": 14,
+            "3": 5,
+            "4": 1,
+            "8": 1
+          }
+        },
+        "realized_univariate_edges": {
+          "mean": 4.56,
+          "median": 4,
+          "minimum": 3,
+          "maximum": 21,
+          "p05": 3.0,
+          "p95": 8.0,
+          "histogram": {
+            "3": 23,
+            "4": 27,
+            "5": 14,
+            "6": 4,
+            "8": 4,
+            "9": 2,
+            "21": 1
+          }
+        }
+      },
+      "selected": {
+        "global_non_affine_univariates": {
+          "mean": 1.6,
+          "median": 1.0,
+          "minimum": 0,
+          "maximum": 4,
+          "p05": 0.0,
+          "p95": 4.0,
+          "histogram": {
+            "0": 4,
+            "1": 8,
+            "2": 4,
+            "4": 4
+          }
+        },
+        "variables": {
+          "mean": 2.95,
+          "median": 2.0,
+          "minimum": 2,
+          "maximum": 8,
+          "p05": 2.0,
+          "p95": 6.1,
+          "histogram": {
+            "2": 11,
+            "3": 5,
+            "4": 2,
+            "6": 1,
+            "8": 1
+          }
+        },
+        "interaction_nodes": {
+          "mean": 1.35,
+          "median": 1.0,
+          "minimum": 1,
+          "maximum": 3,
+          "p05": 1.0,
+          "p95": 2.05,
+          "histogram": {
+            "1": 14,
+            "2": 5,
+            "3": 1
+          }
+        },
+        "realized_univariate_edges": {
+          "mean": 4.15,
+          "median": 3.5,
+          "minimum": 3,
+          "maximum": 9,
+          "p05": 3.0,
+          "p95": 6.15,
+          "histogram": {
+            "3": 10,
+            "4": 4,
+            "5": 2,
+            "6": 3,
+            "9": 1
+          }
+        }
+      },
+      "population_count": 75,
+      "selected_count": 20,
+      "within_domain_unique_classes": 20,
+      "source_models": 20,
+      "metadata_equal_to_parent": true,
+      "input_order_invariant": true
+    },
+    "symbolic_search": {
+      "anchors": {
+        "10": 1.0,
+        "30": 2.0,
+        "50": 3.0,
+        "70": 4.0,
+        "90": 5.0
+      },
+      "total_absolute_unary_deviation": 0.0,
+      "selected_per_anchor": {
+        "10": 4,
+        "30": 4,
+        "50": 4,
+        "70": 4,
+        "90": 4
+      },
+      "assignment_primary_objective_certified": true,
+      "population": {
+        "global_non_affine_univariates": {
+          "mean": 3,
+          "median": 3,
+          "minimum": 0,
+          "maximum": 8,
+          "p05": 1.0,
+          "p95": 6.0,
+          "histogram": {
+            "0": 3,
+            "1": 13,
+            "2": 18,
+            "3": 14,
+            "4": 11,
+            "5": 9,
+            "6": 5,
+            "7": 1,
+            "8": 1
+          }
+        },
+        "variables": {
+          "mean": 4.2,
+          "median": 4,
+          "minimum": 2,
+          "maximum": 7,
+          "p05": 2.0,
+          "p95": 7.0,
+          "histogram": {
+            "2": 11,
+            "3": 15,
+            "4": 19,
+            "5": 13,
+            "6": 12,
+            "7": 5
+          }
+        },
+        "interaction_nodes": {
+          "mean": 3.16,
+          "median": 3,
+          "minimum": 1,
+          "maximum": 7,
+          "p05": 1.0,
+          "p95": 6.0,
+          "histogram": {
+            "1": 6,
+            "2": 20,
+            "3": 23,
+            "4": 14,
+            "5": 7,
+            "6": 4,
+            "7": 1
+          }
+        },
+        "realized_univariate_edges": {
+          "mean": 9.12,
+          "median": 9,
+          "minimum": 3,
+          "maximum": 16,
+          "p05": 5.0,
+          "p95": 14.3,
+          "histogram": {
+            "3": 1,
+            "4": 2,
+            "5": 7,
+            "6": 6,
+            "7": 15,
+            "8": 6,
+            "9": 7,
+            "10": 4,
+            "11": 5,
+            "12": 8,
+            "13": 6,
+            "14": 4,
+            "15": 3,
+            "16": 1
+          }
+        }
+      },
+      "selected": {
+        "global_non_affine_univariates": {
+          "mean": 3,
+          "median": 3.0,
+          "minimum": 1,
+          "maximum": 5,
+          "p05": 1.0,
+          "p95": 5.0,
+          "histogram": {
+            "1": 4,
+            "2": 4,
+            "3": 4,
+            "4": 4,
+            "5": 4
+          }
+        },
+        "variables": {
+          "mean": 4.35,
+          "median": 4.0,
+          "minimum": 2,
+          "maximum": 7,
+          "p05": 2.95,
+          "p95": 7.0,
+          "histogram": {
+            "2": 1,
+            "3": 5,
+            "4": 6,
+            "5": 4,
+            "6": 2,
+            "7": 2
+          }
+        },
+        "interaction_nodes": {
+          "mean": 3.05,
+          "median": 3.0,
+          "minimum": 1,
+          "maximum": 5,
+          "p05": 1.0,
+          "p95": 5.0,
+          "histogram": {
+            "1": 3,
+            "2": 3,
+            "3": 7,
+            "4": 4,
+            "5": 3
+          }
+        },
+        "realized_univariate_edges": {
+          "mean": 8.9,
+          "median": 9.0,
+          "minimum": 4,
+          "maximum": 14,
+          "p05": 4.95,
+          "p95": 13.05,
+          "histogram": {
+            "4": 1,
+            "5": 3,
+            "6": 1,
+            "7": 2,
+            "8": 1,
+            "9": 3,
+            "10": 3,
+            "11": 2,
+            "12": 1,
+            "13": 2,
+            "14": 1
+          }
+        }
+      },
+      "population_count": 75,
+      "selected_count": 20,
+      "within_domain_unique_classes": 20,
+      "source_models": 20,
+      "metadata_equal_to_parent": true,
+      "input_order_invariant": true
+    }
+  }
+}
