@@ -38,17 +38,18 @@ def build_catalogue(source,output,*,method,k=18,heldout_domain=None,workers=8,ma
                     pair_timeout_seconds=30.0):
     """Build one complete group JSON; skip-pair ACUOS2 is explicitly approximate.
 
-    method is v2, ted, fgw_sum or acuos2. No existing catalogue is an input.
+    method is ks_ies, ted, fgw_sum or acuos2 (v2 is a compatibility alias).
+    No existing catalogue is an input.
     Frozen operator-variable specifications supply the common phi projection;
     ordinary declared-input expression ASTs supply every native method.
     """
     import numpy as np
     from .native_trees import original_tree,groups_at
-    if method=='v2':
+    if method in ('ks_ies','v2'):
         from .proposed import build_proposed
         return build_proposed(source,output,k=k,heldout_domain=heldout_domain)
     if method not in ('ted','fgw_sum','acuos2'):
-        raise ValueError('Supported constructors: v2, ted, fgw_sum, acuos2')
+        raise ValueError('Supported constructors: ks_ies, ted, fgw_sum, acuos2 (v2 alias)')
     source,output=Path(source),Path(output)
     rows=json.loads(source.read_text(encoding='utf-8'))
     if not rows or len({(r['source_corpus'],r['case_id']) for r in rows})!=len(rows):

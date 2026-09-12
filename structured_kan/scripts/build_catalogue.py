@@ -7,7 +7,8 @@ from pathlib import Path
 
 def main():
     p=argparse.ArgumentParser()
-    p.add_argument('--method',choices=['v2','ted','fgw_sum','acuos2'],required=True)
+    p.add_argument('--method',choices=['ks_ies','v2','ted','fgw_sum','acuos2'],required=True,
+                   help='ks_ies is KS-IES; v2 is a compatibility alias for frozen records')
     p.add_argument('--source',type=Path,required=True)
     p.add_argument('--heldout-domain',required=True)
     p.add_argument('--output',type=Path,required=True)
@@ -21,7 +22,8 @@ def main():
     os.environ['NATIVE_PREPROCESS_CACHE']=str(a.output.parent/'preprocessing.sqlite')
     from ..structure_builder.build import build_catalogue
     try:
-        result=build_catalogue(a.source,a.output,method=a.method,k=a.k,heldout_domain=a.heldout_domain,
+        method='v2' if a.method=='ks_ies' else a.method
+        result=build_catalogue(a.source,a.output,method=method,k=a.k,heldout_domain=a.heldout_domain,
                                workers=a.workers,pair_timeout_seconds=a.pair_timeout_seconds)
     except Exception as error:
         from ..structure_builder.io import write

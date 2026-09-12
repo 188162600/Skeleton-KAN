@@ -1,21 +1,25 @@
-# Source-side catalogue construction
+# Source-side skeleton construction
 
-This folder now constructs catalogues from source equations. It is not just a
-loader. `model/StructuredKANBuilder.py` has a separate responsibility: realizing
+This folder constructs skeleton banks from source equations.
+`model/StructuredKANBuilder.py` has a separate responsibility: realizing
 one frozen structure as Torch children, affine routes and incoming unary maps.
 
 The proposed constructor is **KS-inspired Interaction Envelope Synthesis (KS-IES)**,
-where KS denotes Kolmogorov superposition, previously called v2. This is the
-sum/product constructor name, not a neural-model or Gaussian-basis name. The stable
-implementation key remains `v2`; frozen JSON files, run names and builder IDs
-are not renamed.
+where KS denotes Kolmogorov superposition. This is the sum/product constructor
+name, not a neural-model or kernel name. Its public command key is `ks_ies`;
+`v2` remains a compatibility alias in frozen records and existing API calls.
+Frozen JSON filenames, run identities and builder IDs are preserved.
 
-| Constructor | Annotation | Implementation key |
+| Constructor | Role within the framework | Command key |
 | --- | --- | --- |
-| **KS-inspired Interaction Envelope Synthesis (KS-IES)** | **Proposed** | `v2` |
-| FGW clustering + finite representative | Baseline | `fgw_sum` |
-| TED average-linkage + finite medoid | Baseline | `ted` |
-| Budgeted ACUOS² + finite representative | Baseline | `acuos2` |
+| **KS-inspired Interaction Envelope Synthesis (KS-IES)** | **Proposed constructor** | `ks_ies` |
+| FGW clustering + finite representative | Alternative constructor | `fgw_sum` |
+| TED average-linkage + finite medoid | Alternative constructor | `ted` |
+| Budgeted ACUOS² + finite representative | Alternative constructor | `acuos2` |
+
+All four are constructor options inside Skeleton-KAN. The three alternatives
+adapt published methods to the same framework; they are not external neural
+baselines. MLP, Fourier-MFN and MultKAN serve that separate comparison role.
 
 | Entry/module | Responsibility |
 | --- | --- |
@@ -23,7 +27,7 @@ are not renamed.
 | `proposed.py` | KS-inspired Interaction Envelope Synthesis (KS-IES; proposed), stable key `v2` |
 | `synthesis.py` | KS-IES canonical classes, compatible envelope merging, source-only refinement |
 | `incidence.py` | Source route incidence and unary-placement reconstruction |
-| `shared_reserve.py` | v2 core capacities, shared reserve and source-derived sharing priors |
+| `shared_reserve.py` | KS-IES core capacities, shared reserve and source-derived sharing priors |
 | `semantics.py` | Explicit declared inputs; every noninput symbol/compound expression is constant |
 | `terms.py` | Common executable-edge projection, constant-padding removal and unary-arity normalization |
 | `native_trees.py` | Original-expression ASTs, unit-cost ordered TED, average-linkage groups |
@@ -44,7 +48,7 @@ python -m structured_kan.scripts.build_catalogue --method ted \
   --output structured_kan/data/results/new_ted_symbolic_search
 ```
 
-Methods: `v2`, `ted`, `fgw_sum`, `acuos2`. Use a new output directory; old results
+Methods: `ks_ies`, `ted`, `fgw_sum`, `acuos2` (`v2` is a compatibility alias). Use a new output directory; old results
 are never overwritten. The result is one **whole group** in `catalogue.json`,
 with source SHA-256, constructor settings and per-count diagnostics. No target
 equations or numerical fits are inputs. These APIs accept the frozen,
@@ -54,7 +58,7 @@ expression; they do not regenerate the dataset or infer inputs from free symbols
 The isolated construction environment is specified by
 `requirements-locked.txt`. Torch is not imported for source-side construction.
 `scripts/rebuild_queue.py` creates that environment on the data disk, validates
-it, and runs Symbolic search, Physics, Mathematics and Biology/Chemistry folds.
+it, and runs Symbolic regression, Physics, Mathematics and Biology/Chemistry folds.
 `workers=8` parallelizes independent TED distances. The published FGW outer loop
 and sequential within-cluster ACUOS² reductions retain their existing ordering;
 the option does not claim eight concurrent FGW optimizers.
@@ -76,7 +80,7 @@ the option does not claim eight concurrent FGW optimizers.
   and are not falsely claimed to be generalized. This is an explicitly
   approximate n-way catalogue, not a complete n-way minimal-generalizer set.
 
-For finite baselines, start native count at K; if conversion gives K−s distinct
+For finite alternative constructors, start native count at K; if conversion gives K−s distinct
 builders, advance the native count by s. If a larger result supplies enough,
 fill the shortfall without duplicate padding. No held-out score chooses K or a
 representative. Native Maude/FGW vendor files are byte-preserved; provenance

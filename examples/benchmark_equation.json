@@ -1,0 +1,68 @@
+{
+  "case_id": "eponymous_144",
+  "constructor": "KS-IES",
+  "builder": "IAPB05",
+  "parameters": 202,
+  "expression": "exp(x_0/x_1)/x_1",
+  "domain": "mathematics",
+  "catalogue": "structured_kan/data/catalogues/rebuilt_20260908/catalogue_rebuild_1788895196/v2_mathematics_k18.json",
+  "catalogue_sha256": "c5647959cf08f732ea4a7cfd62baa2146addd082b4806f7357c879cb1172f1c4",
+  "source": "structured_kan/data/equation_set/folds/heldout_mathematics/training225.json",
+  "source_sha256": "5d8573ab53daf03a7bd2834a5fbaf5cce0d61ae451f1d3300c9204935861ec61",
+  "source_domains": [
+    "physics",
+    "biochemistry",
+    "symbolic_search"
+  ],
+  "source_equations": 225,
+  "private_phi_G_by_route": {
+    "root.0:raw:0": 9,
+    "root.0:raw:1": 9,
+    "root.1.0:raw:0": 9,
+    "root.1.0:raw:1": 9,
+    "root.1.1.0:raw:0": 9,
+    "root.1.1.0:raw:1": 9,
+    "root.1.1:raw:0": 9,
+    "root.1.1:raw:1": 9,
+    "root.1.1.0:incoming": 9,
+    "root.1:raw:0": 9,
+    "root.1:raw:1": 9,
+    "root.1.0:incoming": 9,
+    "root.1.1:incoming": 9,
+    "root.2.0:raw:0": 9,
+    "root.2.0:raw:1": 9,
+    "root.2:raw:0": 9,
+    "root.2:raw:1": 9,
+    "root.2.0:incoming": 9,
+    "root:raw:0": 9,
+    "root:raw:1": 9,
+    "root.0:incoming": 9,
+    "root.1:incoming": 9,
+    "root.2:incoming": 9,
+    "output": 9
+  },
+  "reference": {
+    "result_file": "KS-IES-Skeleton-KAN/Mathematics__eponymous_144/IAPB05/result.json",
+    "result_sha256": "5d78ec0054a119f003efc817633de0020e5cfb371f00273a873be80a2c1d5856",
+    "selected_by": "minimum mean log validation NMSE across 10 seeds; all 18 candidates complete",
+    "seeds": [
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430
+    ],
+    "test_gnmse": 2.523603601492508e-9,
+    "seed421_test": {
+      "mse": 1.7427140956546767e-7,
+      "nmse": 3.017784010904298e-9
+    },
+    "results_release": "https://github.com/188162600/Skeleton-KAN/releases/tag/v1.0.0"
+  },
+  "example_selection": "Chosen retrospectively as an illustrative successful benchmark case, not an additional unbiased benchmark."
+}

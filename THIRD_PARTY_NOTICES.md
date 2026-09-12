@@ -23,3 +23,10 @@ their own licenses. Setup does not change these terms. The downloadable results
 archive contains numerical records and provenance, not a new license grant over
 the source datasets.
 
+`structured_kan/optimizer/lbfgs.py` is the project's earlier standalone optimizer,
+derived from the PyKAN/PyTorch L-BFGS implementation, with project no-sync
+two-loop and coalesced line-search changes. It is not implemented by calling
+`torch.optim.LBFGS`. PyKAN's MIT notice is retained at
+`structured_kan/vendor/pykan_upstream/LICENSE`; the PyTorch BSD-style notice is
+retained at `structured_kan/optimizer/PYTORCH_LICENSE`. The root MIT license
+does not replace those upstream notices.
